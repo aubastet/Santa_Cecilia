@@ -1,0 +1,303 @@
+@mixin cntfl {
+    width: 100%;
+    position: relative;
+}
+
+@mixin cntpd {
+    @include cntfl;
+    padding: pdy(70);
+
+    @include sm {
+        padding: pdy(30);
+    }
+}
+
+@mixin cnt {
+    width: 85%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+
+    @include tbp {
+        width: 90%;
+    }
+}
+
+@mixin text-shorten {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin stay {
+    position: relative;
+    display: block;
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+@mixin placeholder {
+    &.placeholder {
+        @content;
+    }
+
+    &:-moz-placeholder {
+        @content;
+    }
+
+    &::-moz-placeholder {
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+
+    &::-webkit-input-placeholder {
+        @content;
+    }
+}
+
+@mixin box($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin prefix($prop, $value) {
+    -webkit-#{$prop}: #{$value};
+    -moz-#{$prop}: #{$value};
+    -ms-#{$prop}: #{$value};
+    -o-#{$prop}: #{$value};
+    #{$prop}: #{$value};
+}
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin gradient($start-color, $end-color, $orientation) {
+    background: $start-color;
+
+    @if $orientation=='vertical' {
+        background: -webkit-linear-gradient(top, $start-color, $end-color);
+        background: linear-gradient(to bottom, $start-color, $end-color);
+    }
+
+    @else if $orientation=='horizontal' {
+        background: -webkit-linear-gradient(left, $start-color, $end-color);
+        background: linear-gradient(to right, $start-color, $end-color);
+    }
+
+    @else {
+        background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+        background: radial-gradient(ellipse at center, $start-color, $end-color);
+    }
+}
+
+@mixin fbx($jc: false, $js: false, $je: false, $ac: false, $jb: false, $as: false, $ae: false, $fw: false, $fwr: false, $fc:false) {
+    display: flex;
+
+    @if $jc {
+        justify-content: center;
+    }
+
+    @if $js {
+        justify-content: flex-start;
+    }
+
+    @if $je {
+        justify-content: flex-end;
+    }
+
+    @if $ac {
+        align-items: center;
+    }
+
+    @if $jb {
+        justify-content: space-between;
+    }
+
+    @if $as {
+        align-items: flex-start;
+    }
+
+    @if $ae {
+        align-items: flex-end;
+    }
+
+    @if $fw {
+        flex-wrap: wrap;
+    }
+
+    @if $fwr {
+        flex-wrap: wrap-reverse;
+    }
+
+    @if $fc {
+        flex-direction: column;
+    }
+}
+
+@mixin hover {
+    @media not all and (pointer: coarse) {
+        &:hover {
+            @content;
+        }
+    }
+}
+
+@mixin fade($type) {
+    @if $type=="hide" {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility $ease, opacity $ease;
+    }
+
+    @else if $type=="show" {
+        visibility: visible;
+        opacity: 1;
+        transition: visibility $ease, opacity $ease;
+    }
+}
+
+@mixin sm {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+@mixin tbp {
+    @media (max-width: $tablet-portrait) {
+        @content;
+    }
+}
+
+@mixin tbm {
+    @media (max-width: $tablet-mid) {
+        @content;
+    }
+}
+
+@mixin tbl {
+    @media (max-width: $tablet-landscape) {
+        @content;
+    }
+}
+
+@mixin dsk {
+    @media (max-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin bdsk {
+    @media (max-width: $big-desktop) {
+        @content;
+    }
+}
+
+@mixin fhd {
+    @media (min-width: $full-hd) {
+        @content;
+    }
+}
+
+@mixin arrow($direction: down, $size: 5px, $color: #555) {
+    width: 0;
+    height: 0;
+
+    @if ($direction==left) {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-right: $size solid $color;
+    }
+
+    @else if ($direction==right) {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-left: $size solid $color;
+    }
+
+    @else if ($direction==down) {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-top: $size solid $color;
+    }
+
+    @else {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-bottom: $size solid $color;
+    }
+}
+
+@mixin mask($c, $o) {
+    &::before {
+        @include pseudo;
+        @include box(100%);
+        top: 0;
+        left: 0;
+        background: $c;
+        opacity: $o;
+        z-index: 1;
+    }
+}
+
+@mixin fluid-font($min-width, $max-width, $min-font-size, $max-font-size) {
+    $unit1: unit($min-width);
+    $unit2: unit($max-width);
+    $unit3: unit($min-font-size);
+    $unit4: unit($max-font-size);
+
+    @if $unit1==$unit2 and $unit1==$unit3 and $unit1==$unit4 {
+        & {
+            font-size: $min-font-size;
+            line-height: $min-font-size * 1.618;
+
+            @media screen and (min-width: $min-width) {
+                font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-width}) / #{strip-unit($max-width - $min-width)}));
+                line-height: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * 1.618 * ((100vw - #{$min-width}) / #{strip-unit($max-width - $min-width)}));
+            }
+
+            @media screen and (min-width: $max-width) {
+                font-size: $max-font-size;
+                line-height: $max-font-size * 1.618;
+            }
+        }
+    }
+}
+
+@mixin background-transition($initial, $hover, $inverted: false) {
+    background: linear-gradient(90deg, $hover 0%, $hover 50%, $initial 50%, $initial 100%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    @if $inverted {
+        background-position: left bottom;
+    }
+
+    transition: background-position 0.25s ease-out;
+
+    &:hover {
+        background-position: left bottom;
+
+        @if $inverted {
+            background-position: right bottom;
+        }
+    }
+}

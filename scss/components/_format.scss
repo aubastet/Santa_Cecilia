@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    @include prefix(box-sizing, border-box);
+}
+
+html, body {
+    @include cntfl;
+    font-size: $em + px;
+    line-height: 1;
+    background: #fff;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    background: #eeeeee;
+}
+
+html::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: #000;
+}
+
+img {
+    border-style: none;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    @include stay;
+}
+
+hr {
+    box-sizing: content-box;
+    overflow: visible;
+}
+
+a {
+    text-decoration: none;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    appearance: button;
+    cursor: pointer;
+    background: transparent;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+    background: transparent;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+    background: transparent;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type=search] {
+    appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+[type=search]::-webkit-search-decoration {
+    appearance: none;
+}
+
+::-webkit-file-upload-button {
+    appearance: button;
+    font: inherit;
+}
+
+.__no-scroll {
+    overflow: hidden !important;
+}

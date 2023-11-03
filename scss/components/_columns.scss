@@ -1,0 +1,12 @@
+@use 'sass:math';
+
+@mixin columns($el, $cols, $c_gap, $r_gap) {
+    @include fbx($fw:true);
+    column-gap: $c_gap + px;
+    row-gap: $r_gap + px;
+
+    #{$el} {
+        width: calc_columns($cols, $c_gap);
+        @content;
+    }
+}

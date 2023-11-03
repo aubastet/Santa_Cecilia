@@ -1,0 +1,27 @@
+@use 'sass:math';
+
+@function em($size) {
+    @return math.div($size, $em) + em;
+}
+
+@function lh($lineHeight, $fontSize) {
+    @return calc($lineHeight * 100% / $fontSize);
+}
+
+@function pdy($pd) {
+    @return math.div($pd, $em) + em 0;
+}
+
+@function pdx($pd) {
+    @return 0 math.div($pd, $em) + em;
+}
+
+@function calc_columns($cols, $c_gap) {
+    $w: math.div(100%, $cols);
+    $gap_div: math.div($c_gap, $cols);
+    $space_between: calc($c_gap - $gap_div) + px;
+
+    $width: calc($w - $space_between);
+
+    @return $width;
+}
