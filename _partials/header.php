@@ -40,7 +40,7 @@
           <a href="#">Contacto</a>
         </div>
         <div class="redes_container">
-          <p class="redes_home"> REDES SOCIALES </p>
+          <p class="redes_home"> REDESSSS</p>
         
         
             <div class="redes-sociales">
