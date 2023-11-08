@@ -44,17 +44,15 @@
           <a href="#">Contacto</a>
         </div>
         <div class="redes_container">
-          <p class="redes_home"> REDESSSS</p>
+          <p class="redes_home">Redes sociales/</p>
         
         
             <div class="redes-sociales">
         <div class="redes_sociales_icon">
-                <a href="#"><img src="./assets/img/instagram.png" alt="Facebook" /></a>
+                <a href="#"><img src="./assets/img/facebook.png" alt="Facebook" /></a>
+                <a href="#"><img src="./assets/img/linkedin.png" alt="Twitter" /></a> 
                 <a href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
-                <a href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
-                <a href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
-                <a href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
-                <a href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
+                <a href="#"><img src="./assets/img/youtube.png" alt="Twitter" /></a> 
       </div>
     
         </div>

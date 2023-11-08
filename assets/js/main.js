@@ -1,12 +1,12 @@
 const fadeElement = document.getElementById('fade-in-element');
 
 function checkFade() {
-  const elementTop = fadeElement.getBoundingClientRect().top;
-  const windowHeight = window.innerHeight;
+    const elementTop = fadeElement.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
 
-  if (elementTop < windowHeight) {
-    fadeElement.classList.add('fade-in'); 
-  }
+    if (elementTop < windowHeight) {
+        fadeElement.classList.add('fade-in');
+    }
 }
 
 
@@ -25,36 +25,36 @@ let currentIndex = 0;
 
 function showImage(index) {
 
-  images.forEach((image) => {
-    image.style.opacity = 0;
-  });
+    images.forEach((image) => {
+        image.style.opacity = 0;
+    });
 
-  images[index].style.opacity = 1;
-  currentIndex = index;
+    images[index].style.opacity = 1;
+    currentIndex = index;
 }
 
 function nextSlide() {
-  currentIndex = (currentIndex + 1) % images.length;
-  showImage(currentIndex);
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
 }
 
 function prevSlide() {
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  showImage(currentIndex);
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
 }
 
 showImage(currentIndex);
 
 function autoPlay() {
-  nextSlide();
-  setTimeout(autoPlay, 4000);
+    nextSlide();
+    setTimeout(autoPlay, 4000);
 }
 
 autoPlay();
 
 
 
-(function () {
+(function() {
     "use strict";
 
     var SITE = SITE || {};
@@ -64,60 +64,93 @@ autoPlay();
     var $j = jQuery.noConflict();
 
     SITE.page = {
-        init: function () {
-            
+        init: function() {
+
         }
     };
 
     SITE.onReady = {
-        init: function () {
+        init: function() {
 
             SITE.page.init();
         }
     };
 
     SITE.onLoad = {
-        init: function () {
-            
+        init: function() {
+
         }
     };
 
-    $j(function () {
+    $j(function() {
         SITE.onReady.init();
     });
 
     $j(window).on('load', SITE.onLoad.init);
 })();
 
-//**************/
- const swiper = new Swiper('.swiper-custom', {
-  // Optional parameters
-  slidesPerView: 3,
-  spaceBetween: 15,
-  direction: 'horizontal',
-  loop: true, 
-  autopla: {
-    delay: 100000,
-  }, 
- 
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    dynamicBullets: true
-  },
-
-  // Navigation arrows
- /* navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  } */
-
-  // And if we need scrollbar
-  /*scrollbar: {
-    el: '.swiper-scrollbar',
-  }, */
+//*-----slider-productos-----**/
+const swiper = new Swiper('.swiper-custom', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 15,
+    direction: 'horizontal',
+    loop: true,
+    autopla: {
+        delay: 100000,
+    },
 
 
-}); 
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true
+    },
+
+    // Navigation arrows
+    /* navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     } */
+
+    // And if we need scrollbar
+    /*scrollbar: {
+      el: '.swiper-scrollbar',
+    }, */
+
+
+});
+
+//**carrusel-logos**/
+const swiper = new Swiper('.swiper-logos', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 15,
+    direction: 'horizontal',
+    loop: true,
+    autopla: {
+        delay: 100000,
+    },
+
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination_logos',
+        clickable: true,
+        dynamicBullets: true
+    },
+
+    // Navigation arrows
+    /* navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     } */
+
+    // And if we need scrollbar
+    /*scrollbar: {
+      el: '.swiper-scrollbar',
+    }, */
+
+
+});

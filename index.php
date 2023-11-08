@@ -14,13 +14,13 @@
               beguiled.
             </p>
             <button class="container_icon " >
-              <img class="icon_mas" src="./assets/img/icon_.png" alt="" /> conoce más
+              <img class="icon_mas" src="./assets/img/icon_.png" alt="icono ver mas" /> conoce más
             </button>
           </div>
           <div class="container_small_2">
             <button class="container_icon_2">
               <p>Hola, ¿cómo podemos <span><br>ayudarte?</span> </p>
-              <img class="icon_call" src="./assets/img/icon_call.png" alt="" />
+              <img class="icon_call" src="./assets/img/icon_call.png" alt="telefono verde icono" />
             </button>
           </div>
         </div>
@@ -60,18 +60,18 @@
                   <div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
-                        <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                        <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
                           <p class="font_style">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
-                    <img src="./assets/img/slider_img.png" alt="">
+                    <img src="./assets/img/slider_img.png" alt="imagen de producto">
                   </div> 
                   <div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
-                        <h3 class="h3_style">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                        <h3 class="h3_style">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
                           <p class="font_style">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
@@ -81,20 +81,20 @@
                   </div><div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
-                        <h3 class="h3_style">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                        <h3 class="h3_style">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
                           <p class="font_style">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
-                    <img src="./assets/img/slider_img.png" alt="">
+                    <img src="./assets/img/slider_img.png" alt="imagen de producto">
                   </div>
                 </div>
               </div>
           </div>
         </div>
     </div>
-<!---------****-----probando slider-------****-----------------> 
+<!---------****-----slider-------****-----------> 
 <div>
   <div class="container_swiper_custom">
   <!-- Slider main container -->
@@ -108,7 +108,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -116,7 +116,7 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div>
         </div>
 <!--2-->
@@ -124,7 +124,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -132,7 +132,7 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div>
         </div>
 <!--3-->
@@ -140,7 +140,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -148,7 +148,7 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
 <!--4-->
@@ -164,7 +164,7 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
 <!--5-->
@@ -172,7 +172,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -180,7 +180,7 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
 <!--6-->
@@ -188,7 +188,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -196,17 +196,52 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
 <!--fin-->
             </div>
               <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-    </div>
-  </div>
-</div> 
+          </div>
+        </div>
+      </div> 
  
+<!----blue-container----->
+
+<div class="container_blue_1">
+  <div class="container_blue_2">
+    <div class="container_blue_3">
+
+      <div class="section_1">
+      <p class="tittle_style">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
+      </div>
+        <div>
+            <div class="section_2">
+            <p class="">DERECHA On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p> <br>
+
+            <p class="">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
+            </div>
+            <div class="line">
+            <hr>
+            </div>
+            <div class="section_2">
+              <div>
+              <button class="container_icon_3">
+              <p class="text_style_blue"> Aquí puedes encontrar información <br>sobre todos nuestros proyectos</p>
+              <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
+            </button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div>
+          akdaldkalskdñakd
+        </div>
+  </div>
+  
+</div>
+<!----blue-container----->
 <!----section-after-banner---->
     <div class="container_text_slider">
       <div class="four_container_slider">
@@ -255,42 +290,80 @@
 
     <!----seccion-3-banner-->
 
-    
-    <div class="banner-container_3">
-      <div class="banner_3"></div>
-      <div class="background_container">
-        <div class="background">
-          <div class="texto_banner_container">
-            <p
-              id="fade-in-element"
-              class="texto_banner_1"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              know more about us
-            </p>
-            <h2
-              class="texto_banner_h2"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              Cases are perfectly <br />
-              simple and easy
-            </h2>
-            <p
-              class="texto_banner_2"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              when our power of choice is untrammelled and when <br />nothing
-              prevents our being able to do
-            </p>
-
-            <button class="button_slide slide_diagonal">discover more</button>
-          </div>
+    <div class="container_logos_1">
+      <div class="container_logos_2">
+        <div class="container_logos_3"> 
+        <div class="texto_banner_container">
+             
+             <div>
+             <h2
+                class="texto_banner_h2"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >vamos a trabajar juntos
+              </h2>
+             </div>
+             <div class="icono_naranja_1" data-aos="fade-up"
+                data-aos-duration="3000">
+              <img class="icono_naranja" src="../Webcreativa_Santa_Cecilia_v3/assets/img/icon_naranja.png" alt="">
+             </div> 
+   
+            </div>
         </div>
       </div>
     </div>
     <!----fin-seccion-3-banner-->
+
+    <div>
+  <div class="container_swiper_custom">
+  <!-- Slider main container -->
+    <div>
+      <div class="container_slider swiper swiper-custom">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+<!--1-->        
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+          </div> 
+        </div>
+<!--2-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+          </div> 
+        </div>
+<!--3-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+          </div> 
+        </div>
+<!--4-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+          </div> 
+        </div>
+<!--5-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+          </div> 
+        </div>
+<!--6-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+          </div> 
+        </div>
+<!--fin-->
+            </div>
+              <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
 
 <?php require '_partials/footer.php' ?>
