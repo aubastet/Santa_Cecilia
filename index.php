@@ -53,7 +53,7 @@
                 <p>Adobe Horizontal</p>
                 <p>Adobe Vertical</p>
               </div>
-<!---slider_productos---->
+<!-----------------slider_productos----------------------->
               <div class="container_slider">
                 <div class="container_slider_1">
                   <div class="container_slider_2">
@@ -62,21 +62,151 @@
                       <div class="content_1">
                         <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
                       </div>
-                    <p class="font_style">Medida nominal (cm): 10x20x40
-Peso (kg) : 5 Rendimiento 
-(unidades/m3): 12.5</p></div>
+                          <p class="font_style">Medida nominal (cm): 10x20x40
+                          Peso (kg) : 5 Rendimiento 
+                          (unidades/m3): 12.5</p>
+                      </div>
                     <img src="./assets/img/slider_img.png" alt="">
                   </div> 
-                  <div class="slider_1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="slider_1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="slider_1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="slider_1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="slider_1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                  <div class="slider_1">
+                    <div class="content_slider">
+                      <div class="content_1">
+                        <h3 class="h3_style">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                      </div>
+                          <p class="font_style">Medida nominal (cm): 10x20x40
+                          Peso (kg) : 5 Rendimiento 
+                          (unidades/m3): 12.5</p>
+                      </div>
+                    <img src="./assets/img/slider_img.png" alt="">
+                  </div><div class="slider_1">
+                    <div class="content_slider">
+                      <div class="content_1">
+                        <h3 class="h3_style">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                      </div>
+                          <p class="font_style">Medida nominal (cm): 10x20x40
+                          Peso (kg) : 5 Rendimiento 
+                          (unidades/m3): 12.5</p>
+                      </div>
+                    <img src="./assets/img/slider_img.png" alt="">
+                  </div>
                 </div>
               </div>
           </div>
         </div>
     </div>
+<!---------****-----probando slider-------****-----------------> 
+<div>
+  <div class="container_swiper_custom">
+  <!-- Slider main container -->
+    <div>
+      <div class="container_slider swiper swiper-custom">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+<!--1-->        
+        <div class="swiper-slide">
+          <div class="swiper_slider_1">
+            <div class="swiper_content_slider">
+              <div class="content_1">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+              </div>
+                <div class="font_style">
+                  <p>Medida nominal (cm): 10x20x40</p>
+                  <p>Peso (kg) : 5 Rendimiento </p>
+                  <p>(unidades/m3): 12.5</p>
+                </div>
+              </div>
+            <img class="none" src="./assets/img/slider_img.png" alt="">
+          </div>
+        </div>
+<!--2-->
+        <div class="swiper-slide">
+          <div class="swiper_slider_1">
+            <div class="swiper_content_slider">
+              <div class="content_1">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+              </div>
+                <div class="font_style">
+                  <p>Medida nominal (cm): 10x20x40</p>
+                  <p>Peso (kg) : 5 Rendimiento </p>
+                  <p>(unidades/m3): 12.5</p>
+                </div>
+              </div>
+            <img class="none" src="./assets/img/slider_img.png" alt="">
+          </div>
+        </div>
+<!--3-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <div class="swiper_content_slider">
+              <div class="content_1">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+              </div>
+                <div class="font_style">
+                  <p>Medida nominal (cm): 10x20x40</p>
+                  <p>Peso (kg) : 5 Rendimiento </p>
+                  <p>(unidades/m3): 12.5</p>
+                </div>
+              </div>
+            <img class="none" src="./assets/img/slider_img.png" alt="">
+          </div> 
+        </div>
+<!--4-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <div class="swiper_content_slider">
+              <div class="content_1">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+              </div>
+                <div class="font_style">
+                  <p>Medida nominal (cm): 10x20x40</p>
+                  <p>Peso (kg) : 5 Rendimiento </p>
+                  <p>(unidades/m3): 12.5</p>
+                </div>
+              </div>
+            <img class="none" src="./assets/img/slider_img.png" alt="">
+          </div> 
+        </div>
+<!--5-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <div class="swiper_content_slider">
+              <div class="content_1">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+              </div>
+                <div class="font_style">
+                  <p>Medida nominal (cm): 10x20x40</p>
+                  <p>Peso (kg) : 5 Rendimiento </p>
+                  <p>(unidades/m3): 12.5</p>
+                </div>
+              </div>
+            <img class="none" src="./assets/img/slider_img.png" alt="">
+          </div> 
+        </div>
+<!--6-->
+        <div class="swiper-slide ">
+          <div class="swiper_slider_1">
+            <div class="swiper_content_slider">
+              <div class="content_1">
+                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+              </div>
+                <div class="font_style">
+                  <p>Medida nominal (cm): 10x20x40</p>
+                  <p>Peso (kg) : 5 Rendimiento </p>
+                  <p>(unidades/m3): 12.5</p>
+                </div>
+              </div>
+            <img class="none" src="./assets/img/slider_img.png" alt="">
+          </div> 
+        </div>
+<!--fin-->
+            </div>
+              <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div> 
+ 
 <!----section-after-banner---->
     <div class="container_text_slider">
       <div class="four_container_slider">

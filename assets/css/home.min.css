@@ -25,10 +25,11 @@ h1 {
 }
 
 h2 {
-    font-size: 5em;
+    font-size: 4.6em;
     font-weight: 600;
     line-height: 90%;
     color: #363435;
+    text-transform: uppercase;
 }
 
 .icon_call {
@@ -256,6 +257,8 @@ p.redes_home {
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .slider_1 {
@@ -269,11 +272,12 @@ p.redes_home {
 }
 
 .content_slider {
+    width: 100%;
     justify-content: left;
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 8% 5%;
+    padding: 10% 11%;
     background-color: #F2F2F2;
 }
 
@@ -285,6 +289,7 @@ p.redes_home {
 
 .h3_style {
     padding: 0% 0% 5% 0%;
+    text-transform: uppercase;
 }
 
 .img_content {
@@ -296,8 +301,70 @@ p.redes_home {
     font-family: 'Lato', sans-serif;
 }
 
+/*------------swiper-slider-carrusel-------------*/
+.swiper-custom {
+    width: 75%;
+    height: 510px;
+}
+ 
+.swiper-slide.swiper-slide-active {
+    width: 31.9% !important;
+}
 
-/******seccion-2-slider******/
+.swiper-slide.swiper-slide {
+    width: 32% !important;
+}
+
+.swiper_content_slider {
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 6%;
+    background-color: #F2F2F2;
+}
+
+.swiper-custom .swiper-pagination {
+    --swiper-pagination-color: #ffffff;
+    --swiper-pagination-border-color: #e94141;
+    --swiper-pagination-bullet-background-color:#9e2020c4;
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 12px;
+    --swiper-pagination-bullet-height: 12px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap:2px; 
+    --swiper-pagination-bullet-border-radius: 0px;
+    
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
+    border: solid #EC3237 3px;
+}
+.swiper_slider_1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_swiper_custom {
+    width: 85%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*-------------------*/
+
+
+/*------seccion-2-slider------*/
 
 .slider {
     width: 552px;
@@ -490,6 +557,7 @@ p.redes_home {
     line-height: 90%;
     color: #fff;
     margin: 15px;
+    
 }
 
 .texto_banner_1 {

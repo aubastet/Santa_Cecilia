@@ -88,3 +88,36 @@ autoPlay();
 
     $j(window).on('load', SITE.onLoad.init);
 })();
+
+//**************/
+ const swiper = new Swiper('.swiper-custom', {
+  // Optional parameters
+  slidesPerView: 3,
+  spaceBetween: 15,
+  direction: 'horizontal',
+  loop: true, 
+  autopla: {
+    delay: 100000,
+  }, 
+ 
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true
+  },
+
+  // Navigation arrows
+ /* navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  } */
+
+  // And if we need scrollbar
+  /*scrollbar: {
+    el: '.swiper-scrollbar',
+  }, */
+
+
+}); 
