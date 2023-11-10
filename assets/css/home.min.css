@@ -641,10 +641,57 @@ hr {
     letter-spacing: -3px;
 }
 
+.swiper_logos {
+    width: 75%; 
+}
 
-/*--fin trabajar juntos logos--*/
+.container_swiper_logos {
+    width: 85%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+.swiper_logos .logos_pagination  {
+    --swiper-pagination-color: #ffffff;
+    --swiper-pagination-border-color: #e94141;
+    --swiper-pagination-bullet-background-color: #9e2020c4;
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 12px;
+    --swiper-pagination-bullet-height: 12px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 2px;
+    --swiper-pagination-bullet-border-radius: 0px;
+}
+.img_logo {
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+}
 
+.swiper-wrapper_logos {
+    position: relative;
+    width: 55%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+} 
 
+.swiper-slide_logo {
+    flex-shrink: none!important; 
+}
+.swiper-slide_logo.swiper-slide.swiper-slide-active {
+    width: 18% !important;
+}
+.swiper-slide_logo.swiper-slide.swiper-slide {
+    width: 18% !important;
+}
+/*--fin trabajar juntos logos--*/ 
 /*-------------*/
 
 .texto_banner_1 {

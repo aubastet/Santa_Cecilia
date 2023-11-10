@@ -105,7 +105,7 @@ const swiper = new Swiper('.swiper-custom', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        dynamicBullets: true
+        dynamicBullets: true,
     },
 
     // Navigation arrows
@@ -120,4 +120,38 @@ const swiper = new Swiper('.swiper-custom', {
     }, */
 
 
-});
+}); 
+
+
+ //*-----slider-logos-----**/
+const swiper2 = new Swiper('.swiper_logos', {
+    // Optional parameters
+    slidesPerView: 10,
+    spaceBetween: 1,
+    direction: 'horizontal',
+    loop: true,
+    autopla: {
+        delay: 100000,
+    },
+
+
+    // If we need pagination
+    pagination: {
+        el: '.logos_pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+
+    // Navigation arrows
+    /* navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     } */
+
+    // And if we need scrollbar
+    /*scrollbar: {
+      el: '.swiper-scrollbar',
+    }, */
+
+
+}); 

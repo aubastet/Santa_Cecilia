@@ -315,55 +315,109 @@
     <!----fin-seccion-3-banner-->
 
     <div>
-  <div class="container_swiper_custom">
+<div>
+  <div class="container_swiper_logos">
   <!-- Slider main container -->
-    <div>
-      <div class="container_slider swiper swiper-custom">
+    <div class="container_logos_slider">
+      <div class="container_slider swiper swiper_logos">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper wrp_2">
         <!-- Slides -->
 <!--1-->        
-        <div class="swiper-slide ">
+        <div class="swiper-slide_logo swiper-slide ">
           <div class="swiper_slider_1">
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+               <div class="swiper_content_slider_2">
+            <img class="img_logo" src="./assets/img/logo_google.png" alt="logo google">
+          </div> 
           </div> 
         </div>
 <!--2-->
-        <div class="swiper-slide ">
+        <div class="swiper-slide swiper-slide_logo ">
           <div class="swiper_slider_1">
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <div class="swiper_content_slider_2">
+            <img class="img_logo" src="./assets/img/logo_vimeo.png" alt="logo vimeo">
+            </div> 
           </div> 
         </div>
 <!--3-->
-        <div class="swiper-slide ">
+        <div class="swiper-slide  swiper-slide_logo">
           <div class="swiper_slider_1">
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <div class="swiper_content_slider_2">
+            <img class="img_logo" src="./assets/img/logo_cocacola.png" alt="logo cocacola">
+          </div> 
           </div> 
         </div>
 <!--4-->
-        <div class="swiper-slide ">
+        <div class="swiper-slide  swiper-slide_logo">
           <div class="swiper_slider_1">
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <div class="swiper_content_slider_2">
+            <img class="img_logo" src="./assets/img/logo_audi.png" alt="logo audi">
+          </div> 
           </div> 
         </div>
 <!--5-->
-        <div class="swiper-slide ">
+        <div class="swiper-slide  swiper-slide_logo">
           <div class="swiper_slider_1">
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <div class="swiper_content_slider_2">
+            <img class="img_logo" src="./assets/img/logo_microsoft.png" alt="logo microsoft">
+          </div> 
           </div> 
         </div>
 <!--6-->
-        <div class="swiper-slide ">
+        <div class="swiper-slide  swiper-slide_logo">
           <div class="swiper_slider_1">
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <div class="swiper_content_slider_2">
+            <img class="img_logo" src="./assets/img/logo_national.png" alt="logo national geographic">
+          </div> 
           </div> 
         </div>
+<!--7-->
+    <div class="swiper-slide  swiper-slide_logo">
+      <div class="swiper_slider_1">
+        <div class="swiper_content_slider_2">
+        <img class="img_logo" src="./assets/img/logo_national.png" alt="logo ">
+      </div> 
+      </div> 
+    </div>
+    <!--7-->
+    <div class="swiper-slide  swiper-slide_logo">
+      <div class="swiper_slider_1">
+        <div class="swiper_content_slider_2">
+        <img class="img_logo" src="./assets/img/logo_national.png" alt="logo ">
+      </div> 
+      </div> 
+    </div>
+    <!--7-->
+    <div class="swiper-slide  swiper-slide_logo">
+      <div class="swiper_slider_1">
+        <div class="swiper_content_slider_2">
+        <img class="img_logo" src="./assets/img/logo_national.png" alt="logo ">
+      </div> 
+      </div> 
+    </div>
+    <!--7-->
+    <div class="swiper-slide  swiper-slide_logo">
+      <div class="swiper_slider_1">
+        <div class="swiper_content_slider_2">
+        <img class="img_logo" src="./assets/img/logo_national.png" alt="logo ">
+      </div> 
+      </div> 
+    </div>
+    <!--7-->
+    <div class="swiper-slide  swiper-slide_logo">
+      <div class="swiper_slider_1">
+        <div class="swiper_content_slider_2">
+        <img class="img_logo" src="./assets/img/logo_national.png" alt="logo ">
+      </div> 
+      </div> 
+    </div>
+    
 <!--fin-->
-            </div>
+             </div>
               <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination logos_pagination"></div>
           </div>
         </div>
-      </div>
+      </div> 
 
 <?php require '_partials/footer.php' ?>
