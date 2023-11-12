@@ -103,7 +103,7 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-<!--1-->        
+ <!--1-->        
         <div class="swiper-slide">
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
@@ -119,7 +119,7 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div>
         </div>
-<!--2-->
+ <!--2-->
         <div class="swiper-slide">
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
@@ -135,7 +135,7 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div>
         </div>
-<!--3-->
+ <!--3-->
         <div class="swiper-slide ">
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
@@ -151,7 +151,7 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
-<!--4-->
+ <!--4-->
         <div class="swiper-slide ">
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
@@ -167,7 +167,7 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
-<!--5-->
+ <!--5-->
         <div class="swiper-slide ">
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
@@ -183,7 +183,7 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
-<!--6-->
+ <!--6-->
         <div class="swiper-slide ">
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
@@ -199,14 +199,18 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
-<!--fin-->
+ <!--fin-->
             </div>
               <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+              <div>
+                <div class="swiper-pagination"></div>
+              </div>
+            
           </div>
         </div>
       </div> 
- 
+    </div> 
+  </div>
 <!----blue-container----->
 
 <div class="container_blue_1">
@@ -279,54 +283,65 @@
   
 </div>
 <!----blue-container----->
-<!----section-after-banner---->
-    <div class="container_text_slider">
-      <div class="four_container_slider">
-        <div class="column1" data-aos="fade-up">
-          <div>
-            <img
-              src="./img/back.png"
-              class="prev-button"
-              alt="btn slider"
-              width="15"
-            />
-            <img
-              src="./img/next.png"
-              class="next-button"
-              alt="btn slider"
-              width="15"
-            />
-          </div>
-          <p class="texto_tittle">
-            Encuentra los productos
-            <br />para cada uno de tus proyectos<br />
-          </p>
-          <p class="texto_tittle_1">OUR <br />SERVICES</p>
-          <p class="texto_tittle__1">
-            denounce with righteous indignation and dislike men who are so
-            beguiled and demoralized by the charms of pleasure of the moment,
-            <br /><br />
-            so blinded by desire, that they cannot foresee the pain and trouble
-            that are bound to ensue; and equal blame belongs to those who fail
-            in their duty through weakness of will, which is the same as saying
-            through shrinking from toil and pain. These cases are perfectly
-            simple and easy...
-          </p>
-        </div>
-        <div class="column2" data-aos="fade-down">
-          <div class="slider-container">
-            <div class="slider">
-              <img src="/santa_cecilia/assets/img/slide-2.jpg" alt="Image 1" class="slider-image" />
-              <img src="../santa_cecilia/assets/img/slide-2.jpg" alt="Image 2" class="slider-image" />
-              <img src="../santa_cecilia/assets/img/slide-3.jpg" alt="Image 3" class="slider-image" />
+<!-----white-container----->
+<div>
+<div class="white_container">
+  <div class="white_container_2">
+    <div class="white_container_3">
+      <div class="white_grid">
+        <div class="white_grid_col_1">
+          <div class="white_content">
+            <div class="white_content_flex">
+              <div class="white_contetn_flex_col_1">
+                <p>nuestros / blogs</p> 
+                <img class="icon_blogs" src="./assets/img/icon_blogs.png" alt="">
+                <p>share</p> 
+                <img class="icon_share" src="./assets/img/icon_share.png" alt="">
+              </div>
+              <div class="white_contetn_flex_col_2">
+                <p></p> 
+                <img class="icon_more" src="./assets/img/icon_more.png" alt="">
+              </div>
             </div>
+
+
+            <div class="style_text_1 ">
+            <p class="tittle_p">El consorcio CyS logró el visto bueno de EPM para Hidroituango.</p>
+            <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="white_grid_col_2">
+          <img src="./assets/img/white_1.jpg" alt="">
+        </div>
+        <div class="white_grid_col_3">
+        <img src="./assets/img/white_2.png" alt="">
+        
+        <div class="style_text_content_1">
+        <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+           <div class="p_style">
+                <p class="p_style_20">Camacol buscará compradores en EE.UU. para  proyectos en Colombia</p>
+                <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+           </div>
+        </div>
+        
+        </div>
+        <div class="white_grid_col_4">
+          <div class="background_style">
+          <a class="p_style_40_center " href="">descubre más <br> blogs aquí</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+</div>
+<!-----white-container----->
+<!----section-after-banner---->
+   
 
     <!----seccion-3-banner-->
-
+<div>
     <div class="container_logos_1">
       <div class="container_logos_2">
         <div class="container_logos_3"> 
@@ -344,10 +359,32 @@
                 data-aos-duration="3000">
               <img class="icono_naranja" src="../Webcreativa_Santa_Cecilia_v3/assets/img/icon_naranja.png" alt="">
              </div> 
-   
+            </div>
+
+            <div class="container_formulario_trabaja" id="containert_form">
+              <div class="formulario_trabaja_content">
+                <form action="" class="formulario">
+                  <div class="inputs_formulario">
+                    <div class="input_container">
+                      <input type="text" placeholder="01. Nombre completo">
+                      <img class="input_pencil_img" src="./assets/img/icon-pencil.png" alt="" width="30">
+                    </div>
+                    <div class="input_container">
+                      <input type="email" placeholder="02. correo electrónico">
+                      <img class="input_pencil_img" src="./assets/img/icon-pencil.png" alt="" width="30">
+                    </div>
+                    <div class="input_container">
+                      <input type="tel" placeholder="03. teléfono / movil">
+                      <img class="input_pencil_img" src="./assets/img/icon-pencil.png" alt="" width="30">
+                    </div>
+                  </div>
+                  <div></div>
+                </form>
+              </div>
             </div>
         </div>
       </div>
+    </div>
     </div>
     <!----fin-seccion-3-banner-->
 
@@ -452,7 +489,8 @@
 <!--fin-->
              </div>
               <!-- If we need pagination -->
-            <div class="swiper-pagination logos_pagination"></div>
+              <div><div class="swiper-pagination logos_pagination"></div></div>
+            
           </div>
         </div>
       </div> 

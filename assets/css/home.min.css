@@ -21,7 +21,7 @@ a {
     font-family: 'Lato', sans-serif;
 }
 
-h1 {
+h1, .h1 {
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 5em;
     font-weight: 600;
@@ -30,7 +30,7 @@ h1 {
     color: #363435;
 }
 
-h2 {
+h2, .h2 {
     font-size: 4.6em;
     font-weight: 600;
     line-height: 90%;
@@ -501,6 +501,151 @@ hr {
     text-align: center;
     font-size: 40px;
 }
+/*---------white-container---------*/
+.white_container {
+    width: 100%;
+    position: relative;
+    padding: 6em 0;
+    display: block;
+}
+
+.white_container_2 {
+    width: 85%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.white_container_3 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.white_grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    width: 100%;
+}
+.white_grid_col_1 {
+    grid-column: 1 / 5;
+    grid-row: 1/5;
+    background-color: #F2F2F2;
+}
+.white_grid_col_2 {
+    grid-column: 1 / 5;
+    grid-row: 5/8;
+}
+.white_grid_col_2 img {
+    height: 100%;
+}
+.white_grid_col_3 {
+    grid-row: 1/6;
+    position: relative;
+}
+.white_grid_col_4 {
+    grid-row: 6/8;
+    margin-top: 1.5rem;
+}
+.white_grid_col_3, .white_grid_col_4 {
+    grid-column: 5/8;
+    margin-left: 2rem;
+}
+
+.white_content {
+    width: 90%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100%;
+}
+.white_content_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.white_contetn_flex_col_1 {
+    display: flex;
+    gap: 10px;
+}
+.icon_blogs {
+    width: 22px;
+    height: 22px;
+}
+.white_contetn_flex_col_2 {
+    display: flex;
+    gap: 10px;
+}
+.icon_share {
+    width: 19px;
+    height: 22px;
+}
+.icon_more {
+    width: 12px;
+    height: 12px;
+}
+.style_text_1 {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.tittle_p {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: #363435;
+}
+.style_text_content_1 {
+    position: absolute;
+    bottom: 0%;
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon_more_right {
+    width: 12px;
+    height: 12px;
+    align-self: self-end;
+}
+.p_style {
+    color: #fff;
+}
+.p_style_20 {
+    font-size: 1.5em;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+}
+.background_style {
+    background-color: #0D65D9;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_style_40_center {
+    font-size: 2.5em;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+
+
+/*-------FIN- white_content-----------*/
 
 /*------seccion-2-slider------*/
 
@@ -945,15 +1090,6 @@ footer {
     justify-content: normal;
     align-items: flex-start;
 }
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: transparent;
-    color: white;
-}
-
 .button_footer {
     color: #292b2e;
     border: transparent;
@@ -1077,7 +1213,37 @@ input[type="text"] {
 .icono_naranja_1 {
     margin-left: 4%;
 }
-
+.container_formulario_trabaja {
+    background-color: #0D65D9;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
+.formulario_trabaja_content {
+    width: 75%;
+    margin: 0 auto;
+}
+.formulario {
+    width: 100%;
+}
+.inputs_formulario {
+    display: flex;
+    align-items: center;
+}
+.input_container {
+    position: relative;
+}
+.input_container input {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.input_pencil_img{
+    position: absolute;
+}
 
 /*---------------*/
 
