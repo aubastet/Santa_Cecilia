@@ -235,9 +235,46 @@
             </div>
         </div>
     </div>
-    <div>
-          akdaldkalskdñakd
-        </div>
+    <div class="container_grid">
+         <div>
+            <div class="content_row_1">
+              <img src="./assets/img/blue_1.png" alt="">
+              <div class="content_row_1_info">
+                <p>WHAKAKAINGA <br> AURECON</p>
+                <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
+              </div>
+            </div>
+            <div class="content_row_2">
+              <img src="./assets/img/blue_2.png" alt="">
+              <div class="content_row_2_info">
+                <p>ORMISTON RETAIL<br> CENTRE</p>
+              </div>
+            </div>
+         </div>
+         
+         <div>
+            <div class="content_row_3">
+              <img src="./assets/img/blue_4.png" alt="">
+              <div class="content_row_3_info">
+                <p>futurium <br> NORTH SHORE</p>
+              </div>
+            </div>
+            <div class="content_row_4">
+              <img src="./assets/img/blue_3.png" alt="">
+              <div class="content_row_4_info">
+                <p>WHAKAKAINGA <br> AURECON</p>
+                <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
+              </div>
+            </div>
+         </div>
+
+         <div class="content_row_5">
+          <img src="./assets/img/blue_05.png" alt="">
+          <div class="content_row_5_info">
+                <p>futurium <br> NORTH SHORE</p>
+              </div>
+         </div> 
+    </div>
   </div>
   
 </div>

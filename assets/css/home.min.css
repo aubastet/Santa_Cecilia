@@ -441,6 +441,66 @@ hr {
     letter-spacing: -3px;
 }
 
+.container_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+}
+@media (max-width: 768px) {
+    .container_grid {
+        grid-template-columns: 100%;
+    }
+}
+.content_row_1 {
+    margin-bottom: 1rem;
+    position: relative;
+}
+.content_row_4 {
+    position: relative;
+}
+.content_row_1_info, .content_row_4_info {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 2rem;
+}
+.content_row_1_info p:nth-child(1), .content_row_4_info p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.content_row_2, .content_row_3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content_row_3 img:nth-child(1) {
+    margin-bottom: 1rem;
+}
+.content_row_2_info, .content_row_3_info {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.content_row_5 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.content_row_5_info {
+    position: absolute;
+    top: 70%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
 
 /*------seccion-2-slider------*/
 
