@@ -26,39 +26,43 @@
 </head>
 <body>
     <!---inicio-banner-home-->
-    <div class="banner-container">
-      <div class="banner"></div>
-      <nav class="navigation">
-        <div class="nav_content">
-          <img
-            class="logo_web_sc"
-            src="./assets/img/logo_web_santa_cecilia.png"
-            alt=""
-          />
-          <a href="#">Home</a>
-          <a href="#">Nosotros</a>
-          <a href="#">Catálogo</a>
-          <a href="#">Proyectos</a>
-          <a href="#">Clientes</a>
-          <a href="#">Blog</a>
-          <a href="#">Contacto</a>
-        </div>
-        <div class="redes_container">
-          <p class="redes_home">Redes sociales/</p>
-        
-        
-            <div class="redes-sociales">
-        <div class="redes_sociales_icon">
-                <a href="#"><img src="./assets/img/facebook.png" alt="Facebook" /></a>
-                <a href="#"><img src="./assets/img/linkedin.png" alt="Twitter" /></a> 
-                <a href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
-                <a href="#"><img src="./assets/img/youtube.png" alt="Twitter" /></a> 
-      </div>
     
+      <!-------->
+          <!---inicio-banner-home-->
+    <main>
+      <nav class=" nav_container_1 " >
+        <div class=" nav_container_2 " >
+        <div class=" nav_container_3 ">
+          <img class="logo_web_sc"
+            src="./assets/img/logo_web_santa_cecilia.png"
+            alt="loog_web_santa_cecilia"
+          />
+          <a class="a_styles" href="#">Home</a>
+          <a class="a_styles" href="#">Nosotros</a>
+          <a class="a_styles" href="#">Catálogo</a>
+          <a class="a_styles" href="#">Proyectos</a>
+          <a class="a_styles" href="#">Clientes</a>
+          <a class="a_styles" href="#">Blog</a>
+          <a class="a_styles" href="#">Contacto</a>
+        </div>
+        <div class="nav_redes_container">
+          <p class=" nav_redes_text">REDES SOCIALES/</p>
+        
+        
+          <div class="nav_redes-sociales">
+            <div class="nav_redes_icon">
+                <a class="nav_redes_style" href="#"><img src="./assets/img/facebook.png" alt="Facebook" /></a>
+                <a class="nav_redes_style" href="#"><img src="./assets/img/linkedin.png" alt="Twitter" /></a> 
+                <a class="nav_redes_style" href="#"><img src="./assets/img/instagram.png" alt="Twitter" /></a> 
+                <a class="nav_redes_style" href="#"><img src="./assets/img/youtube.png" alt="Twitter" /></a> 
+            </div>
+    </div>
+    </div>
+          </div>
         </div>
         </div>
       </nav>
       <!---->
 
 <body>
-    <main>
+    </main>

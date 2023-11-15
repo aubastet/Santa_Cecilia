@@ -1,6 +1,7 @@
 <?php require '_partials/header.php' ?>
 
-    <div class="texto_container">
+   <div class="section_before_menu">
+     <div class="texto_container">
         <div class="texto_section">
         <h1>
           Encuentra los productos <br />
@@ -14,12 +15,12 @@
               beguiled.
             </p>
             <button class="container_icon " >
-              <img class="icon_mas" src="./assets/img/icon_.png" alt="icono ver mas" /> conoce más
+              <img class="icon_mas" src="./assets/img/icon_.png" alt="icono ver mas" /> <span class="text_button_home">Conoce más</span> 
             </button>
           </div>
           <div class="container_small_2">
             <button class="container_icon_2">
-              <p>Hola, ¿cómo podemos <span><br>ayudarte?</span> </p>
+              <p class="icon_verde" >HOLA, ¿CÓMO PODEMOS <span><br>AYUDARTE?</span> </p>
               <img class="icon_call" src="./assets/img/icon_call.png" alt="telefono verde icono" />
             </button>
           </div>
@@ -28,11 +29,12 @@
       </div>
     </div>
     </div>
+   </div>
 <!------>
 
-    <!----seccion-2-slider-->
+    <!---section-2-img--->
 
-    <div class="banner-container">
+    <div class="banner-container_background">
       <div class="banner_2"></div>
     </div>
 
@@ -60,7 +62,7 @@
                   <div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
-                        <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
+                        <h3 class="h3_style_products">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
                           <p class="font_style">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
@@ -71,7 +73,7 @@
                   <div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
-                        <h3 class="h3_style">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
+                        <h3 class="h3_style_products">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
                           <p class="font_style">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
@@ -81,7 +83,7 @@
                   </div><div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
-                        <h3 class="h3_style">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
+                        <h3 class="h3_style_products">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
                           <p class="font_style">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
@@ -108,7 +110,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -124,7 +126,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -140,7 +142,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -156,7 +158,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -172,7 +174,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -188,7 +190,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -218,7 +220,7 @@
     <div class="container_blue_3">
 
       <div class="section_1">
-      <p class="tittle_style">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
+      <p class="tittle_style">Desarrallomos <br> diferentes proyectos<br>para afrontar los retos<br>del sector</p>
       </div>
         <div>
             <div class="section_2">
@@ -226,13 +228,13 @@
 
             <p class="">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
             </div>
-            <div class="line">
+            <div class="line_blue">
             <hr>
             </div>
             <div class="section_2">
               <div>
               <button class="container_icon_3">
-              <p class="text_style_blue"> Aquí puedes encontrar información <br>sobre todos nuestros proyectos</p>
+              <p class="text_style_blue"> AQUÍ PUEDES ENCONTRAR INFORMACIÓN <br>SOBRE TODOS NUESTROS PROYECTOS</p>
               <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
             </button>
               </div>
@@ -244,14 +246,14 @@
             <div class="content_row_1">
               <img src="./assets/img/blue_1.png" alt="">
               <div class="content_row_1_info">
-                <p>WHAKAKAINGA <br> AURECON</p>
+                <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
                 <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
               </div>
             </div>
             <div class="content_row_2">
               <img src="./assets/img/blue_2.png" alt="">
               <div class="content_row_2_info">
-                <p>ORMISTON RETAIL<br> CENTRE</p>
+                <p class="text_blue_2" >ORMISTON RETAIL<br> CENTRE</p>
               </div>
             </div>
          </div>
@@ -260,13 +262,13 @@
             <div class="content_row_3">
               <img src="./assets/img/blue_4.png" alt="">
               <div class="content_row_3_info">
-                <p>futurium <br> NORTH SHORE</p>
+                <p class="text_blue_3" >futurium <br> NORTH SHORE</p>
               </div>
             </div>
             <div class="content_row_4">
               <img src="./assets/img/blue_3.png" alt="">
               <div class="content_row_4_info">
-                <p>WHAKAKAINGA <br> AURECON</p>
+                <p class="text_blue_4_small">WHAKAKAINGA <br> AURECON</p>
                 <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
               </div>
             </div>
@@ -275,7 +277,7 @@
          <div class="content_row_5">
           <img src="./assets/img/blue_05.png" alt="">
           <div class="content_row_5_info">
-                <p>futurium <br> NORTH SHORE</p>
+                <p class="text_blue_5">futurium <br> NORTH SHORE</p>
               </div>
          </div> 
     </div>
@@ -306,7 +308,7 @@
 
 
             <div class="style_text_1 ">
-            <p class="tittle_p">El consorcio CyS logró el visto bueno de EPM para Hidroituango.</p>
+            <p class="tittle_p">El consorcio CyS logró<br> el visto bueno de EPM<br>para Hidroituango.</p>
             <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p>
             </div>
           </div>
@@ -320,7 +322,7 @@
         <div class="style_text_content_1">
         <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
            <div class="p_style">
-                <p class="p_style_20">Camacol buscará compradores en EE.UU. para  proyectos en Colombia</p>
+                <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
                 <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
            </div>
         </div>
@@ -336,11 +338,8 @@
   </div>
 </div>
 </div>
-<!-----white-container----->
-<!----section-after-banner---->
-   
-
-    <!----seccion-3-banner-->
+<!-----white-container-----> 
+    <!----vamos a trabajar juntos----->
 <div>
     <div class="container_logos_1">
       <div class="container_logos_2">
