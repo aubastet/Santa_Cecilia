@@ -58,9 +58,9 @@ faq / política de privacidad</p>
          </div>
          <div class="footer_redes_sociales">
           <a href=""><img class="redes_icon_style" src="./assets/img/facebook_white.png" alt="icon_social_media"></a>
-          <a href=""><img class="redes_icon_style" src="./assets/img/facebook_white.png" alt="icon_social_media"></a>
-          <a href=""><img class="redes_icon_style" src="./assets/img/facebook_white.png" alt="icon_social_media"></a>
-          <a href=""><img class="redes_icon_style" Src="./assets/img/facebook_white.png" alt="icon_social_media"></a>
+          <a href=""><img class="redes_icon_style" src="./assets/img/linkedin_white.png" alt="icon_social_media"></a>
+          <a href=""><img class="redes_icon_style" src="./assets/img/instagram_white.png" alt="icon_social_media"></a>
+          <a href=""><img class="redes_icon_style" Src="./assets/img/youtube_white.png" alt="icon_social_media"></a>
          </div>
       </div>
     </div>

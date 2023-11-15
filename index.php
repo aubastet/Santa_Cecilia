@@ -64,7 +64,7 @@
                       <div class="content_1">
                         <h3 class="h3_style_products">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
-                          <p class="font_style">Medida nominal (cm): 10x20x40
+                          <p class="font_style_products">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
@@ -75,7 +75,7 @@
                       <div class="content_1">
                         <h3 class="h3_style_products">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
-                          <p class="font_style">Medida nominal (cm): 10x20x40
+                          <p class="font_style_products">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
@@ -85,7 +85,7 @@
                       <div class="content_1">
                         <h3 class="h3_style_products">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
                       </div>
-                          <p class="font_style">Medida nominal (cm): 10x20x40
+                          <p class="font_style_products">Medida nominal (cm): 10x20x40
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
@@ -220,7 +220,9 @@
     <div class="container_blue_3">
 
       <div class="section_1">
-      <p class="tittle_style">Desarrallomos <br> diferentes proyectos<br>para afrontar los retos<br>del sector</p>
+      <p class="tittle_style_desktop">Desarrallomos <br> diferentes proyectos <br>para afrontar los retos <br>del sector</p>
+      <p class="tittle_style_mobile">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
+      
       </div>
         <div>
             <div class="section_2">
@@ -244,7 +246,7 @@
     <div class="container_grid">
          <div>
             <div class="content_row_1">
-              <img src="./assets/img/blue_1.png" alt="">
+              <img class="img_whaka_1" src="./assets/img/blue_1.png" alt="">
               <div class="content_row_1_info">
                 <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
                 <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
@@ -266,7 +268,7 @@
               </div>
             </div>
             <div class="content_row_4">
-              <img src="./assets/img/blue_3.png" alt="">
+              <img class="img_whaka_2" src="./assets/img/blue_3.png" alt="">
               <div class="content_row_4_info">
                 <p class="text_blue_4_small">WHAKAKAINGA <br> AURECON</p>
                 <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
@@ -275,7 +277,7 @@
          </div>
 
          <div class="content_row_5">
-          <img src="./assets/img/blue_05.png" alt="">
+          <img  class="img_futurium" src="./assets/img/blue_05.png" alt="">
           <div class="content_row_5_info">
                 <p class="text_blue_5">futurium <br> NORTH SHORE</p>
               </div>
@@ -295,9 +297,9 @@
           <div class="white_content">
             <div class="white_content_flex">
               <div class="white_contetn_flex_col_1">
-                <p>nuestros / blogs</p> 
+                <p class="p_white_" >nuestros / blogs</p> 
                 <img class="icon_blogs" src="./assets/img/icon_blogs.png" alt="">
-                <p>share</p> 
+                <p class="p_white_" >share</p> 
                 <img class="icon_share" src="./assets/img/icon_share.png" alt="">
               </div>
               <div class="white_contetn_flex_col_2">
@@ -317,7 +319,7 @@
           <img src="./assets/img/white_1.jpg" alt="">
         </div>
         <div class="white_grid_col_3">
-        <img src="./assets/img/white_2.png" alt="">
+        <img class="img_camacol" src="./assets/img/white_2.png" alt="">
         
         <div class="style_text_content_1">
         <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
@@ -354,12 +356,15 @@
               >vamos a trabajar juntos
               </h2>
              </div>
+             
              <div class="icono_naranja_1" data-aos="fade-up"
                 data-aos-duration="3000">
               <img class="icono_naranja" src="../Webcreativa_Santa_Cecilia_v3/assets/img/icon_naranja.png" alt="">
              </div> 
             </div>
-
+            <div class="line_logos">
+            <hr>
+            </div>
             <div class="container_formulario_trabaja" id="containert_form">
               <div class="formulario_trabaja_content">
                 <form action="" class="formulario">
@@ -488,7 +493,7 @@
 <!--fin-->
              </div>
               <!-- If we need pagination -->
-              <div><div class="swiper-pagination logos_pagination"></div></div>
+              <div><div class="swiper-pagination logos_pagination productos"></div></div>
             
           </div>
         </div>
