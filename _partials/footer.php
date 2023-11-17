@@ -1,4 +1,5 @@
 </main>
+<link rel="stylesheet" href="./assets/css/global.min.css?v=1.0">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous"></script>
@@ -7,7 +8,7 @@
 </body>
 <!----footer-->
     <footer >
-      
+    <div> 
      <div class="footer_container">
       <div class="footer_container_1">
         <div  class="footer_container_2">
@@ -65,6 +66,7 @@ faq / política de privacidad</p>
       </div>
     </div>
   </div>
+</div>
 </div>
     </footer>
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

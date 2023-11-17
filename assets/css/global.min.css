@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.logo_web_sc {
+    width: 10%;
+    height: auto;
+}
+
+p {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    line-height: normal;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*------menu-------*/
+
+.nav_container_1 {
+    width: 100%;
+    position: relative;
+    padding: 2em 0;
+    display: block;
+}
+
+.nav_container_2 {
+    width: 80%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav_container_3 {
+    width: 82%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.nav_redes_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.a_styles {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #363436;
+}
+
+.nav_redes_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav_redes-sociales {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav_redes_icon {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+.nav_redes_style {
+    width: 22px;
+    height: 21px;
+}
+
+
+/*-------------------------*/
+
+.icon_call {
+    width: 59px;
+    height: 59px;
+}
+
+.icon_verde {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.text_home {
+    color: #363435;
+}
+
+
+/*****animacion*****/
+
+
+/** Estilo inicial**/
+
+#fade-in-element {
+    opacity: 0;
+    transform: translateY(-100px);
+    /**** desplazamiento ****/
+    transition: opacity 0.1s, transform 0.5s;
+}
+
+
+/* Estilo elemento visible */
+
+#fade-in-element.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    /****posición original***/
+}
+
+
+/*--------footer--------*/
+
+
+/*-----footer-----*/
+
+footer {
+    background-color: #292B2E;
+}
+
+.footer_container {
+    width: 100%;
+    position: relative;
+    padding: 4% 1% 1% 1%;
+    display: block;
+}
+
+.footer_container_1 {
+    width: 85%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer_container_2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_content {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer_logo_web {
+    width: 136px;
+    height: 106px;
+}
+
+.footer_tittle {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.2em;
+    font-weight: 500px;
+}
+
+.footer_text {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.footer_line {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer_icon_content {
+    width: 5%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer_icon {
+    width: 59px;
+    height: 59px;
+    margin-right: -45px;
+}
+
+.line_footer {
+    padding: 0%;
+    width: 100%;
+}
+
+.line_footer hr {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+}
+
+.footer_container__2 {
+    width: 100%;
+    position: relative;
+    padding: 2% 1% 2% 1%;
+    display: block;
+}
+
+.footer_redes_sociales {
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.redes_icon_style {
+    width: 21.7px;
+    height: 21.7px;
+}
+
+.right_reserved_logo {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    align-items: stretch;
+}
+
+.web_creativa_logo {
+    width: 12%;
+    height: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*----footer-----*/
+    .footer_logo_web {
+        width: 100px;
+        height: 75px;
+    }
+    .footer_tittle {
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 0.9em;
+    }
+    .footer_text {
+        font-size: 0.7em;
+        font-weight: 300;
+    }
+    .footer_icon {
+        width: 40px;
+        height: 40px;
+        margin-right: -35px;
+    }
+    .footer_container__2 {
+        width: 100%;
+        position: relative;
+        padding: 2% 1% 4% 1%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /*----footer-----*/
+    footer {
+        background-color: #292B2E;
+        padding: 1% 1% 2% 1%;
+    }
+    .footer_container_1 {
+        width: 85%;
+        max-width: 1366px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_container_2 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_content {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        color: #fff;
+        flex-direction: column;
+    }
+    .footer_logo_web {
+        width: 136px;
+        height: 106px;
+        margin-top: 10%;
+    }
+    .footer_tittle {
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .footer_text {
+        font-size: 1em;
+        font-weight: 300;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_line {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer_icon {
+        width: 35px;
+        height: 35px;
+        margin-right: -35px;
+    }
+    .right_reserved_logo {
+        display: flex;
+        gap: 10px;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .web_creativa_logo {
+        width: 39%;
+        height: 5%;
+    }
+}
+
+@media screen and (max-width: 425px) {}

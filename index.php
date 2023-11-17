@@ -32,13 +32,10 @@
    </div>
 <!------>
 
-    <!---section-2-img--->
-
+    <!---section-2-img---> 
     <div class="banner-container_background">
       <div class="banner_2"></div>
-    </div>
-
-    
+    </div> 
 <!----section-after-banner---->
 <div class="section_container">
         <div class="section_container_2">
@@ -96,7 +93,7 @@
           </div>
         </div>
     </div>
-<!---------****-----slider-------****-----------> 
+<!--------------slider------------------> 
 <div>
   <div class="container_swiper_custom">
   <!-- Slider main container -->

@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="./assets/css/layouts.min.css?v=1.0">
     <!-- Home's stylesheet -->
     <link rel="stylesheet" href="./assets/css/home.min.css?v=1.0">
+    <link rel="stylesheet" href="./assets/css/global.min.css?v=1.0">
+    <link rel="stylesheet" href="./assets/css/nosotros.min.css?v=1.0">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
     <title> | </title>
 </head>
 <body>
-    <!---inicio-banner-home-->
-    
-      <!-------->
-          <!---inicio-banner-home-->
+<header>
+        <!---inicio--home-->
     <main>
       <nav class=" nav_container_1 " >
         <div class=" nav_container_2 " >
@@ -37,7 +37,7 @@
             alt="loog_web_santa_cecilia"
           />
           <a class="a_styles" href="#">Home</a>
-          <a class="a_styles" href="#">Nosotros</a>
+          <a class="a_styles" href="nosotros.php">Nosotros</a>
           <a class="a_styles" href="#">Catálogo</a>
           <a class="a_styles" href="#">Proyectos</a>
           <a class="a_styles" href="#">Clientes</a>
@@ -46,8 +46,6 @@
         </div>
         <div class="nav_redes_container">
           <p class=" nav_redes_text">REDES SOCIALES/</p>
-        
-        
           <div class="nav_redes-sociales">
             <div class="nav_redes_icon">
                 <a class="nav_redes_style" href="#"><img src="./assets/img/facebook.png" alt="Facebook" /></a>
@@ -63,5 +61,5 @@
       </nav>
       <!---->
 
-<body>
+    </body>
     </main>
