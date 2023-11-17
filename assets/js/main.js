@@ -2,13 +2,12 @@
 //*-----slider-productos-----**/
 const swiper = new Swiper('.swiper-custom', {
     // Optional parameters
-    slidesPerView: 3,
     spaceBetween: 15,
     direction: 'horizontal',
     loop: true,
-    autopla: {
-        delay: 100000,
-    },
+    //autoplay: {
+     //   delay: 100000,
+   // },
 
 
     // If we need pagination
@@ -17,6 +16,17 @@ const swiper = new Swiper('.swiper-custom', {
         clickable: true,
         dynamicBullets: true,
     },
+    breakpoints: {
+        0: {
+        slidesPerView: 1,
+        },
+        500: {
+        slidesPerView: 2,
+        },
+        768: {
+        slidesPerView: 3,
+        }
+    }
 
     // Navigation arrows
     /* navigation: {
@@ -36,13 +46,13 @@ const swiper = new Swiper('.swiper-custom', {
  //*-----slider-logos-----**/
 const swiper2 = new Swiper('.swiper_logos', {
     // Optional parameters
-    slidesPerView: 10,
+   
     spaceBetween: 1,
     direction: 'horizontal',
     loop: true,
-    autopla: {
-        delay: 100000,
-    },
+   // autopla: {
+       // delay: 100000,
+   // },
 
 
     // If we need pagination
@@ -51,6 +61,17 @@ const swiper2 = new Swiper('.swiper_logos', {
         clickable: true,
         dynamicBullets: true,
     },
+    breakpoints: {
+        0: {
+        slidesPerView: 2,
+        },
+        500: {
+        slidesPerView: 4,
+        },
+        768: {
+        slidesPerView: 6,
+        }
+    }
 
     // Navigation arrows
     /* navigation: {

@@ -15,7 +15,6 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
     <link rel="stylesheet" href="./assets/css/layouts.min.css?v=1.0">
     <!-- Home's stylesheet -->
