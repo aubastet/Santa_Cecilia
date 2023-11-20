@@ -194,3 +194,146 @@ span.text_button_home {
     letter-spacing: -2px;
     margin-bottom: 5%;
 }
+
+
+/*---container_blue_team---*/
+
+.container_blue_team {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 4em 0;
+    background-color: #0D65D9;
+}
+
+.container_blue_team_01 {
+    width: 85%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.container_blue_team_02 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.container_blue_col_1 {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.container_blue_col_2 {
+    width: 75%;
+    display: flex;
+    position: relative;
+}
+
+.tittle_white {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.8em;
+    font-weight: 700;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: -2px;
+    margin-bottom: 5%;
+    padding: 0% 10% 0% 0%;
+}
+
+.p_white {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    line-height: normal;
+    color: #fff;
+}
+
+.blue_team_01 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 40%;
+}
+
+.team_blue {
+    display: flex;
+    gap: 5%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*---------slider-----------*/
+
+
+/*---------slider_productos--------*/
+
+
+/*------------swiper-slider-carrusel-------------*/
+
+.team_blue {
+    width: 100%;
+    position: relative;
+    padding: 3em 0;
+    display: block;
+}
+
+.text_person {
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+}
+
+
+/*----*/
+
+.container_blue_slider {
+    width: 100%;
+    position: relative;
+    padding: 3em 0;
+    display: block;
+}
+
+.container_swiper_blue {
+    width: 85%;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.slider_blue {
+    width: 100%!important;
+}
+
+.container_swiper_custom_blue {
+    width: 100%!important;
+    max-width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.swiper_blue {
+    width: 85%;
+}
+
+.swiper_blue .blue_pagination {
+    --swiper-pagination-color: #ffffff;
+    --swiper-pagination-border-color: #e94141;
+    --swiper-pagination-bullet-background-color: #9e2020c4;
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 12px;
+    --swiper-pagination-bullet-height: 12px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 2px;
+    --swiper-pagination-bullet-border-radius: 0px;
+}

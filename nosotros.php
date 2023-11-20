@@ -51,6 +51,7 @@
          </div>
         </div>
     </div>
+    <!---3 col---->
     <div class="container_col_3">
         <div class="container_col__01">
             <div class="container_col__03" >
@@ -60,4 +61,108 @@
             </div>
         </div>
     </div>
+    <div>
+<!---container_blue_team--->
+    <div class="container_blue_team">
+      <div class="container_blue_team_01">
+        <div class="container_blue_team_02">
+          <div class="container_blue_col_1">
+            <div class="blue_team_01">
+            <h3 class="tittle_white">We care passionately about our team</h3>
+          </div>
+            <div class="container_blue_col_2"><p class="p_white">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness. <br> <br>
+
+            These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
+            </div>
+          </div>
+        </div>
+  <!--------------slider------------------> 
+<div class="team_blue">   
+ <div>
+  <div class="container_swiper_custom_blue container_swiper_custom ">
+  <!-- Slider main container -->
+    <div>
+      <div class="slider_blue container_slider swiper swiper-custom">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+      <!--1-->        
+      <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1"> 
+                    </div> 
+                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p>agustin tonnelier</p>
+                  </div>
+                </div>
+              </div>
+      <!--2-->
+              <div class="swiper-slide">
+
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1"> 
+                    </div> 
+                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_2.png" alt="foto">
+                </div>
+              </div>
+      <!--3-->
+      <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1"> 
+                    </div> 
+                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_3.png" alt="foto">
+                </div>
+              </div>
+      <!--4-->
+      <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1"> 
+                    </div> 
+                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                </div>
+              </div>
+      <!--5-->
+      <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1"> 
+                    </div> 
+                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                </div>
+              </div>
+      <!--6-->
+      <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1"> 
+                    </div> 
+                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                </div>
+              </div>
+      <!--fin-->
+                  </div>
+                    <!-- If we need pagination -->
+                    <div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+            
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div>
+      </div>
+  </div>
+</div>
 <?php require '_partials/footer.php' ?>
