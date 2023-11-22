@@ -65,7 +65,7 @@
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
-                    <img src="./assets/img/slider_img.png" alt="imagen de producto">
+                    <img src="./assets/img/slider_img.png" alt="imagen de producto" class="hover_img" id="img1">
                   </div> 
                   <div class="slider_1">
                     <div class="content_slider">
@@ -76,7 +76,7 @@
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
-                    <img src="./assets/img/slider_img.png" alt="">
+                    <img src="./assets/img/slider_img.png" alt="" class="hover_img" id="img2">
                   </div><div class="slider_1">
                     <div class="content_slider">
                       <div class="content_1">
@@ -86,7 +86,7 @@
                           Peso (kg) : 5 Rendimiento 
                           (unidades/m3): 12.5</p>
                       </div>
-                    <img src="./assets/img/slider_img.png" alt="imagen de producto">
+                    <img src="./assets/img/slider_img.png" alt="imagen de producto" class="hover_img" id="img3">
                   </div>
                 </div>
               </div>
