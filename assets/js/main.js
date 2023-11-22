@@ -90,13 +90,20 @@ const swiper2 = new Swiper('.swiper_logos', {
 
 
 /*formulario contenido*/
-const containertForm = document.querySelector(".container_formulario_trabaja");
+const containertForm = document.querySelector("#container_form");
+const innerContainer = document.querySelector("#inner_container");
 const iconoOrange = document.querySelector(".icono_naranja");
 
 //event Listenner
 iconoOrange.addEventListener("click", () => {
-    containertForm.style.transform = "translateY(0)"
-    containertForm.style.opacity = "1";
+    if (innerContainer.classList.contains("container_isopen"))
+    {
+        innerContainer.classList.remove("container_isopen") 
+    } else 
+
+    {
+        innerContainer.classList.add("container_isopen") 
+    }
     
 });
 

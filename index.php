@@ -337,59 +337,15 @@
   </div>
 </div>
 </div>
-<!-----white-container-----> 
-    <!----vamos a trabajar juntos----->
-<div>
-    <div class="container_logos_1">
-      <div class="container_logos_2">
-        <div class="container_logos_3"> 
-        <div class="texto_banner_container">
-             
-             <div>
-             <h2
-                class="texto_banner_h2"
-                data-aos="fade-up"
-                data-aos-duration="3000"
-              >vamos a trabajar juntos
-              </h2>
-             </div>
-             
-             <div class="icono_naranja_1" data-aos="fade-up"
-                data-aos-duration="3000">
-              <img class="icono_naranja" src="../Webcreativa_Santa_Cecilia_v3/assets/img/icon_naranja.png" alt="">
-             </div> 
-            </div>
-            <div class="line_logos">
+<!---fin--white-container-----> 
+<!---vamos a trabajar juntos-----> 
+<?php require '_partials/vamos_a_trabajar.php' ?>
+<div class="line_logos">
             <hr>
             </div>
-            <div class="container_formulario_trabaja" id="containert_form">
-              <div class="formulario_trabaja_content">
-                <form action="" class="formulario">
-                  <div class="inputs_formulario">
-                    <div class="input_container">
-                      <input type="text" placeholder="01. Nombre completo">
-                      <img class="input_pencil_img" src="./assets/img/icon-pencil.png" alt="" width="30">
-                    </div>
-                    <div class="input_container">
-                      <input type="email" placeholder="02. correo electrónico">
-                      <img class="input_pencil_img" src="./assets/img/icon-pencil.png" alt="" width="30">
-                    </div>
-                    <div class="input_container">
-                      <input type="tel" placeholder="03. teléfono / movil">
-                      <img class="input_pencil_img" src="./assets/img/icon-pencil.png" alt="" width="30">
-                    </div>
-                  </div>
-                  <div></div>
-                </form>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    <!----fin-seccion-3-banner-->
+  <!----swiper logos---->
 
-    <div>
+<div>
 <div>
   <div class="container_swiper_logos">
   <!-- Slider main container -->

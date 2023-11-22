@@ -25,14 +25,14 @@
         <div class="banner-container_background_n">
         <div class="banner_2_n"></div>
         </div> 
-<!----container 2 col----->
+<!----container con 2 col----->
 
 <div class="container_2_col">
         <div class="container_col_section">
           <div class="container_col_section_"> 
 
             <div class="container_col_01">
-                <div class="container_col_text"> <h1>IT'S A MORE SUSTAINABLE CHOICE THAT'S BUILT TO LAST.</h1> <br>
+                <div class="container_col_text_1"> <h2 class="h1_col_02">IT'S A MORE SUSTAINABLE CHOICE THAT'S BUILT TO LAST.</h2> <br>
                 <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire. <br><br>
 
                 that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p>
@@ -44,14 +44,14 @@
 
             <div class="container_col_01">
             <div class="container_col_03"> <img class="img_col_02" src="./assets/img/nosotros/maquinaria.png" alt=""> </div>
-                <div class="container_col_text"> <p class="h1_col_02">Founded in colombia, medellin with the ambition</h1> 
+                <div class="container_col_text_2"> <p class="h1_col_02">Founded in colombia, medellin with the ambition</h1> 
                 </div>
                 
             </div>
          </div>
         </div>
     </div>
-    <!---3 col---->
+    <!---3 col text--->
     <div class="container_col_3">
         <div class="container_col__01">
             <div class="container_col__03" >
@@ -95,7 +95,7 @@
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
                   <div class="text_person ">
-                    <p>agustin tonnelier</p>
+                    <p  class="name_person">agustin tonnelier</p>
                   </div>
                 </div>
               </div>
@@ -108,6 +108,9 @@
                     </div> 
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_2.png" alt="foto">
+                  <div class="text_person ">
+                    <p  class="name_person">agustin tonnelier</p>
+                  </div>
                 </div>
               </div>
       <!--3-->
@@ -118,6 +121,9 @@
                     </div> 
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_3.png" alt="foto">
+                  <div class="text_person ">
+                    <p  class="name_person">agustin tonnelier</p>
+                  </div>
                 </div>
               </div>
       <!--4-->
@@ -128,6 +134,9 @@
                     </div> 
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p  class="name_person">agustin tonnelier</p>
+                  </div>
                 </div>
               </div>
       <!--5-->
@@ -138,6 +147,9 @@
                     </div> 
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p  class="name_person">agustin tonnelier</p>
+                  </div>
                 </div>
               </div>
       <!--6-->
@@ -148,6 +160,9 @@
                     </div> 
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p  class="name_person">agustin tonnelier</p>
+                  </div>
                 </div>
               </div>
       <!--fin-->
@@ -165,4 +180,6 @@
       </div>
   </div>
 </div>
+<div style="margin-top: 4%;"> </div>
+<?php require '_partials/vamos_a_trabajar.php' ?>
 <?php require '_partials/footer.php' ?>
