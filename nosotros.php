@@ -109,7 +109,7 @@
                     </div>
                   <img class="none" src="./assets/img/nosotros/foto_2.png" alt="foto">
                   <div class="text_person ">
-                    <p  class="name_person">agustin tonnelier</p>
+                    <p  class="name_person">Víctor Hugo Cabrera</p>
                   </div>
                 </div>
               </div>
