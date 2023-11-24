@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./assets/css/nosotros.min.css?v=1.0">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-    <title> | </title>
+    <title>Santa Cecilia |</title>
 </head>
 <body>
 <header>
@@ -36,13 +36,13 @@
             src="./assets/img/logo_web_santa_cecilia.png"
             alt="loog_web_santa_cecilia"
           />
-          <a class="a_styles" href="#">Home</a>
+          <a class="a_styles" href="index.php">Home</a>
           <a class="a_styles" href="nosotros.php">Nosotros</a>
-          <a class="a_styles" href="#">Catálogo</a>
-          <a class="a_styles" href="#">Proyectos</a>
-          <a class="a_styles" href="#">Clientes</a>
-          <a class="a_styles" href="#">Blog</a>
-          <a class="a_styles" href="#">Contacto</a>
+          <a class="a_styles" href="catalogo.php">Catálogo</a>
+          <a class="a_styles" href="proyectos.php">Proyectos</a>
+          <a class="a_styles" href="clientes.php">Clientes</a>
+          <a class="a_styles" href="blog.php">Blog</a>
+          <a class="a_styles" href="contacto.php">Contacto</a>
         </div>
         <div class="nav_redes_container">
           <p class=" nav_redes_text">REDES SOCIALES/</p>
