@@ -25,19 +25,7 @@
          768: {
              slidesPerView: 3,
          }
-     }
-
-     // Navigation arrows
-     /* navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      } */
-
-     // And if we need scrollbar
-     /*scrollbar: {
-       el: '.swiper-scrollbar',
-     }, */
-
+     } 
 
  });
 
@@ -72,20 +60,8 @@
          }
      }
 
-     // Navigation arrows
-     /* navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      } */
-
-     // And if we need scrollbar
-     /*scrollbar: {
-       el: '.swiper-scrollbar',
-     }, */
-
-
  });
-
+ 
 
 
  /*formulario contenido*/
@@ -130,3 +106,4 @@
  $('#img3').mouseout(() => {
      $("#img3").attr("src", "assets/img/slider_img.png");
  });
+ 

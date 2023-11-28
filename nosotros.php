@@ -50,32 +50,36 @@
             </div>
          </div>
         </div>
-    </div>
-    <!---3 col text--->
-    <div class="container_col_3">
-        <div class="container_col__01">
-            <div class="container_col__03" >
-                <div><h3 class="tittle_col_3">Our mission</h3><p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p></div>
-                <div><h3 class="tittle_col_3">Our vission</h3> <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p></div>
-                <div><h3 class="tittle_col_3">Our values</h3><p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p></div>
-            </div>
-        </div>
-    </div>
-    <div>
+    </div> 
 <!---container_blue_team--->
     <div class="container_blue_team">
-      <div class="container_blue_team_01">
-        <div class="container_blue_team_02">
-          <div class="container_blue_col_1">
-            <div class="blue_team_01">
-            <h3 class="tittle_white">We care passionately about our team</h3>
-          </div>
-            <div class="container_blue_col_2"><p class="p_white">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness. <br> <br>
+  <div class="container_blue_team_01">
+    <div class="container_blue_team_03">
 
-            These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
+      <div class="section_1">
+      <p class="tittle_style_desktop">Desarrallomos <br> diferentes proyectos <br>para afrontar los retos <br>del sector</p>
+      <p class="tittle_style_mobile">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
+      
+      </div>
+        <div>
+            <div class="section_2">
+            <p class="">DERECHA On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p> <br>
+
+            <p class="">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
             </div>
-          </div>
+            <div class="line_blue">
+            <hr>
+            </div>
+            <div class="section_2">
+              <div>
+              <button class="container_icon_3">
+              <p class="text_style_blue"> AQUÍ PUEDES ENCONTRAR INFORMACIÓN <br>SOBRE TODOS NUESTROS PROYECTOS</p>
+              <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
+            </button>
+              </div>
+            </div>
         </div>
+    </div>
   <!--------------slider------------------> 
 <div class="team_blue">   
  <div>

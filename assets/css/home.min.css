@@ -220,15 +220,15 @@
      justify-content: center;
  }
  
- .slider_1 {
-     display: flex;
-     width: 25%;
-     flex-direction: column;
-     flex-wrap: wrap;
-     padding: 5px;
-     align-items: center;
-     justify-content: space-between;
- }
+.slider_1 {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0% 1% 0% 1%;
+    align-items: center;
+    justify-content: space-between;
+}
  
  .content_slider {
      width: 100%;
@@ -289,7 +289,7 @@
      display: flex;
      flex-direction: column;
      text-align: left;
-     padding: 6%;
+     padding: 8%;
      background-color: #F2F2F2;
  }
  
@@ -394,7 +394,7 @@
  }
  
  .section_1 {
-     width: 280%;
+     width: 110%;
      position: relative;
      display: flex;
      flex-wrap: nowrap;
@@ -417,9 +417,10 @@
      font-weight: 600;
  }
  
- .line_blue {
-     padding: 2% 0%;
- }
+.line_blue {
+    padding: 2% 0%;
+    margin-left: 5%;
+}
  
  hr {
      border-top: 2px solid #ffffff;
@@ -1083,6 +1084,18 @@
          font-size: 1em;
          letter-spacing: -1px;
      }
+    /*----container-blue----*/
+        .container_blue_3 {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-wrap: nowrap;
+            row-gap: 30px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            color: #fff;
+        }
  }
  
  @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1120,7 +1133,7 @@
          text-transform: uppercase;
          letter-spacing: -3px;
      }
-     /*----esta seccion sera para productos, aun pendiente de revisar----*/
+     /*----esta seccion sera para productos ----*/
      .container_slider {
          width: 100%;
          position: relative;
@@ -1172,6 +1185,10 @@
          height: 350px;
      }
      /*-------content_blue---------*/
+        .line_blue {
+            padding: 2% 0%;
+            margin-left: 0%;
+        }
      .container_blue_3 {
          width: 100%;
          position: relative;
@@ -1183,6 +1200,7 @@
          justify-content: space-between;
          color: #fff;
      }
+
      /*----grid maluc-------*/
      .section_1 {
          width: 100%;
