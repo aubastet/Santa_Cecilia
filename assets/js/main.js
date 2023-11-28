@@ -62,7 +62,39 @@
 
  });
  
+   //*-----slider-catalogo-----**/
+ const swiper3 = new Swiper('.swiper_catalogo', {
+     // Optional parameters
 
+     spaceBetween: 1,
+     direction: 'horizontal',
+     loop: true,
+     // autopla: {
+     // delay: 100000,
+     // },
+
+
+     // If we need pagination
+     pagination: {
+         el: '.logos_pagination',
+         clickable: true,
+         dynamicBullets: true,
+     },
+     breakpoints: {
+         0: {
+             slidesPerView: 2,
+         },
+         500: {
+             slidesPerView: 4,
+         },
+         768: {
+             slidesPerView: 6,
+         }
+     }
+
+ });
+ 
+    
 
  /*formulario contenido*/
  const containertForm = document.querySelector("#container_form");
