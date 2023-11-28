@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./assets/css/catalogo_ampliacion.css?v=1.0">
     <link rel="stylesheet" href="./assets/css/proyectos_1.css?v=1.0">
     <link rel="stylesheet" href="./assets/css/proyectos_2.css?v=1.0">
+    <link rel="stylesheet" href="./assets/css/clientes.css?v=1.0">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
     <title>Santa Cecilia |</title>
