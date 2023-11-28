@@ -33,7 +33,9 @@
         <div class="container_proyectos_3">
             <div class="container_text_3">
                 <div class="section_1">
-                    <p class="tittle_style_desktop_text">Desarrallomos <br> diferentes proyectos <br>para afrontar los retos <br>del sector</p>
+                    <p class="tittle_style_desktop_text">PROYECTO<br>
+                        WHAKAKAINGA<br>
+                        AURECON</p>
                     <p class="tittle_style_mobile">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
                 </div>
                     <div class="text_blue_col_2">
@@ -41,8 +43,20 @@
                             <p class="">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p> <br>
 
                             <p class="">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
-                        </div> 
-                    </div>
+                        </div>  
+                    <div class="line_black">
+                        <hr>
+                        </div>
+                            <div class="section_2">
+                                <div>
+                                    <button class="container_icon_3">
+                                    <p class="text_style_black">descubre más 
+                                    <br>proyectos aquí</p>
+                                    <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </div>
     </div>
@@ -94,54 +108,7 @@
     </div>
 </div>
 <!----blue-container----->
-<!-----white-content-----> 
-<div class="container_white_1_proyectos">
-    <div class="container_blue_2_proyectos">
-        <div>
-             <h2 class="tittle_white">TRANSFORMAMOS IDEAS EN proyectos</h2> 
-        </div>
-        <div class="container_grid_blue">
-                <div>
-                    <div class="content_row_1">
-                    <img class="img_whaka_1" src="./assets/img/proyecto_1.png" alt="">
-                    <div class="content_row_1_info">
-                        <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
-                        <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
-                    </div>
-                    </div>
-                    <div class="content_row_2">
-                    <img src="./assets/img/proyecto_2.png" alt="">
-                    <div class="content_row_2_info">
-                        <p class="text_blue_2" >ORMISTON RETAIL<br> CENTRE</p>
-                    </div>
-                    </div>
-                </div>
-            
-                <div>
-                    <div class="content_row_3">
-                    <img src="./assets/img/proyecto_3.png" alt="">
-                    <div class="content_row_3_info">
-                        <p class="text_blue_3" >futurium <br> NORTH SHORE</p>
-                    </div>
-                    </div>
-                    <div class="content_row_4">
-                    <img class="img_whaka_2" src="./assets/img/proyecto_4.png" alt="">
-                    <div class="content_row_4_info">
-                        <p class="text_blue_4_small">WHAKAKAINGA <br> AURECON</p>
-                        <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="content_row_5">
-                    <img  class="img_futurium" src="./assets/img/proyecto_5.png" alt="">
-                        <div class="content_row_5_info">
-                            <p class="text_blue_5">KLAND COUNCIL<br>HENDERSON HUB</p>
-                        </div>
-                </div> 
-            </div>
-        </div>
-    </div>
-</div> 
+  
 <!---fin-white-content-------->
 
 <?php require '_partials/vamos_a_trabajar.php' ?>

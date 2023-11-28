@@ -418,8 +418,7 @@
  }
  
 .line_blue {
-    padding: 2% 0%;
-    margin-left: 5%;
+    padding: 2% 0%; 
 }
  
  hr {
@@ -862,10 +861,6 @@
      position: absolute;
  }
  
- .line_blue {
-     padding: 2% 0%;
- }
- 
  hr {
      border-top: 2px solid #ffffff;
  }
@@ -1096,6 +1091,11 @@
             justify-content: space-between;
             color: #fff;
         }
+
+        .text_blue_col_2 {
+            width: 100%;
+        }
+
  }
  
  @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1185,8 +1185,7 @@
          height: 350px;
      }
      /*-------content_blue---------*/
-        .line_blue {
-            padding: 2% 0%;
+        .line_blue { 
             margin-left: 0%;
         }
      .container_blue_3 {

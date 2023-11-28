@@ -526,7 +526,6 @@ span.text_button_home {
     }
     .line_blue {
         padding: 2% 0%;
-        margin-left: 0%;
     }
     .container_col_text_1 {
         width: 100%;
@@ -698,9 +697,9 @@ span.text_button_home {
         padding: 0% 0% 0% 0%;
         text-align: center;
     }
-    .section_2 {
-        margin-left: 0%;
-    }
+.text_blue_col_2 {
+    width: 100%;
+}
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -804,8 +803,8 @@ span.text_button_home {
         align-items: center;
         text-align: left;
     }
-    .section_2 {
-        margin-left: 0%;
+    .text_blue_col_2 {
+        width: 100%;
     }
 }
 
@@ -891,7 +890,5 @@ span.text_button_home {
         align-items: center; 
         text-align: left;
     }
-    .section_2 {
-        margin-left: 0%;
-    }
+    
 }
