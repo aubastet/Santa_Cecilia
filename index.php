@@ -198,8 +198,8 @@
             <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
           </div> 
         </div>
- <!--fin-->
-            </div>
+     </div>
+            <!--fin-->
               <!-- If we need pagination -->
               <div>
                 <div class="swiper-pagination"></div>
@@ -439,9 +439,9 @@
       </div> 
       </div> 
     </div>
-    
+  </div>
 <!--fin-->
-             </div>
+             
               <!-- If we need pagination -->
               <div><div class="swiper-pagination logos_pagination productos"></div></div>
             
