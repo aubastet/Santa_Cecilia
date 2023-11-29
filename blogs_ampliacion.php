@@ -32,16 +32,50 @@
     <div class="slider_gray_03">
       <div class="content_01">
           <div class="content_gray_small">
-            <div> nuestros blogs</div>
-            <div> nuestros blogs</div>
-            <div> nuestros blogs</div>
+          <div class="white_contetn_flex_col_1">
+                <p class="p_white_" >nuestros / blogs</p> 
+                <img class="icon_blogs" src="./assets/img/icon_blogs.png" alt="">
+                <p class="p_white_" >share</p> 
+                <img class="icon_share" src="./assets/img/icon_share.png" alt="">
+              </div> 
           </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quam nobis ea magni modi alias praesentium ducimus, officia aspernatur voluptates placeat? Dolores quas similique voluptatum fugiat possimus, incidunt quam iusto.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quam nobis ea magni modi alias praesentium ducimus, officia aspernatur voluptates placeat? Dolores quas similique voluptatum fugiat possimus, incidunt quam iusto.</p>
+          <div class="text_gray_01" >
+            <p class="h2_01">El consorcio CyS logró <br>el visto bueno de EPM<br>para Hidroituango.</p><br>
+            <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p><br><br>
+            <p>las ofertas que le llegaron a la organización energética, hubo opciones de las firmas Todini Costruzioni Generali S.P.A, la china Gezhouba Group Company Limited sucursal Colombia, y el ganador que fue el Consorcio CyS.
+            Según el informe de análisis de las ofertas presentadas, la opción de la firma China Gezhouba Group Company Limited fue rechazada, con un valor de $932.269 millones, no pasó “dado que no cumple con el requisito de participación garantía de seriedad de la oferta y no cumple con la puntuación mínima exigida en el requisito financiero”. <br><br>
+
+            Igualmente, la oferta de mejor precio de $917.224 millones fue la presentada por la firma Todini Costruzioni Generali S.P.A., EPM señaló que “si bien presentó garantía bancaria emitida por un banco extranjero, esta no cumple con lo establecido en las garantías contractuales y seguros, y es eliminada dado que se evidenció coincidencia del tercero reportado en las listas del Banco Mundial; listas consideradas como causal de eliminación de la propuesta.<br><br></p>
+          </div>
+        <!----inicio--slider-imagenes---->
+        
+        <!----fin--slider-imagenes---->
+          <div class="text_gray_02" >
+          <p>Según el informe de análisis y conclusiones, la oferta presentada por el Consorcio CyS, conformado por Yellow River CO., LTD sucursal Colombia, y Schrader Camargo S.A.S. es la única, entre las tres que fueron presentadas, para construir la segunda fase del proyecto, que cumple con todos los requisitos de participación establecidos. En el documento se describen los aspectos que fueron objeto de revisión entre los que se encuentran la evaluación contractual, técnica y financiera, los cuales fueron requeridos por EPM.</p><br><br>
+          <p>EPM recibió observaciones de los dos oferentes descartados en el proceso de contratación de las obras civiles para la entrada en operación comercial de las unidades cinco a ocho de Hidroituango.</p>
           </div>
         </div>
-      <div class="content_02"></div>
+
+    <!-----gray-2------>
+    
+    <!---aside-right--->
+      <div class="content_02">
+      <div class="aside_card">
+        <img src="./assets/img/aside_01.png" alt="">
+        <div class="content_text_aside">
+          <p class="text_card">Camacol buscará compradores en EE.UU. para  proyectos en Colombia<br></p>
+          <p class="text_card_small">El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco...</p>
+        </div>
+    </div>
+
+      <div class="aside_card">
+            <img src="./assets/img/aside_02.png" alt="">
+              <div class="content_text_aside">
+                  <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br></p>
+                  <p class="text_card_small">Simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
+              </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
