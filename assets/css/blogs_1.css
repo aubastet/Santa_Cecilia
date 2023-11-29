@@ -1,0 +1,44 @@
+/*---container cards----*/
+.container_cards_01 {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 6em 0;
+}
+.container_cards_02 {
+    width: 85%;
+    max-width: 1366px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.container_cards_03 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+}
+.cards_content_1 {
+    width: 100%;
+    display: flex;
+    position: relative;
+    gap: 5%;
+}
+.cards_content_2 {
+    width: 100%;
+    display: flex;
+    position: relative;
+    gap: 5%;
+}
+.cards_2 {
+    width: 100%;
+    display: flex;
+    position: relative;
+    gap: 5%;
+}
+.card_01 {
+    width: 100%; 
+    background-color: black;
+    padding: 1% 1%;
+}
