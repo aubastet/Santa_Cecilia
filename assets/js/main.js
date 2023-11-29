@@ -25,7 +25,7 @@
          768: {
              slidesPerView: 3,
          }
-     } 
+     }
 
  });
 
@@ -61,8 +61,8 @@
      }
 
  });
- 
-   //*-----slider-catalogo-----**/
+
+ //*-----slider-catalogo-----**/
  const swiper3 = new Swiper('.swiper_catalogo', {
      // Optional parameters
 
@@ -93,8 +93,38 @@
      }
 
  });
- 
-    
+
+ //*-----slider-catalogo-----**/
+ const swiper4 = new Swiper('.swiper-imagenes', {
+     // Optional parameters
+
+     spaceBetween: 1,
+     direction: 'horizontal',
+     loop: true,
+     // autopla: {
+     // delay: 100000,
+     // },
+
+
+     // If we need pagination
+     pagination: {
+         el: '.imagenes-pagination',
+         clickable: true,
+         dynamicBullets: true,
+     },
+     breakpoints: {
+         0: {
+             slidesPerView: 1,
+         },
+         500: {
+             slidesPerView: 1,
+         },
+         768: {
+             slidesPerView: 1,
+         }
+     }
+
+ });
 
  /*formulario contenido*/
  const containertForm = document.querySelector("#container_form");
@@ -138,4 +168,3 @@
  $('#img3').mouseout(() => {
      $("#img3").attr("src", "assets/img/slider_img.png");
  });
- 

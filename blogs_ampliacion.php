@@ -72,7 +72,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/slider_imagenes_01.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -80,7 +80,7 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <img class="none" src="./assets/img/slider_imagenes_01.png" alt="icono negro">
           </div>
         </div>
  <!--3-->
@@ -88,7 +88,7 @@
           <div class="swiper_slider_1">
             <div class="swiper_content_slider">
               <div class="content_1">
-                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
+                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/slider_imagenes_01.png" alt="icono negro">
               </div>
                 <div class="font_style">
                   <p>Medida nominal (cm): 10x20x40</p>
@@ -96,60 +96,15 @@
                   <p>(unidades/m3): 12.5</p>
                 </div>
               </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+            <img class="none" src="./assets/img/slider_imagenes_01.png" alt="icono negro">
           </div> 
         </div>
- <!--4-->
-        <div class="swiper-slide ">
-          <div class="swiper_slider_1">
-            <div class="swiper_content_slider">
-              <div class="content_1">
-                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
-              </div>
-                <div class="font_style">
-                  <p>Medida nominal (cm): 10x20x40</p>
-                  <p>Peso (kg) : 5 Rendimiento </p>
-                  <p>(unidades/m3): 12.5</p>
-                </div>
-              </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-          </div> 
-        </div>
- <!--5-->
-        <div class="swiper-slide ">
-          <div class="swiper_slider_1">
-            <div class="swiper_content_slider">
-              <div class="content_1">
-                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-              </div>
-                <div class="font_style">
-                  <p>Medida nominal (cm): 10x20x40</p>
-                  <p>Peso (kg) : 5 Rendimiento </p>
-                  <p>(unidades/m3): 12.5</p>
-                </div>
-              </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-          </div> 
-        </div>
- <!--6-->
-        <div class="swiper-slide ">
-          <div class="swiper_slider_1">
-            <div class="swiper_content_slider">
-              <div class="content_1">
-                <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-              </div>
-                <div class="font_style">
-                  <p>Medida nominal (cm): 10x20x40</p>
-                  <p>Peso (kg) : 5 Rendimiento </p>
-                  <p>(unidades/m3): 12.5</p>
-                </div>
-              </div>
-            <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-          </div> 
-        </div>
+ <!--4--> 
      </div>
   </div>
-
+  <div>
+                <div class="swiper-pagination imagenes-pagination"></div>
+              </div>
         
         <!----fin--slider-imagenes---->
           <div class="text_gray_02" >
