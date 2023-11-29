@@ -303,12 +303,10 @@
                 <img class="icon_more" src="./assets/img/icon_more.png" alt="">
               </div>
             </div>
-
-
-            <div class="style_text_1 ">
-            <p class="tittle_p">El consorcio CyS logró<br> el visto bueno de EPM<br>para Hidroituango.</p>
-            <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p>
-            </div>
+              <div class="style_text_1 ">
+              <p class="tittle_p">El consorcio CyS logró<br> el visto bueno de EPM<br>para Hidroituango.</p>
+              <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p>
+              </div>
           </div>
         </div>
         <div class="white_grid_col_2">

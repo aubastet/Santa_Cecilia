@@ -31,7 +31,7 @@
         
         <div class="container_clientes_01"> 
             <div>
-                <h2 class="tittle_clientes">TRANSFORMAMOS IDEAS EN proyectos</h2> 
+                <h2 class="tittle_clientes">clientes con los que hemos trabajado</h2> 
             </div> 
         <div class="container_clientes_02">
             <div class="container_clientes_03">
