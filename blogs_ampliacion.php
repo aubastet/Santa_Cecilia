@@ -31,6 +31,9 @@
   <div class="slider_gray_02">
     <div class="slider_gray_03">
       <div class="content_01">
+        <div class="container_text_style">
+
+        
           <div class="content_gray_small">
           <div class="white_contetn_flex_col_1">
                 <p class="p_white_" >nuestros / blogs</p> 
@@ -47,6 +50,7 @@
 
             Igualmente, la oferta de mejor precio de $917.224 millones fue la presentada por la firma Todini Costruzioni Generali S.P.A., EPM señaló que “si bien presentó garantía bancaria emitida por un banco extranjero, esta no cumple con lo establecido en las garantías contractuales y seguros, y es eliminada dado que se evidenció coincidencia del tercero reportado en las listas del Banco Mundial; listas consideradas como causal de eliminación de la propuesta.<br><br></p>
           </div>
+        </div>
         <!----inicio--slider-imagenes---->
 
 <div class="container_slider swiper swiper-custom swiper-imagenes">
@@ -86,7 +90,7 @@
     <!-----gray-2------>
     
     <!---aside-right--->
-      <div class="content_02">
+      <div class="background_0 content_02">
       <div class="aside_card">
         <img src="./assets/img/aside_01.png" alt="">
         <div class="content_text_aside">
@@ -95,7 +99,7 @@
         </div>
     </div>
 
-      <div class="aside_card">
+      <div class="aside_card margin_card">
             <img src="./assets/img/aside_02.png" alt="">
               <div class="content_text_aside">
                   <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br></p>
@@ -106,6 +110,14 @@
     </div>
   </div>
 </div>
+<!----content-gray-02----->
+<div class="slider_gray_01">
+  <div class="slider_gray_02">
+    <div class="slider_gray_03">
+    </div>
+  </div>
+</div>
+<!----slider-imagenes----->
 <!---fin--2-columnas----->
 <?php require '_partials/vamos_a_trabajar.php' ?>
 <?php require '_partials/footer.php' ?>

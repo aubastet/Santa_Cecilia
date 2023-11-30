@@ -3,7 +3,7 @@
 .slider_gray_01 {
     width: 100%;
     position: relative;
-    padding: 6em 0;
+    padding: 5% 0% 0% 0%;
     display: block;
     background-color: #ffffff;
 }
@@ -22,7 +22,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: unset;
     color: #000000;
     gap: 5%;
     align-items: flex-start;
@@ -37,25 +37,22 @@
     letter-spacing: -3px;
     font-family: 'Frank Ruhl Libre', serif;
     padding: 5% 0%;
-}
-/*
+} 
 .content_01 {
-    width: 90%;
-    background-color: #ebebeb;
-    padding: 6% 8%;
-}*/
-.content_01 {
-    width: 70%;
-    background-color: #ebebeb;
-    padding: 6% 8%;
+    width: 65%;
+    background-color: #F2F2F2;
+    padding: 0%;
 }
-
+.container_text_style {
+    width: 100%;
+    padding: 8% 8% 0% 8%;
+}
 .content_02 {
     width: 40%;
     display: flex;
     position: relative;
     flex-direction: column;
-    gap: 35px;
+    gap: 0px;
 }
 
 .content_gray_small {
@@ -64,21 +61,26 @@
     justify-content: space-between;
     padding: 1% 0%;
 }
+ 
 
-.text_gray_02 {
-     
+/*----content-gray-02----*/
+.content_02 {
+    width: 70%;
+    background-color: #ebebeb;
+    padding: 0% 0%;
 }
-
-
-/*--------*/
-
+.text_gray_02 {
+    padding: 1% 8% 10% 8%;
+}
 .swiper-imagenes {
     width: 100%;
 }
 
 
 /*------card-aside-------*/
-
+.background_0.content_02 {
+    background: transparent;
+}
 .aside_card {
     width: 100%;
     position: relative;
@@ -86,7 +88,9 @@
     justify-content: center;
     margin: 0% 0%;
 }
-
+.margin_card {
+    margin-top: 13%;
+}
 .content_text_aside {
     width: 90%;
     position: absolute;
@@ -94,7 +98,9 @@
     color: #fff;
     padding: 2rem;
 }
-
+.background_0.content_02 {
+    background: transparent;
+}
 
 /*--------blue container-------*/
 
