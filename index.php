@@ -7,7 +7,6 @@
           Encuentra los productos <br />
           para cada uno de tus proyectos
         </h1>
-
         <div class="container_small_0">
           <div class="container_small_1">
             <p class="text_home">
@@ -28,9 +27,9 @@
       </div>
       </div>
     </div>
-    </div>
-   </div> 
-    <!---section-2-img---> 
+  </div>
+</div> 
+<!---section-2-img---> 
     <div class="banner-container_background">
       <div class="banner_2"></div>
     </div> 
