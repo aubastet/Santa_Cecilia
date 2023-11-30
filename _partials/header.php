@@ -45,9 +45,9 @@
           <a class="a_styles" href="index.php">Home</a>
           <a class="a_styles" href="nosotros.php">Nosotros</a>
           <a class="a_styles" href="catalogo.php">Catálogo</a>
-          <a class="a_styles" href="proyectos.php">Proyectos</a>
+          <a class="a_styles" href="proyectos_1.php">Proyectos</a>
           <a class="a_styles" href="clientes.php">Clientes</a>
-          <a class="a_styles" href="blog.php">Blog</a>
+          <a class="a_styles" href="blogs_1.php">Blog</a>
           <a class="a_styles" href="contacto.php">Contacto</a>
         </div>
         <div class="nav_redes_container">
