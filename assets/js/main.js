@@ -63,7 +63,7 @@
  });
 
  //*-----slider-catalogo-----**/
- const swiper3 = new Swiper('.swiper_catalogo', {
+ const swiper3 = new Swiper('.swiper-catalogo', {
      // Optional parameters
 
      spaceBetween: 1,
@@ -76,19 +76,19 @@
 
      // If we need pagination
      pagination: {
-         el: '.logos_pagination',
+         el: '.catalogo-pagination',
          clickable: true,
          dynamicBullets: true,
      },
      breakpoints: {
          0: {
-             slidesPerView: 2,
+             slidesPerView: 1,
          },
          500: {
-             slidesPerView: 4,
+             slidesPerView: 1,
          },
          768: {
-             slidesPerView: 6,
+             slidesPerView: 1,
          }
      }
 

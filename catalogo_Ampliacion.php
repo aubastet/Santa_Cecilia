@@ -26,130 +26,334 @@
 <div class="banner-container_background_n">
   <div class="banner_2_n"></div>
 </div> 
-   <!-----slider-catalogo-ampliacion------>
-<div class="section_container">
-  <div class="section_container_2">
-    <div class="section_container_3">  
-      <div>
-        <h2>Nuestros Productos</h2>
-      </div>
-      <div class="container_text_products">
-        <p>• Todos / productos</p>
-        <p>Adobe Horizontal</p>
-        <p>Adobe Vertical</p>
-      </div>
-  </div>
-</div>
+<!-----slider-catalogo-ampliacion------>
 <!--------------slider------------------>
 <div class="container_catalogo_ampliacion">
   <div class="container_swiper_catalogo">
     <!-- Slider main container -->
     <div class="container_catalogo_3">
-      <div class="container_slider swiper-catalogo swiper swiper-custom">
+      <div class="container_slider swiper-catalogo swiper swiper-custom ">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <!--1-->        
-          <div class="swiper-slide">
-            <div class="swiper_slider_1">
-              <div class="swiper_content_slider">
-                <div class="content_1">
-                  <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-                </div>
-                  <div class="font_style">
-                    <p>Medida nominal (cm): 10x20x40</p>
-                    <p>Peso (kg) : 5 Rendimiento </p>
-                    <p>(unidades/m3): 12.5</p>
-                  </div>
-                </div>
-              <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
+<!--1-->
+<div class="swiper-slide">
+  <div class="swiper_slider_1">
+    <div class="swiper_content_slider_catalogo">
+      <!---->
+      <div class="content_catalogo_01">
+        <img
+          class="img_col_1_catalogo"
+          src="./assets/img/slider_img.png"
+          alt="adobe-vista-previa"
+        />
+        <div class="content_catalogo_col_1">
+          <h3 class="catalogo_tittle">Adobe 10 Liviano</h3>
+          <div class="ref_share_catalogo">
+            <p>referencia: JG111155 |</p>
+            <p>SHARE</p>
+            <img
+              class="share_icon_catalogo"
+              src="./assets/img/icon_share.png"
+              alt=""
+            />
+          </div>
+          <p>
+            The Hepworth Terracotta is manufactured from clay, a finely grained
+            natural rock or soil material that combines one or more clay
+            material with possible traces of quarts and organic material. The
+            firebrick is baked and are treated to withstand heat. Refractory
+            operation such as furnace lining and constructing fireplaces. These
+            firebrick are resistant to fading.
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <p>
+            Medida nominal (cm): 10x20x40 Peso (kg) : 5 Rendimiento
+            (unidades/m3): 12.5
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <div class="section_2">
+            <div>
+              <button class="container_icon_3">
+                <p class="text_style_black">
+                  descubre más <br />proyectos aquí
+                </p>
+                <img
+                  class="icon_mas"
+                  src="./assets/img/icon_.png"
+                  alt="telefono icono verde"
+                />
+              </button>
             </div>
-          </div>
-          <!--2-->
-          <div class="swiper-slide">
-            <div class="swiper_slider_1">
-              <div class="swiper_content_slider">
-                <div class="content_1">
-                  <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-                </div>
-                  <div class="font_style">
-                    <p>Medida nominal (cm): 10x20x40</p>
-                    <p>Peso (kg) : 5 Rendimiento </p>
-                    <p>(unidades/m3): 12.5</p>
-                  </div>
-                </div>
-              <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-            </div>
-          </div>
-          <!--3-->
-          <div class="swiper-slide ">
-            <div class="swiper_slider_1">
-              <div class="swiper_content_slider">
-                <div class="content_1">
-                  <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-                </div>
-                  <div class="font_style">
-                    <p>Medida nominal (cm): 10x20x40</p>
-                    <p>Peso (kg) : 5 Rendimiento </p>
-                    <p>(unidades/m3): 12.5</p>
-                  </div>
-                </div>
-              <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-            </div> 
-          </div>
-          <!--4-->
-          <div class="swiper-slide ">
-            <div class="swiper_slider_1">
-              <div class="swiper_content_slider">
-                <div class="content_1">
-                  <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="">
-                </div>
-                  <div class="font_style">
-                    <p>Medida nominal (cm): 10x20x40</p>
-                    <p>Peso (kg) : 5 Rendimiento </p>
-                    <p>(unidades/m3): 12.5</p>
-                  </div>
-                </div>
-              <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-            </div> 
-          </div>
-          <!--5-->
-          <div class="swiper-slide ">
-            <div class="swiper_slider_1">
-              <div class="swiper_content_slider">
-                <div class="content_1">
-                  <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-                </div>
-                  <div class="font_style">
-                    <p>Medida nominal (cm): 10x20x40</p>
-                    <p>Peso (kg) : 5 Rendimiento </p>
-                    <p>(unidades/m3): 12.5</p>
-                  </div>
-                </div>
-              <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-            </div> 
-          </div>
-          <!--6-->
-          <div class="swiper-slide ">
-            <div class="swiper_slider_1">
-              <div class="swiper_content_slider">
-                <div class="content_1">
-                  <h3 class="h3_style_swiper">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="icono negro">
-                </div>
-                  <div class="font_style">
-                    <p>Medida nominal (cm): 10x20x40</p>
-                    <p>Peso (kg) : 5 Rendimiento </p>
-                    <p>(unidades/m3): 12.5</p>
-                  </div>
-                </div>
-              <img class="none" src="./assets/img/slider_img.png" alt="icono negro">
-            </div> 
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+          <!--2-->
+<div class="swiper-slide">
+  <div class="swiper_slider_1">
+    <div class="swiper_content_slider_catalogo">
+      <!---->
+      <div class="content_catalogo_01">
+        <img
+          class="img_col_1_catalogo"
+          src="./assets/img/slider_img.png"
+          alt="adobe-vista-previa"
+        />
+        <div class="content_catalogo_col_1">
+          <h3 class="catalogo_tittle">Adobe 10 Liviano</h3>
+          <div class="ref_share_catalogo">
+            <p>referencia: JG111155 |</p>
+            <p>SHARE</p>
+            <img
+              class="share_icon_catalogo"
+              src="./assets/img/icon_share.png"
+              alt=""
+            />
+          </div>
+          <p>
+            The Hepworth Terracotta is manufactured from clay, a finely grained
+            natural rock or soil material that combines one or more clay
+            material with possible traces of quarts and organic material. The
+            firebrick is baked and are treated to withstand heat. Refractory
+            operation such as furnace lining and constructing fireplaces. These
+            firebrick are resistant to fading.
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <p>
+            Medida nominal (cm): 10x20x40 Peso (kg) : 5 Rendimiento
+            (unidades/m3): 12.5
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <div class="section_2">
+            <div>
+              <button class="container_icon_3">
+                <p class="text_style_black">
+                  descubre más <br />proyectos aquí
+                </p>
+                <img
+                  class="icon_mas"
+                  src="./assets/img/icon_.png"
+                  alt="telefono icono verde"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          <!--3-->
+<div class="swiper-slide">
+  <div class="swiper_slider_1">
+    <div class="swiper_content_slider_catalogo">
+      <div class="content_catalogo_01">
+        <img
+          class="img_col_1_catalogo"
+          src="./assets/img/slider_img.png"
+          alt="adobe-vista-previa"
+        />
+        <div class="content_catalogo_col_1">
+          <h3 class="catalogo_tittle">Adobe 10 Liviano</h3>
+          <div class="ref_share_catalogo">
+            <p>referencia: JG111155 |</p>
+            <p>SHARE</p>
+            <img
+              class="share_icon_catalogo"
+              src="./assets/img/icon_share.png"
+              alt=""
+            />
+          </div>
+          <p>
+            The Hepworth Terracotta is manufactured from clay, a finely grained
+            natural rock or soil material that combines one or more clay
+            material with possible traces of quarts and organic material. The
+            firebrick is baked and are treated to withstand heat. Refractory
+            operation such as furnace lining and constructing fireplaces. These
+            firebrick are resistant to fading.
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <p>
+            Medida nominal (cm): 10x20x40 Peso (kg) : 5 Rendimiento
+            (unidades/m3): 12.5
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <div class="section_2">
+            <div>
+              <button class="container_icon_3">
+                <p class="text_style_black">
+                  descubre más <br />proyectos aquí
+                </p>
+                <img
+                  class="icon_mas"
+                  src="./assets/img/icon_.png"
+                  alt="telefono icono verde"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---4--->
+<div class="swiper-slide">
+  <div class="swiper_slider_1">
+    <div class="swiper_content_slider_catalogo">
+      
+      <div class="content_catalogo_01">
+        <img
+          class="img_col_1_catalogo"
+          src="./assets/img/slider_img.png"
+          alt="adobe-vista-previa"
+        />
+        <div class="content_catalogo_col_1">
+          <h3 class="catalogo_tittle">Adobe 10 Liviano</h3>
+          <div class="ref_share_catalogo">
+            <p>referencia: JG111155 |</p>
+            <p>SHARE</p>
+            <img
+              class="share_icon_catalogo"
+              src="./assets/img/icon_share.png"
+              alt=""
+            />
+          </div>
+          <p>
+            The Hepworth Terracotta is manufactured from clay, a finely grained
+            natural rock or soil material that combines one or more clay
+            material with possible traces of quarts and organic material. The
+            firebrick is baked and are treated to withstand heat. Refractory
+            operation such as furnace lining and constructing fireplaces. These
+            firebrick are resistant to fading.
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <p>
+            Medida nominal (cm): 10x20x40 Peso (kg) : 5 Rendimiento
+            (unidades/m3): 12.5
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <div class="section_2">
+            <div>
+              <button class="container_icon_3">
+                <p class="text_style_black">
+                  descubre más <br />proyectos aquí
+                </p>
+                <img
+                  class="icon_mas"
+                  src="./assets/img/icon_.png"
+                  alt="telefono icono verde"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--5--->
+<div class="swiper-slide">
+  <div class="swiper_slider_1">
+    <div class="swiper_content_slider_catalogo">
+      <div class="content_catalogo_01">
+        <img
+          class="img_col_1_catalogo"
+          src="./assets/img/slider_img.png"
+          alt="adobe-vista-previa"
+        />
+        <div class="content_catalogo_col_1">
+          <h3 class="catalogo_tittle">Adobe 10 Liviano</h3>
+          <div class="ref_share_catalogo">
+            <p>referencia: JG111155 |</p>
+            <p>SHARE</p>
+            <img
+              class="share_icon_catalogo"
+              src="./assets/img/icon_share.png"
+              alt=""
+            />
+          </div>
+          <p>
+            The Hepworth Terracotta is manufactured from clay, a finely grained
+            natural rock or soil material that combines one or more clay
+            material with possible traces of quarts and organic material. The
+            firebrick is baked and are treated to withstand heat. Refractory
+            operation such as furnace lining and constructing fireplaces. These
+            firebrick are resistant to fading.
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <p>
+            Medida nominal (cm): 10x20x40 Peso (kg) : 5 Rendimiento
+            (unidades/m3): 12.5
+          </p>
+          <br />
+          <div class="line_black">
+            <hr />
+          </div>
+          <br /><br />
+          <div class="section_2">
+            <div>
+              <button class="container_icon_3">
+                <p class="text_style_black">
+                  descubre más <br />proyectos aquí
+                </p>
+                <img
+                  class="icon_mas"
+                  src="./assets/img/icon_.png"
+                  alt="telefono icono verde"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
       <!-- If we need pagination -->
       <div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination catalogo-pagination"></div>
       </div>     
     </div>
   </div>
@@ -213,3 +417,5 @@
 
 <?php require '_partials/vamos_a_trabajar.php' ?>
 <?php require '_partials/footer.php' ?>
+
+
