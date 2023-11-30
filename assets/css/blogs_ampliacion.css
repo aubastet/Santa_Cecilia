@@ -38,9 +38,14 @@
     font-family: 'Frank Ruhl Libre', serif;
     padding: 5% 0%;
 }
-
+/*
 .content_01 {
     width: 90%;
+    background-color: #ebebeb;
+    padding: 6% 8%;
+}*/
+.content_01 {
+    width: 70%;
     background-color: #ebebeb;
     padding: 6% 8%;
 }
