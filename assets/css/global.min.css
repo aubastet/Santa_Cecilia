@@ -145,12 +145,12 @@ footer {
 .footer_container {
     width: 100%;
     position: relative;
-    padding: 4% 1% 1% 1%;
+    padding: 4% 2% 1% 2%;
     display: block;
 }
 
 .footer_container_1 {
-    width: 85%;
+    width: 80%;
     max-width: 1366px;
     margin: 0 auto;
     display: block;
@@ -192,7 +192,7 @@ footer {
 }
 
 .footer_line {
-    width: 85%;
+    width: 80%;
     display: flex;
     align-items: center;
     position: relative;
@@ -201,7 +201,7 @@ footer {
 }
 
 .footer_icon_content {
-    width: 5%;
+    width: 2%;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -213,7 +213,7 @@ footer {
 .footer_icon {
     width: 59px;
     height: 59px;
-    margin-right: -45px;
+    margin-right: -80px;
 }
 
 .line_footer {
@@ -229,7 +229,7 @@ footer {
 .footer_container__2 {
     width: 100%;
     position: relative;
-    padding: 2% 1% 2% 1%;
+    padding: 4% 4% 1% 4%;
     display: block;
 }
 
@@ -331,7 +331,7 @@ footer {
         text-align: center;
     }
     .footer_line {
-        width: 70%;
+        width: 90%;
         display: flex;
         align-items: center;
         position: relative;
