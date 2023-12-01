@@ -33,10 +33,11 @@
 
             <div class="container_col_01">
                 <div class="container_col_text_1"> <h2 class="h1_col_02">¿Está interesado en<br>comprar, trabajar<br>con nosotros?</h2> <br>
-                <p>calle 18# 94 - 65 belén altvista medellín colombia </p>
+                <p>CALLE 18# 94 - 65 BELÉN ALTVISTA MEDELLÍN COLOMBIA</p>
                 <br><br> <p>(604) 475 7140 
                     <br>(+57) 301 000 00 00</p>
-                <br><br> <p>info@santa-cecilia.com<br>ventas@santa-cecilia.com</p>
+                <br><br> <a href="INFO@SANTA-CECILIA.COM">INFO@SANTA-CECILIA.COM</a>
+                <a href="VENTAS@SANTA-CECILIA.COM">VENTAS@SANTA-CECILIA.COM</a>
                 </div>
                 <div class="container_col_02"> <img class="img_col_02" src="./assets/img/nosotros/bodega.png" alt=""> </div>
             </div>

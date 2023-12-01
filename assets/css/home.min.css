@@ -18,6 +18,9 @@
      text-transform: uppercase;
      letter-spacing: -3px;
  }
+ a {
+     color: #000;
+ }
  /******inicio-baner-home******/
  
  .banner-container {

@@ -80,17 +80,26 @@
                 <div class="swiper-pagination imagenes-pagination"></div>
               </div>
         
-        <!----fin--slider-imagenes---->
-          <div class="text_gray_02" >
-          <p>Según el informe de análisis y conclusiones, la oferta presentada por el Consorcio CyS, conformado por Yellow River CO., LTD sucursal Colombia, y Schrader Camargo S.A.S. es la única, entre las tres que fueron presentadas, para construir la segunda fase del proyecto, que cumple con todos los requisitos de participación establecidos. En el documento se describen los aspectos que fueron objeto de revisión entre los que se encuentran la evaluación contractual, técnica y financiera, los cuales fueron requeridos por EPM.</p><br><br>
-          <p>EPM recibió observaciones de los dos oferentes descartados en el proceso de contratación de las obras civiles para la entrada en operación comercial de las unidades cinco a ocho de Hidroituango.</p>
-          </div>
+    <!----fin--slider-imagenes---->
+    <div class="text_gray_02" >
+      <p>Según el informe de análisis y conclusiones, la oferta presentada por el Consorcio CyS, conformado por Yellow River CO., LTD sucursal Colombia, y Schrader Camargo S.A.S. es la única, entre las tres que fueron presentadas, para construir la segunda fase del proyecto, que cumple con todos los requisitos de participación establecidos. En el documento se describen los aspectos que fueron objeto de revisión entre los que se encuentran la evaluación contractual, técnica y financiera, los cuales fueron requeridos por EPM.</p><br><br>
+      <p>EPM recibió observaciones de los dos oferentes descartados en el proceso de contratación de las obras civiles para la entrada en operación comercial de las unidades cinco a ocho de Hidroituango.</p>
+      <div class="section_2 space_0">
+        <div>
+            <button class="container_icon_3">
+            <p class="text_style_black">descubre más 
+            <br>proyectos aquí</p>
+            <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
+            </button>
         </div>
+    </div>
+  </div>
+</div>
 
     <!-----gray-2------>
     
     <!---aside-right--->
-      <div class="background_0 content_02">
+    <div class="background_0 content_02">
       <div class="aside_card">
         <img src="./assets/img/aside_01.png" alt="">
         <div class="content_text_aside">
@@ -107,13 +116,6 @@
               </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<!----content-gray-02----->
-<div class="slider_gray_01">
-  <div class="slider_gray_02">
-    <div class="slider_gray_03">
     </div>
   </div>
 </div>

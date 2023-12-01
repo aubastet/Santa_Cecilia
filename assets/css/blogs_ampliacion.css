@@ -3,7 +3,7 @@
 .slider_gray_01 {
     width: 100%;
     position: relative;
-    padding: 5% 0% 0% 0%;
+    padding: 5% 0% 5% 0%;
     display: block;
     background-color: #ffffff;
 }
@@ -70,12 +70,14 @@
     padding: 0% 0%;
 }
 .text_gray_02 {
-    padding: 1% 8% 10% 8%;
+    padding: 1% 8% 5% 8%;
 }
 .swiper-imagenes {
     width: 100%;
 }
-
+.section_2.space_0 {
+    margin-top: 3%;
+}
 
 /*------card-aside-------*/
 .background_0.content_02 {
