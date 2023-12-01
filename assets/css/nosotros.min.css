@@ -8,7 +8,7 @@
 }
 
 .texto_section {
-    width: 85%;
+    width: 80%;
     max-width: 1366px;
     position: relative;
     margin: 0 auto;
@@ -204,7 +204,8 @@ span.text_button_home {
 }
 
 
-/*---container_blue_team---*/ 
+/*---container_blue_team---*/
+
 .container_blue_team {
     width: 100%;
     position: relative;
@@ -220,6 +221,7 @@ span.text_button_home {
     margin: 0 auto;
     display: block;
 }
+
 .container_blue_team_03 {
     width: 100%;
     position: relative;
@@ -276,7 +278,9 @@ span.text_button_home {
     position: relative;
     align-items: center;
     justify-content: center;
-} 
+}
+
+
 /*------------swiper-slider-carrusel-------------*/
 
 .team_blue {
@@ -358,14 +362,13 @@ span.text_button_home {
 
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
     /*----container_blue_team----*/
-.container_blue_team {
+    .container_blue_team {
         width: 100%;
         position: relative;
         display: block;
         padding: 7% 0% 0% 0%;
         background-color: #0D65D9;
     }
-
     .container_blue_team_01 {
         width: 85%;
         max-width: 1366px;
@@ -373,18 +376,17 @@ span.text_button_home {
         margin: 0 auto;
         display: block;
     }
-
-        .container_blue_team_03 {
-            width: 100%;
-            position: relative;
-            display: flex;
-            flex-wrap: nowrap;
-            row-gap: 30px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-            color: #fff;
-        }
+    .container_blue_team_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #fff;
+    }
     .name_person {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 2.8em;
@@ -401,14 +403,13 @@ span.text_button_home {
 
 @media screen and (min-width: 1366px) and (max-width: 1439px) {
     /*----container_blue_team----*/
-.container_blue_team {
+    .container_blue_team {
         width: 100%;
         position: relative;
         display: block;
         padding: 7% 0% 0% 0%;
         background-color: #0D65D9;
     }
-
     .container_blue_team_01 {
         width: 85%;
         max-width: 1366px;
@@ -416,7 +417,6 @@ span.text_button_home {
         margin: 0 auto;
         display: block;
     }
-
     .container_blue_team_03 {
         width: 100%;
         position: relative;
@@ -443,7 +443,7 @@ span.text_button_home {
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1365px) {
-/*----container_blue_team----*/
+    /*----container_blue_team----*/
     .container_blue_team {
         width: 100%;
         position: relative;
@@ -451,7 +451,6 @@ span.text_button_home {
         padding: 7% 0% 0% 0%;
         background-color: #0D65D9;
     }
-
     .container_blue_team_01 {
         width: 85%;
         max-width: 1366px;
@@ -459,7 +458,6 @@ span.text_button_home {
         margin: 0 auto;
         display: block;
     }
-
     .container_blue_team_03 {
         width: 100%;
         position: relative;
@@ -471,7 +469,6 @@ span.text_button_home {
         justify-content: space-between;
         color: #fff;
     }
-  
     .name_person {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 2.8em;
@@ -488,14 +485,13 @@ span.text_button_home {
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     /*-------container con 2 col--------*/
-.container_blue_team {
+    .container_blue_team {
         width: 100%;
         position: relative;
         display: block;
         padding: 7% 0% 0% 0%;
         background-color: #0D65D9;
     }
-
     .container_blue_team_01 {
         width: 85%;
         max-width: 1366px;
@@ -503,18 +499,17 @@ span.text_button_home {
         margin: 0 auto;
         display: block;
     }
-
-.container_blue_team_03 {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    row-gap: 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #fff;
-}
+    .container_blue_team_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+    }
     .h1_col_02 {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.8em;
@@ -566,7 +561,6 @@ span.text_button_home {
         margin-bottom: 5%;
     }
     /*---container_blue_team---*/
- 
     .tittle_white {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 2.1em;
@@ -636,8 +630,8 @@ span.text_button_home {
         padding: 3% 0% 2% 0%;
         text-align: left;
     }
-    .container_col_03 { 
-        display: none; 
+    .container_col_03 {
+        display: none;
     }
     .tittle_col_3 {
         font-family: 'Frank Ruhl Libre', serif;
@@ -667,24 +661,23 @@ span.text_button_home {
         margin-bottom: 5%;
         padding: 0% 10% 0% 0%;
     }
-    
-   .container_blue_col_1 {
-       width: 100%;
-       display: flex;
-       position: relative;
-       flex-direction: column;
-   }
-.container_blue_team_03 {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    row-gap: 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #fff;
-}
+    .container_blue_col_1 {
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    .container_blue_team_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+    }
     .name_person {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 2em;
@@ -697,14 +690,14 @@ span.text_button_home {
         padding: 0% 0% 0% 0%;
         text-align: center;
     }
-.text_blue_col_2 {
-    width: 100%;
-}
+    .text_blue_col_2 {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     /*-------container con 2 col--------*/
-.container_col_01 {
+    .container_col_01 {
         width: 100%;
         display: flex;
         position: relative;
@@ -739,8 +732,8 @@ span.text_button_home {
         padding: 3% 0% 2% 0%;
         text-align: left;
     }
-    .container_col_03 { 
-        display: none; 
+    .container_col_03 {
+        display: none;
     }
     .tittle_col_3 {
         font-family: 'Frank Ruhl Libre', serif;
@@ -771,17 +764,17 @@ span.text_button_home {
         padding: 0% 0% 0% 0%;
         text-align: center;
     }
-.container_blue_team_03 {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    row-gap: 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #fff;
-}
+    .container_blue_team_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+    }
     .section_1 {
         width: 90%;
         position: relative;
@@ -810,7 +803,7 @@ span.text_button_home {
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
     /*-------container con 2 col--------*/
-.container_col_01 {
+    .container_col_01 {
         width: 100%;
         display: flex;
         position: relative;
@@ -848,9 +841,9 @@ span.text_button_home {
         padding: 3% 0% 2% 0%;
         text-align: left;
     }
-    .container_col_03 { 
-        display: none; 
-    } 
+    .container_col_03 {
+        display: none;
+    }
     .container_col_section_ {
         display: flex;
         align-items: center;
@@ -858,27 +851,27 @@ span.text_button_home {
         justify-content: space-between;
     }
     /*---container_blue_team---*/
-.container_blue_team_03 {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    row-gap: 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #fff;
-}
-   .section_1 {
-       width: 90%;
-       position: relative;
-       display: flex;
-       flex-wrap: nowrap;
-       row-gap: 89px;
-       align-items: baseline;
-       flex-direction: row;
-       justify-content: left;
-   }
+    .container_blue_team_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+    }
+    .section_1 {
+        width: 90%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 89px;
+        align-items: baseline;
+        flex-direction: row;
+        justify-content: left;
+    }
     .tittle_style_desktop {
         font-size: 1.5em;
         font-weight: 600;
@@ -887,8 +880,7 @@ span.text_button_home {
         text-transform: uppercase;
         font-family: 'Frank Ruhl Libre', serif;
         letter-spacing: -2px;
-        align-items: center; 
+        align-items: center;
         text-align: left;
     }
-    
 }

@@ -43,9 +43,9 @@
                 </h2>
               </div> 
               <div class="container_text_products">
-                <p>• Todos / productos</p>
-                <p>Adobe Horizontal</p>
-                <p>Adobe Vertical</p>
+                <p class="hover__home">Todos / productos</p>
+                <p class="hover__home">Adobe Horizontal</p>
+                <p class="hover__home">Adobe Vertical</p>
               </div> 
               </div>
           </div>
@@ -252,7 +252,7 @@
             <div class="white_content_flex">
               <div class="white_contetn_flex_col_1">
                 <p class="p_white_" >nuestros / blogs</p> 
-                <img class="icon_blogs" src="./assets/img/icon_blogs.png" alt="">
+                <img class="icon_blogs space__icon_home" src="./assets/img/icon_blogs.png" alt="">
                 <p class="p_white_" >share</p> 
                 <img class="icon_share" src="./assets/img/icon_share.png" alt="">
               </div>

@@ -94,7 +94,7 @@
 
  });
 
- //*-----slider-catalogo-----**/
+ //*-----slider-catalogo-ampliacion----**/
  const swiper4 = new Swiper('.swiper-imagenes', {
      // Optional parameters
 
@@ -120,7 +120,7 @@
              slidesPerView: 1,
          },
          768: {
-             slidesPerView: 1,
+             slidesPerView: 2,
          }
      }
 
