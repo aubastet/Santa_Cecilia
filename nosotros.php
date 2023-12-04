@@ -30,7 +30,6 @@
 <div class="container_2_col">
         <div class="container_col_section">
           <div class="container_col_section_"> 
-
             <div class="container_col_01">
                 <div class="container_col_text_1"> <h2 class="h1_col_02">IT'S A MORE SUSTAINABLE CHOICE THAT'S BUILT TO LAST.</h2> <br>
                 <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire. <br><br>

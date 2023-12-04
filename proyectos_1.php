@@ -55,7 +55,9 @@
                 <div>
                     <div class="content_row_1">
                     <img class="img_whaka_1" src="./assets/img/blue_1.png" alt="">
+                    <img class="icon_more_right" src="/assets/img/icon_more_white.png" alt="">
                     <div class="content_row_1_info">
+                        
                         <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
                         <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
                     </div>
