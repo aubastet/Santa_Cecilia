@@ -343,6 +343,11 @@
      border: solid #EC3237 3px;
  }
  
+ span.swiper-pagination-bullet.swiper-pagination-bullet-active-next {
+     padding: 8%;
+     border: solid #EC3237 3px;
+ }
+ 
  .swiper_slider_1 {
      display: flex;
      width: 100%;
@@ -556,7 +561,7 @@
  .white_container {
      width: 100%;
      position: relative;
-     padding: 6em 0;
+     padding: 8em 0;
      display: block;
  }
  
@@ -661,7 +666,7 @@
  }
  
  .style_text_1 {
-     gap: 40px;
+     gap: 25px;
      display: flex;
      flex-direction: column;
      margin-top: 6%;
@@ -781,7 +786,7 @@
  }
  
  .medio_contenedor {
-     width: 50%;
+     width: 70%;
      display: flex;
      padding: 2em 0;
      justify-content: center;
@@ -864,8 +869,9 @@
  .button_container>button {
      background-color: #EC3237;
      border-radius: 20px;
-     padding: 10px;
-     color: #fff;
+     padding: 12px 40px;
+     color: #363435;
+     text-transform: uppercase;
  }
  
  .formulario_trabaja_content {
@@ -907,6 +913,30 @@
      border-top: 2px solid #ffffff;
  }
  /*-------FIN-vamos a trabajar juntos--------*/
+ /*-----container_form_pestana contacto--------*/
+ 
+ .contacto_container {
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .contacto_container_01 {
+     width: 100%;
+     display: flex;
+ }
+ 
+ .contacto_container_02 {
+     width: 100%;
+ }
+ 
+ .contacto_container_03 {
+     display: flex;
+     background-color: #0D65D9;
+     width: 100%;
+     justify-content: center;
+ }
  /*---estilos del trabajar juntos logos---*/
  
  .texto_banner_h2 {
@@ -928,6 +958,10 @@
      position: relative;
      margin: 0 auto;
      display: block;
+ }
+ 
+ span.swiper-pagination-bullet.swiper-pagination-bullet-active-next {
+     top: 3px;
  }
  
  .swiper_logos .logos_pagination {

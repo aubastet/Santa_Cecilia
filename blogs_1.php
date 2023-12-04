@@ -26,97 +26,120 @@
     <div class="banner-container_background_n">
       <div class="banner_2_n"></div>
     </div> 
- <!----inicio--container-cards----->
+ <!----inicio--container-cards 1-2-3---->
 <div class="container_cards_01"> 
     <div class="container_cards_02">
         <div class="container_cards_03">
-            <div class="cards_content_1">
-                <div class="card_01">
-                    <img src="./assets/img/card_1.png" alt="">
-                    <div class="content_text_card">
-                      <p class="text_card">El consorcio CyS 
-                        logró el visto bueno 
-                        de EPM para Hidroituango.<br></p>
-                      <p class="text_card_small">El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco...</p>
-                    </div>
+              <div class="blog_card_content ">
+              <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+                <div class="text_card_blogs">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                  <div class="p_style">
+                        <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                        <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                  </div>
                 </div>
-                <div class="card_01">
-                    <img src="./assets/img/card_2.png" alt="">
-                    <div class="content_text_card">
-                      <p class="text_card">Camacol buscará compradores en EE.UU. para  proyectos en Colombia<br> AURECON</p>
-                      <p class="text_card_small">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
-                    </div>
+              </div>
+              <div class="blog_card_content ">
+              <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+                <div class="text_card_blogs">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                  <div class="p_style">
+                        <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                        <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                  </div>
                 </div>
-                <div class="card_01">
-                    <img src="./assets/img/card_3.png" alt="">
-                    <div class="content_text_card">
-                      <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br> </p>
-                      <p class="text_card_small">simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
-                    </div>
-                </div>  
-            </div>
-            <div class="cards_content_2">
-                <div class="card_01">
-                    <img src="./assets/img/card_4.png" alt="">
-                    <div class="content_text_card">
-                      <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br> </p>
-                      <p class="text_card_small">simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
-                    </div>
+              </div>
+            <div class="blog_card_content ">
+            <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+              <div class="text_card_blogs">
+              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                <div class="p_style">
+                      <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                      <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
                 </div>
-                <div class="card_01">
-                    <img src="./assets/img/card_5.png" alt="">
-                    <div class="content_text_card">
-                      <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br> </p>
-                      <p class="text_card_small">simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
-                    </div>
-                </div>
-                <div class="card_01">
-                    <img src="./assets/img/card_6.png" alt="">
-                    <div class="content_text_card">
-                      <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br> </p>
-                      <p class="text_card_small">simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
-                    </div>
-                </div>
-            </div>
+              </div>
+            </div> 
         </div>
     </div>
 </div>
-             <!----inicio--container-cards----->
-<div class="container_cards_002">
-    <div>
-        <h2 class="tittle_2_blog">también te puede interesar</h2> 
-    </div>
-          <div class="container_cards_02">
-                  <div class="container_cards_03">
-                      <div class="cards_content_1">
-                          <div class="card_01">
-                              <img src="./assets/img/card_section2_1.png" alt="">
-                              <div class="content_text_card">
-                                <p class="text_card">El consorcio CyS 
-                                  logró el visto bueno 
-                                  de EPM para Hidroituango.<br></p>
-                                <p class="text_card_small">El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco...</p>
-                              </div>
-                          </div>
-                          <div class="card_01">
-                              <img src="./assets/img/card_section2_2.png" alt="">
-                              <div class="content_text_card">
-                                <p class="text_card">Camacol buscará compradores en EE.UU. para  proyectos en Colombia<br> AURECON</p>
-                                <p class="text_card_small">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
-                              </div>
-                          </div>
-                          <div class="card_01">
-                              <img src="./assets/img/card_section2_3.png" alt="">
-                              <div class="content_text_card">
-                                <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br> </p>
-                                <p class="text_card_small">simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
-                              </div>
-                          </div>  
-                      </div>
+<!----inicio--container-cards 4-5-6---->
+<div class="container_cards_01"> 
+    <div class="container_cards_02">
+        <div class="container_cards_03">
+              <div class="blog_card_content ">
+              <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+                <div class="text_card_blogs">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                  <div class="p_style">
+                        <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                        <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
                   </div>
+                </div>
               </div>
+              <div class="blog_card_content ">
+              <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+                <div class="text_card_blogs">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                  <div class="p_style">
+                        <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                        <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                  </div>
+                </div>
+              </div>
+            <div class="blog_card_content ">
+            <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+              <div class="text_card_blogs">
+              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                <div class="p_style">
+                      <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                      <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                </div>
+              </div>
+            </div> 
         </div>
-<div>
+    </div>
+</div>
+<!----inicio--también te puede interesar----->
+<div class="container_cards_01"> 
+    <div class="container_cards_02">
+      <div class="tittle_blog_">
+        <h2>también te puede interesar</h2>
+      </div>
+        <div class="container_cards_03">
+              <div class="blog_card_content ">
+              <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+                <div class="text_card_blogs">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                  <div class="p_style">
+                        <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                        <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog_card_content ">
+              <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+                <div class="text_card_blogs">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                  <div class="p_style">
+                        <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                        <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                  </div>
+                </div>
+              </div>
+            <div class="blog_card_content ">
+            <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+              <div class="text_card_blogs">
+              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                <div class="p_style">
+                      <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para  proyectos en<br>Colombia</p>
+                      <p >Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                </div>
+              </div>
+            </div> 
+        </div>
+    </div>
+</div>
  
 <!---fin--container-cards----->
 <?php require '_partials/vamos_a_trabajar.php' ?>

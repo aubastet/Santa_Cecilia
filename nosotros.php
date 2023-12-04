@@ -46,24 +46,42 @@
             <div class="container_col_03"> <img class="img_col_02" src="./assets/img/nosotros/maquinaria.png" alt=""> </div>
                 <div class="container_col_text_2"> <p class="h1_col_02">Founded in colombia, medellin with the ambition</h1> 
                 </div>
-                
             </div>
          </div>
         </div>
     </div> 
+<!--------container-3-col----------->
+<div class="container_col_3">
+  <div class="container_col__01">
+    <div class="container_col__03">
+      <div class="col_01_team">
+        <h3 class="tittle_col_3">Our mission</h3>
+        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
+      </div>
+      <div class="col_01_team">
+        <h3 class="tittle_col_3">Our mission</h3>
+        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
+      </div>
+      <div class="col_01_team">
+        <h3 class="tittle_col_3">Our mission</h3>
+        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <!---container_blue_team--->
     <div class="container_blue_team">
   <div class="container_blue_team_01">
     <div class="container_blue_team_03">
 
       <div class="section_1">
-      <p class="tittle_style_desktop">Desarrallomos <br> diferentes proyectos <br>para afrontar los retos <br>del sector</p>
+      <p class="tittle_style_desktop">We care <br> passionately<br> about our team</p>
       <p class="tittle_style_mobile">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
       
       </div>
         <div class="text_blue_col_2">
             <div class="section_2">
-            <p class="">DERECHA On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p> <br>
+            <p class="">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p> <br>
 
             <p class="">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
             </div>

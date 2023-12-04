@@ -48,4 +48,42 @@
          </div>
         </div>
     </div> 
+    <!---contacto - css en home.min.css---->
+    
+<div class="contacto_container">
+  <div class="contacto_container_01">
+    <div class="contacto_container_02">
+      <div class="contacto_container_03">
+        <div class="medio_contenedor">
+            <div class="inputs_formulario">
+              
+              <div class="input_container">
+                <input type="text" placeholder="01. Nombre completo">
+                <img src="./assets/img/icon-pencil.png" alt="">
+              </div>
+              <div class="input_container">
+                <input type="email" placeholder="02. correo electrónico">
+                <img src="./assets/img/icon-pencil.png" alt="">
+              </div>
+              <div class="input_container">
+                <input type="tel" placeholder="03. teléfono / movil">
+                <img src="./assets/img/icon-pencil.png" alt="">
+              </div>
+            </div>
+            <div class="text_area" >
+              <textarea placeholder="04. Déjanos un mensaje"></textarea>
+            </div>
+            <div class="terms_conditions" >
+              <input type="checkbox" id="datos">
+              <label for="datos">He leído y acepto las condiciones de tratamiento de datos // clic aquí</label>
+            </div>
+            <div class="button_container" >
+              <button type="button">enviar mensaje</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <?php require '_partials/footer.php' ?>

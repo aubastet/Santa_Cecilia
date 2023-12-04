@@ -120,7 +120,7 @@
              slidesPerView: 1,
          },
          768: {
-             slidesPerView: 2,
+             slidesPerView: 1,
          }
      }
 

@@ -4,7 +4,7 @@
     width: 100%;
     display: block;
     position: relative;
-    padding: 6em 0;
+    padding: 2em 0;
 }
 
 .container_cards_02 {
@@ -19,15 +19,14 @@
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 20px;
-    flex-direction: column;
+    gap: 65px;
+    flex-direction: row;
 }
 
-.cards_content_1 {
+.blog_card_content {
     width: 100%;
     display: flex;
     position: relative;
-    gap: 5%;
 }
 
 .cards_content_2 {
@@ -51,22 +50,26 @@
     justify-content: center;
 }
 
-.content_text_card {
-    width: 90%;
-    position: absolute;
-    bottom: 13px;
-    color: #fff;
-    padding: 2rem;
+.icon_more_blogs {
+    width: 12px;
+    height: 12px;
+    align-self: self-end;
 }
 
-.text_card {
-    bottom: 5px;
-    font-family: 'Frank Ruhl Libre';
-    font-size: 1.25em;
-    line-height: 20px;
-    letter-spacing: -1px;
+.blog_card_content {
+    width: 100%;
+    display: flex;
     position: relative;
-    text-transform: uppercase;
+}
+
+.text_card_blogs {
+    position: absolute;
+    bottom: 0%;
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -96,33 +99,11 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cards_content_1 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        gap: 3%;
-    }
     .cards_content_2 {
         width: 100%;
         display: flex;
         position: relative;
         gap: 3%;
-    }
-    .content_text_card {
-        width: 94%;
-        position: absolute;
-        bottom: 8px;
-        color: #fff;
-        padding: 0.9em;
-    }
-    .text_card {
-        bottom: 5px;
-        font-family: 'Frank Ruhl Libre';
-        font-size: 0.9em;
-        line-height: 13px;
-        letter-spacing: -1px;
-        position: relative;
-        text-transform: uppercase;
     }
 }
 
@@ -152,24 +133,6 @@
         position: relative;
         gap: 2%;
     }
-    .content_text_card {
-        width: 96%;
-        position: absolute;
-        bottom: 5px;
-        color: #fff;
-        padding: 0.4rem;
-    }
-    .text_card {
-        font-family: 'Frank Ruhl Libre';
-        font-size: 1.0em;
-        line-height: 14px;
-        letter-spacing: -1px;
-        position: relative;
-        text-transform: uppercase;
-    }
-    .text_card_small {
-        font-size: 0.8em;
-    }
     /*---tambien te puede interesar-----*/
     .tittle_2_blog {
         align-items: center;
@@ -178,12 +141,6 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-    .container_cards_01 {
-        width: 100%;
-        display: block;
-        position: relative;
-        padding: 1.5em 0;
-    }
     .container_cards_02 {
         width: 85%;
         max-width: 1366px;
@@ -211,23 +168,6 @@
         bottom: 10px;
         color: #fff;
         padding: 3em 1em;
-    }
-    .text_card {
-        font-family: 'Frank Ruhl Libre';
-        font-size: 1.2em;
-        line-height: 18px;
-        letter-spacing: -1px;
-        position: relative;
-        text-transform: uppercase;
-    }
-    .text_card_small {
-        font-size: 1em;
-    }
-    .card_01 {
-        width: 100%;
-        margin: 4% 0%;
-        display: flex;
-        justify-content: center;
     }
     /*---tambien te puede interesar-----*/
     .tittle_2_blog {
@@ -263,30 +203,6 @@
         position: relative;
         gap: 2%;
         flex-direction: column;
-    }
-    .content_text_card {
-        width: 85%;
-        position: absolute;
-        bottom: 10px;
-        color: #fff;
-        padding: 0em 0.2em;
-    }
-    .text_card {
-        font-family: 'Frank Ruhl Libre';
-        font-size: 1.2em;
-        line-height: 18px;
-        letter-spacing: -1px;
-        position: relative;
-        text-transform: uppercase;
-    }
-    .text_card_small {
-        font-size: 1em;
-    }
-    .card_01 {
-        width: 100%;
-        margin: 4% 0%;
-        display: flex;
-        justify-content: center;
     }
     /*---tambien te puede interesar-----*/
     .tittle_2_blog {

@@ -49,11 +49,13 @@
                         </div>
                             <div class="section_2">
                                 <div>
+                                    <a href="http://localhost/Webcreativa_Santa_Cecilia_v3/proyectos_1.php">
                                     <button class="container_icon_3">
                                     <p class="text_style_black">descubre más 
                                     <br>proyectos aquí</p>
                                     <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
                                     </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
