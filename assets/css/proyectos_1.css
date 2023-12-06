@@ -156,16 +156,6 @@ hr {
     }
 }
 
-.icon_more_container {
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    display: block;
-    top: 30px;
-    right: 30px;
-    z-index: 5;
-}
-
 .content_row_1 {
     margin-bottom: 1rem;
     position: relative;
@@ -201,9 +191,10 @@ hr {
     align-items: center;
 }
 
-.content_row_3 img:nth-child(1) {
+
+/* .content_row_3 img:nth-child(1) {
     margin-bottom: 1rem;
-}
+}  */
 
 .content_row_2_info,
 .content_row_3_info {

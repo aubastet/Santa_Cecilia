@@ -128,8 +128,6 @@ $("#img3").mouseout(() => {
     $("#img3").attr("src", "assets/img/slider_img.png");
 });
 
-
-
 $("#img4").mouseover(() => {
     $("#img4").attr("src", "assets/img/Rectangle_hover.png");
 });
@@ -148,4 +146,14 @@ $("#img6").mouseover(() => {
 });
 $("#img6").mouseout(() => {
     $("#img6").attr("src", "assets/img/slider_img.png");
+});
+
+$('#container-filter').mouseover(() => {
+    $("#filter").css("filter", "grayscale(100%)")
+    $("#icon_more_container").css("background", "#ec3237")
+    $("#icon_more_container").css("border-radius", "50%")
+})
+$("#container-filter").mouseout(() => {
+    $("#filter").css("filter", "grayscale(0%)")
+    $("#icon_more_container").css("background", "transparent")
 });

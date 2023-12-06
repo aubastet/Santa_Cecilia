@@ -38,11 +38,11 @@
               </div>
 
               <div class="container_text_products">
-                <p>• Todos / productos</p>
-                <p>Adobe Horizontal</p>
-                <p>Adobe Vertical</p>
+                <p class="hover__home">Todos / productos</p>
+                <p class="hover__home">Adobe Horizontal</p>
+                <p class="hover__home">Adobe Vertical</p>
               </div>
-<!-----------------slider_productos----------------------->
+<!----------catalogo 1-2-3---------->
               <div class="container_slider">
                 <div class="container_slider_1">
                   <div class="container_slider_2">
@@ -83,47 +83,52 @@
           </div>
         </div>
     </div>
-          <div class="container_slider">
+  </div>
+    <div class="section_container">
+        <div class="section_container_2">
+          <div class="section_container_3">
+<!----------catalogo 4-5-6---------->
+              <div class="container_slider">
                 <div class="container_slider_1">
                   <div class="container_slider_2">
-                    <div class="slider_1">
-                      <div class="content_slider">
-                        <div class="content_1">
-                          <h3 class="h3_style_products">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
-                        </div>
-                            <p class="font_style_products">Medida nominal (cm): 10x20x40
-                            Peso (kg) : 5 Rendimiento 
-                            (unidades/m3): 12.5</p>
-                        </div>
-                      <img src="./assets/img/slider_img.png" alt="imagen de producto" class="hover_img" id="img4">
-                    </div> 
-                    <div class="slider_1">
-                      <div class="content_slider">
-                        <div class="content_1">
-                          <h3 class="h3_style_products">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
-                        </div>
-                            <p class="font_style_products">Medida nominal (cm): 10x20x40
-                            Peso (kg) : 5 Rendimiento 
-                            (unidades/m3): 12.5</p>
-                        </div>
-                      <img src="./assets/img/slider_img.png" alt="" class="hover_img" id="img5">
-                    </div>
-                    <div class="slider_1">
-                      <div class="content_slider">
-                        <div class="content_1">
-                          <h3 class="h3_style_products">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
-                        </div>
-                            <p class="font_style_products">Medida nominal (cm): 10x20x40
-                            Peso (kg) : 5 Rendimiento 
-                            (unidades/m3): 12.5</p>
-                        </div>
-                      <img src="./assets/img/slider_img.png" alt="imagen de producto" class="hover_img" id="img6">
-                    </div>
+                  <div class="slider_1">
+                    <div class="content_slider">
+                      <div class="content_1">
+                        <h3 class="h3_style_products">Adobe 10 Liviano</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
+                      </div>
+                          <p class="font_style_products">Medida nominal (cm): 10x20x40
+                          Peso (kg) : 5 Rendimiento 
+                          (unidades/m3): 12.5</p>
+                      </div>
+                    <img src="./assets/img/slider_img.png" alt="imagen de producto" class="hover_img" id="img4">
+                  </div> 
+                  <div class="slider_1">
+                    <div class="content_slider">
+                      <div class="content_1">
+                        <h3 class="h3_style_products">Tolete 12 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
+                      </div>
+                          <p class="font_style_products">Medida nominal (cm): 10x20x40
+                          Peso (kg) : 5 Rendimiento 
+                          (unidades/m3): 12.5</p>
+                      </div>
+                    <img src="./assets/img/slider_img.png" alt="" class="hover_img" id="img5">
+                  </div><div class="slider_1">
+                    <div class="content_slider">
+                      <div class="content_1">
+                        <h3 class="h3_style_products">Tolete 15 Rayado</h3> <img class="img_content" src="./assets/img/icon_mas.png" alt="imagen de producto">
+                      </div>
+                          <p class="font_style_products">Medida nominal (cm): 10x20x40
+                          Peso (kg) : 5 Rendimiento 
+                          (unidades/m3): 12.5</p>
+                      </div>
+                    <img src="./assets/img/slider_img.png" alt="imagen de producto" class="hover_img" id="img6">
+                  </div>
                 </div>
               </div>
           </div>
-  <div>
-    
+        </div>
+    </div>
+  </div>
 
 <?php require '_partials/vamos_a_trabajar.php' ?>
 <?php require '_partials/footer.php' ?>

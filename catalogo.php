@@ -38,9 +38,9 @@
               </div>
 
               <div class="container_text_products">
-                <p>• Todos / productos</p>
-                <p>Adobe Horizontal</p>
-                <p>Adobe Vertical</p>
+                <p class="hover__home">Todos / productos</p>
+                <p class="hover__home">Adobe Horizontal</p>
+                <p class="hover__home">Adobe Vertical</p>
               </div>
 <!----------catalogo 1-2-3---------->
               <div class="container_slider">
@@ -83,6 +83,7 @@
           </div>
         </div>
     </div>
+  </div>
     <div class="section_container">
         <div class="section_container_2">
           <div class="section_container_3">
@@ -127,7 +128,7 @@
           </div>
         </div>
     </div>
-    
+  </div>
 
 <?php require '_partials/vamos_a_trabajar.php' ?>
 <?php require '_partials/footer.php' ?>

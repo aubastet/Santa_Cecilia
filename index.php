@@ -199,11 +199,11 @@
     </div>
     <div class="container_grid">
       <div>
-        <div class="content_row_1">
-          <div class="icon_more_container">
+        <div class="content_row_1" id="container-filter">
+          <div class="icon_more_container" id="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
-          <img class="img_whaka_1" src="./assets/img/blue_1.png" alt="">
+          <img class="img_whaka_1" id="filter" src="./assets/img/blue_1.png" alt="">
           <div class="content_row_1_info">
             <div>
               <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
