@@ -53,9 +53,9 @@
     <div class="container_blue_2_proyectos">
     <div class="container_grid">
       <div>
-        <div class="content_row_1" id="content_row_1">
-          <div class="icon_more_container" >
-            <img class="icon_more_right" id="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+        <div class="content_row content_row_1" id="content_row_1">
+          <div class="icon_more_container" id="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
           <img class="img_whaka_1" id="img_whaka_1" src="./assets/img/blue_1.png" alt="">
           <div class="content_row_1_info">
@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="content_row_2">
+        <div class="content_row content_row_2">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
@@ -77,7 +77,7 @@
       </div>
 
       <div>
-        <div class="content_row_3">
+        <div class="content_row content_row_3">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
@@ -86,7 +86,7 @@
             <p class="text_blue_3">futurium <br> NORTH SHORE</p>
           </div>
         </div>
-        <div class="content_row_4">
+        <div class="content_row content_row_4">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
@@ -100,7 +100,7 @@
         </div>
       </div>
 
-      <div class="content_row_5">
+      <div class="content_row content_row_5">
         <div class="icon_more_container">
           <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
         </div>
@@ -110,8 +110,8 @@
         </div>
       </div>
     </div>
-        </div>
-    </div>
+  </div>
+</div>
 </div>
 <!----blue-container----->
 <!-----white-content-----> 
@@ -122,8 +122,8 @@
         </div>
         <div class="container_grid">
       <div>
-        <div class="content_row_1" id="content_row_1">
-          <div class="icon_more_container">
+        <div class="content_row content_row_1" id="content_row_1">
+          <div class="icon_more_container" id="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
           <img class="img_whaka_1" id="img_whaka_1" src="./assets/img/blue_1.png" alt="">
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="content_row_2">
+        <div class="content_row content_row_2">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
@@ -146,7 +146,7 @@
       </div>
 
       <div>
-        <div class="content_row_3">
+        <div class="content_row content_row_3">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
@@ -155,7 +155,7 @@
             <p class="text_blue_3">futurium <br> NORTH SHORE</p>
           </div>
         </div>
-        <div class="content_row_4">
+        <div class="content_row content_row_4">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
@@ -169,7 +169,7 @@
         </div>
       </div>
 
-      <div class="content_row_5">
+      <div class="content_row content_row_5">
         <div class="icon_more_container">
           <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
         </div>
@@ -179,8 +179,8 @@
         </div>
       </div>
     </div>
-        </div>
-    </div>
+  </div>
+</div>
 </div> 
 <!---fin-white-content-------->
 

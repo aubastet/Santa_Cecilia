@@ -199,11 +199,11 @@
     </div>
     <div class="container_grid">
       <div>
-        <div class="content_row_1"  id="container-filter">
+        <div class="content_row content_row_1" id="content_row_1">
           <div class="icon_more_container" id="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
-          <img id="filter" src="./assets/img/blue_1.png" alt="">
+          <img class="img_whaka_1" id="img_whaka_1" src="./assets/img/blue_1.png" alt="">
           <div class="content_row_1_info">
             <div>
               <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
@@ -211,11 +211,11 @@
             </div>
           </div>
         </div>
-        <div class="content_row_2"  id="container-filter">
-          <div class="icon_more_container" id="icon_more_container">
-            <img class="icon_more_right"  src="./assets/img/icon_more_white.png" alt="">
+        <div class="content_row content_row_2">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
-          <img id="filter" src="./assets/img/blue_2.png" alt="">
+          <img src="./assets/img/blue_2.png" alt="">
           <div class="content_row_2_info">
             <p class="text_blue_2">ORMISTON RETAIL<br> CENTRE</p>
           </div>
@@ -223,20 +223,20 @@
       </div>
 
       <div>
-        <div class="content_row_3"  id="container-filter">
+        <div class="content_row content_row_3">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
-          <img src="./assets/img/blue_4.png" id="filter" alt="">
+          <img src="./assets/img/blue_4.png" alt="">
           <div class="content_row_3_info">
             <p class="text_blue_3">futurium <br> NORTH SHORE</p>
           </div>
         </div>
-        <div class="content_row_4"  id="container-filter">
+        <div class="content_row content_row_4">
           <div class="icon_more_container">
             <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
           </div>
-          <img class="img_whaka_2" id="filter" src="./assets/img/blue_3.png" alt="">
+          <img class="img_whaka_2" src="./assets/img/blue_3.png" alt="">
           <div class="content_row_4_info">
             <div>
               <p class="text_blue_4_small">WHAKAKAINGA <br> AURECON</p>
@@ -246,11 +246,11 @@
         </div>
       </div>
 
-      <div class="content_row_5" id="container-filter">
+      <div class="content_row content_row_5">
         <div class="icon_more_container">
           <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
         </div>
-        <img class="img_futurium" id="filter" src="./assets/img/blue_05.png" alt="">
+        <img class="img_futurium" src="./assets/img/blue_05.png" alt="">
         <div class="content_row_5_info">
           <p class="text_blue_5">futurium <br> NORTH SHORE</p>
         </div>
