@@ -588,6 +588,8 @@ hr {
 .white_contetn_flex_col_1 {
     display: flex;
     gap: 10px;
+    top: -25px;
+    position: relative;
 }
 
 .icon_blogs {
@@ -952,6 +954,12 @@ hr {
         position: relative;
         top: 16%;
     }
+    .white_contetn_flex_col_1 {
+        display: flex;
+        gap: 10px;
+        top: 15px;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1439px) {
@@ -1179,6 +1187,12 @@ hr {
         position: relative;
         top: 16%;
     }
+    .white_contetn_flex_col_1 {
+        display: flex;
+        gap: 10px;
+        top: 20px;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1399,6 +1413,12 @@ hr {
         position: relative;
         top: 15%;
     }
+    .white_contetn_flex_col_1 {
+        display: flex;
+        gap: 1px;
+        top: 8px;
+        position: relative;
+    }
     /*----trabajar-juntos----*/
     .texto_banner_h2 {
         font-size: 2.3em;
@@ -1557,6 +1577,12 @@ hr {
     .p_style {
         position: relative;
         top: 30%;
+    }
+    .white_contetn_flex_col_1 {
+        display: flex;
+        gap: 10px;
+        top: 10px;
+        position: relative;
     }
     /*----trabajar-juntos----*/
     .texto_banner_h2 {
@@ -1778,7 +1804,7 @@ hr {
     }
     .white_contetn_flex_col_1 {
         display: flex;
-        gap: 10px px;
+        gap: 10px;
         flex-direction: row-reverse;
     }
     .white_content_flex {
@@ -2026,7 +2052,7 @@ hr {
     }
     .white_contetn_flex_col_1 {
         display: flex;
-        gap: 10px px;
+        gap: 10px;
         flex-direction: row-reverse;
     }
     .white_content_flex {
@@ -2044,6 +2070,12 @@ hr {
         position: relative;
         margin: 0 auto;
         display: block;
+    }
+    .white_contetn_flex_col_1 {
+        display: flex;
+        gap: 1px;
+        flex-direction: row-reverse;
+        margin-left: -5px;
     }
     /*-----trabajar juntos-------*/
     .container_logos_3 {

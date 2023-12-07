@@ -257,43 +257,48 @@
       <div class="white_container_3">
         <div class="white_grid">
           <div class="white_grid_col_1">
+
             <div class="white_content content_row_1 content_row_home">
-              <div class="white_content_flex">
-                <div class="white_contetn_flex_col_1">
-                  <p class="p_white_">nuestros / blogs</p>
-                  <img class="icon_blogs space__icon_home" src="./assets/img/icon_blogs.png" alt="">
-                  <p class="p_white_">share</p>
-                  <img class="icon_share" src="./assets/img/icon_share.png" alt="">
+              <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
+                <div class="white_content_flex">
+                  <div class="white_contetn_flex_col_2 icon_more_container">
+
+                    <img class="icon_more_home" src="./assets/img/icon_more.png" alt="">
+
+                  </div>
+                  <div class="white_contetn_flex_col_1">
+                    <p class="p_white_">nuestros / blogs</p>
+                    <img class="icon_blogs space__icon_home" src="./assets/img/icon_blogs.png" alt="">
+                    <p class="p_white_">share</p>
+                    <img class="icon_share" src="./assets/img/icon_share.png" alt="">
+                  </div>
+
+
                 </div>
-                <div class="white_contetn_flex_col_2 icon_more_container">
-
-                  <img class="icon_more_home" src="./assets/img/icon_more.png" alt="">
-
+                <div class="style_text_1 ">
+                  <p class="tittle_p">El consorcio CyS logró<br> el visto bueno de EPM<br>para Hidroituango.</p>
+                  <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p>
                 </div>
-
-              </div>
-              <div class="style_text_1 ">
-                <p class="tittle_p">El consorcio CyS logró<br> el visto bueno de EPM<br>para Hidroituango.</p>
-                <p>El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco a la ocho de Hidroituango pero solo una resultó favorable.</p>
-              </div>
             </div>
+            </a>
           </div>
           <div class="white_grid_col_2">
             <img src="./assets/img/white_1.jpg" alt="">
           </div>
           <div class="white_grid_col_3 content_row content_row_1" id="content_row_1">
-            <img class="img_camacol" id="img_whaka_1" src="./assets/img/white_2.png" alt="">
+            <a href="/Webcreativa_Santa_Cecilia_v3/blogs_1.php">
+              <img class="img_camacol" id="img_whaka_1" src="./assets/img/white_2.png" alt="">
 
-            <div class="style_text_content_1">
-              <div class="icon_more_container">
-                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              <div class="style_text_content_1">
+                <div class="icon_more_container">
+                  <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+                </div>
+                <div class="p_style">
+                  <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
+                  <p>Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                </div>
               </div>
-              <div class="p_style">
-                <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
-                <p>Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
-              </div>
-            </div>
-
+            </a>
           </div>
           <div class="white_grid_col_4">
             <div class="background_style">

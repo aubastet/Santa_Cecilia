@@ -1,5 +1,50 @@
 /*---container cards----*/
+.p_style_20 {
+    font-size: 1.5em;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22px;
+    margin-top: 5%;
+    color: #fff;
+}
+.p_style {
+    display: flex;
+    margin-top: 20%;
+    flex-direction: column;
+}
 
+.p_style_2 {
+    color: #fff;
+}
+.icon_more_right {
+    width: 12px;
+    height: 12px;
+    align-self: self-end;
+}
+.icon_more_container {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 19px;
+    z-index: 5;
+    padding: 3%;
+}
+
+.content_row_1 {
+    margin: 0;
+}
+.text_card_blogs {
+    position: absolute;
+    bottom: 0%;
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .container_cards_01 {
     width: 100%;
     display: block;
@@ -72,9 +117,17 @@
     justify-content: space-between;
 }
 
-
 /*---tambien te puede interesar-----*/
-
+h2,
+.h2 {
+    font-size: 4.6em;
+    font-weight: 600;
+    line-height: 90%;
+    color: #363435;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    text-align: center;
+}
 .container_cards_002 {
     width: 100%;
     display: block;
@@ -105,33 +158,107 @@
         position: relative;
         gap: 3%;
     }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container_cards_01 {
+    .container_cards_03 {
+        display: flex;
+        align-items: center;
         width: 100%;
-        display: block;
-        position: relative;
-        padding: 2em 0;
+        gap: 65px;
+        flex-direction: column;
     }
     .container_cards_02 {
-        width: 92%;
+        width: 70%;
         max-width: 1366px;
         display: block;
         position: relative;
         margin: 0 auto;
     }
-    .cards_content_1 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        gap: 2%;
+    .p_style_20 {
+        font-size: 2.5em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 40px;
+        margin-top: 5%;
+        color: #fff;
     }
+    .p_style {
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .p_style_2 {
+        color: #fff;
+        font-size: 1.5em;
+        margin-top: 2%;
+    }
+    .text_card_blogs {
+        position: absolute;
+        bottom: 0%;
+        padding: 1rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .text_card_blogs {
+        position: absolute;
+        bottom: 0%;
+        padding: 4rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .cards_content_2 {
         width: 100%;
         display: flex;
         position: relative;
-        gap: 2%;
+        gap: 3%;
+    }
+    .container_cards_03 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 65px;
+        flex-direction: column;
+    }
+    .container_cards_02 {
+        width: 70%;
+        max-width: 1366px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .p_style_20 {
+        font-size: 2em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 5%;
+        color: #fff;
+    }
+    .p_style {
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .p_style_2 {
+        color: #fff;
+        font-size: 1.5em;
+        margin-top: 2%;
+    }
+    .text_card_blogs {
+        position: absolute;
+        bottom: 0%;
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     /*---tambien te puede interesar-----*/
     .tittle_2_blog {
@@ -141,33 +268,53 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
+    .cards_content_2 {
+        width: 100%;
+        display: flex;
+        position: relative;
+        gap: 3%;
+    }
+    .container_cards_03 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 65px;
+        flex-direction: column;
+    }
     .container_cards_02 {
-        width: 85%;
+        width: 70%;
         max-width: 1366px;
         display: block;
         position: relative;
         margin: 0 auto;
     }
-    .cards_content_1 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        gap: 2%;
-        flex-direction: column;
-    }
-    .cards_content_2 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        gap: 2%;
-        flex-direction: column;
-    }
-    .content_text_card {
-        width: 85%;
-        position: absolute;
-        bottom: 10px;
+    .p_style_20 {
+        font-size: 1.2em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 16px;
+        margin-top: 5%;
         color: #fff;
-        padding: 3em 1em;
+    }
+    .p_style {
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .p_style_2 {
+        color: #fff;
+        font-size: 1em;
+        margin-top: 2%;
+    }
+    .text_card_blogs {
+        position: absolute;
+        bottom: 0%;
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     /*---tambien te puede interesar-----*/
     .tittle_2_blog {
@@ -177,36 +324,60 @@
 }
 
 @media screen and (max-width: 425px) {
-    .container_cards_01 {
+    /*---tambien te puede interesar-----*/
+    .tittle_2_blog {
+        align-items: center;
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cards_content_2 {
         width: 100%;
-        display: block;
+        display: flex;
         position: relative;
-        padding: 1em 0;
+        gap: 3%;
+    }
+    .container_cards_03 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 65px;
+        flex-direction: column;
     }
     .container_cards_02 {
-        width: 85%;
+        width: 70%;
         max-width: 1366px;
         display: block;
         position: relative;
         margin: 0 auto;
     }
-    .cards_content_1 {
-        width: 100%;
+    .p_style_20 {
+        font-size: 0.9em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 16px;
+        margin-top: 5%;
+        color: #fff;
+    }
+    .p_style {
         display: flex;
-        position: relative;
-        gap: 2%;
+        margin-top: 10%;
         flex-direction: column;
     }
-    .cards_content_2 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        gap: 2%;
-        flex-direction: column;
+    .p_style_2 {
+        color: #fff;
+        font-size: 1em;
+        margin-top: 2%;
     }
-    /*---tambien te puede interesar-----*/
-    .tittle_2_blog {
-        align-items: center;
-        font-size: 1.7em;
+    .text_card_blogs {
+        position: absolute;
+        bottom: 0%;
+        padding: 0em 1em;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
