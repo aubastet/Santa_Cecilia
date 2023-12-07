@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="./assets/css/home.min.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/global.min.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/nosotros.min.css?v=1.0">
+<link rel="stylesheet" href="./assets/css/catalogo_1.css?v=1.0">
+<link rel="stylesheet" href="./assets/css/catalogo_2.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/catalogo_ampliacion.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/proyectos_1.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/proyectos_2.css?v=1.0">

@@ -1,6 +1,6 @@
 h1,
 .h1 {
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: 'Frank Ruhl Libre', serif;
     font-size: 2.8em;
     font-weight: 700;
     line-height: 43px;
@@ -22,7 +22,6 @@ h2,
 a {
     color: #000;
 }
-
 
 /******inicio-baner-home******/
 
@@ -160,7 +159,6 @@ p.redes_home {
     text-transform: uppercase;
 }
 
-
 /*--section-2-img--*/
 
 .banner-container_background {
@@ -170,7 +168,6 @@ p.redes_home {
     padding: 0em 0;
     display: block;
 }
-
 
 /*------section-after-banner--------*/
 
@@ -217,7 +214,7 @@ p.redes_home {
 }
 
 .hover__home::before {
-    content: "\2022";
+    content: '\2022';
     color: #ec3237;
     font-size: 1.2em;
     margin-top: -3px;
@@ -231,82 +228,6 @@ p.redes_home {
     opacity: 1;
     /* Muestra el bullet al hacer hover */
 }
-
-
-/*---------slider_productos--------*/
-
-.container_slider {
-    width: 100%;
-    position: relative;
-    padding: 3em 0;
-    display: block;
-}
-
-.container_slider_1 {
-    width: 100%;
-    max-width: 1366px;
-    position: relative;
-    margin: 0 auto;
-    display: block;
-}
-
-.container_slider_2 {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider_1 {
-    display: flex;
-    width: 25%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0% 1% 0% 1%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.content_slider {
-    width: 100%;
-    justify-content: left;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 10% 11%;
-    background-color: #f2f2f2;
-}
-
-.content_1 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.h3_style_products {
-    padding: 0% 0% 5% 0%;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-}
-
-.h3_style_swiper {
-    padding: 0% 0% 5% 0%;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-}
-
-.img_content {
-    width: 12px;
-    height: 12px;
-}
-
-.font_style {
-    font-family: "Lato", sans-serif;
-}
-
 
 /*------------swiper-slider-carrusel-------------*/
 
@@ -357,7 +278,6 @@ p.redes_home {
     display: block;
 }
 
-
 /*--------blue container-------*/
 
 .container_blue_1 {
@@ -389,7 +309,7 @@ p.redes_home {
 }
 
 .text_blue_1_small {
-    font-family: "Frank Ruhl Libre";
+    font-family: 'Frank Ruhl Libre';
     font-size: 1.25em;
     line-height: 20px;
     letter-spacing: -1px;
@@ -397,20 +317,20 @@ p.redes_home {
 
 .text_blue_2 {
     font-size: 1.05em;
-    font-family: "Frank Ruhl Libre";
+    font-family: 'Frank Ruhl Libre';
     letter-spacing: -2px;
     line-height: 34px;
 }
 
 .text_blue_3 {
     font-size: 1.05em;
-    font-family: "Frank Ruhl Libre";
+    font-family: 'Frank Ruhl Libre';
     letter-spacing: -2px;
     line-height: 34px;
 }
 
 .text_blue_4_small {
-    font-family: "Frank Ruhl Libre";
+    font-family: 'Frank Ruhl Libre';
     font-size: 1.25em;
     line-height: 20px;
     letter-spacing: -1px;
@@ -418,7 +338,7 @@ p.redes_home {
 
 .text_blue_5 {
     font-size: 1.05em;
-    font-family: "Frank Ruhl Libre";
+    font-family: 'Frank Ruhl Libre';
     line-height: 34px;
     letter-spacing: -2px;
 }
@@ -461,7 +381,7 @@ hr {
     line-height: 90%;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: 'Frank Ruhl Libre', serif;
     letter-spacing: -3px;
 }
 
@@ -471,7 +391,7 @@ hr {
     line-height: 90%;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: 'Frank Ruhl Libre', serif;
     letter-spacing: -3px;
     display: none;
 }
@@ -500,12 +420,17 @@ hr {
     padding: 3%;
 }
 
+.icon_more_home {
+    width: 12px;
+    height: 12px;
+    padding: 3%;
+}
+
 .img_whaka_1 {
     /* Configuración predeterminada */
     transition: filter 1s ease-in-out;
     /* Transición de entrada y salida */
 }
-
 
 /* .img_whaka_1:hover {
     filter: grayscale(100%);
@@ -546,7 +471,6 @@ hr {
     align-items: center;
 }
 
-
 /* .content_row_3 img:nth-child(1) {
     margin-bottom: 1rem;
 }  */
@@ -580,7 +504,6 @@ hr {
     text-align: center;
     font-size: 40px;
 }
-
 
 /*---------white-container---------*/
 
@@ -699,7 +622,7 @@ hr {
 }
 
 .tittle_p {
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: 'Frank Ruhl Libre', serif;
     font-size: 2.5em;
     font-weight: 700;
     line-height: 34px;
@@ -707,7 +630,11 @@ hr {
     color: #363435;
     letter-spacing: -2px;
 }
-
+.p_style {
+    color: #fff;
+    position: relative;
+    top: 55%;
+}
 .style_text_content_1 {
     position: absolute;
     bottom: 0%;
@@ -730,7 +657,7 @@ hr {
 
 .p_style_20 {
     font-size: 1.5em;
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: 'Frank Ruhl Libre', serif;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 22px;
@@ -747,7 +674,7 @@ hr {
 
 .p_style_40_center {
     font-size: 2.5em;
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: 'Frank Ruhl Libre', serif;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -756,7 +683,7 @@ hr {
 }
 
 .p_white_ {
-    font-family: "lato", sans-serif;
+    font-family: 'lato', sans-serif;
     text-transform: uppercase;
 }
 
@@ -770,9 +697,7 @@ hr {
     padding: 2% 0% 0% 0%;
 }
 
-
 /*-------FIN- white_content-----------*/
-
 
 /*-------vamos a trabajar juntos--------*/
 
@@ -839,12 +764,12 @@ hr {
     width: 100%;
 }
 
-.text_area>textarea {
+.text_area > textarea {
     width: 100%;
     height: 130px;
     background-color: #ffffff;
     resize: none;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 20px;
     text-transform: uppercase;
 }
@@ -855,12 +780,12 @@ hr {
     gap: 5px;
 }
 
-.terms_conditions>label {
+.terms_conditions > label {
     color: #fff;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-.terms_conditions>input {
+.terms_conditions > input {
     -webkit-appearance: none;
     appearance: none;
     background-color: #ff0202;
@@ -876,8 +801,8 @@ hr {
     place-content: center;
 }
 
-.terms_conditions>input::before {
-    content: "";
+.terms_conditions > input::before {
+    content: '';
     width: 0.65em;
     height: 0.65em;
     transform: scale(0);
@@ -888,15 +813,15 @@ hr {
     clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
 
-.terms_conditions>input:checked::before {
+.terms_conditions > input:checked::before {
     transform: scale(1);
 }
 
-.terms_conditions>input:focus {
+.terms_conditions > input:focus {
     outline: none;
 }
 
-.button_container>button {
+.button_container > button {
     background-color: #ec3237;
     border-radius: 20px;
     padding: 12px 40px;
@@ -923,15 +848,15 @@ hr {
     padding: 0 15px;
 }
 
-.input_container>img {
+.input_container > img {
     width: 21px;
 }
 
-.input_container>input {
+.input_container > input {
     background-color: #fff;
     width: 100%;
     padding: 10px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 }
 
@@ -943,9 +868,7 @@ hr {
     border-top: 2px solid #ffffff;
 }
 
-
 /*-------FIN-vamos a trabajar juntos--------*/
-
 
 /*-----container_form_pestana contacto--------*/
 
@@ -971,7 +894,6 @@ hr {
     width: 100%;
     justify-content: center;
 }
-
 
 /*---estilos del trabajar juntos logos---*/
 
@@ -1009,7 +931,10 @@ hr {
     z-index: 1;
     display: flex;
     transition-property: transform;
-    transition-timing-function: var( --swiper-wrapper-transition-timing-function, initial);
+    transition-timing-function: var(
+        --swiper-wrapper-transition-timing-function,
+        initial
+    );
     box-sizing: content-box;
 }
 
@@ -1017,23 +942,36 @@ hr {
     flex-shrink: none !important;
 }
 
-
 /*--fin trabajar juntos logos--*/
-
 
 /*----------------responsive--------------*/
 
-@media screen and (min-width: 1440px) and (max-width: 1919px) {}
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .p_style {
+        color: #fff;
+        position: relative;
+        top: 16%;
+    }
+}
 
-@media screen and (min-width: 1366px) and (max-width: 1439px) {}
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+}
 
-@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     /*----seccion-1----*/
+    .texto_container {
+        width: 100%;
+        position: relative;
+        padding: 2em 0;
+        display: block;
+        margin-top: 5%;
+    }
     h1,
     .h1 {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 2em;
         font-weight: 700;
         line-height: 34px;
@@ -1084,13 +1022,13 @@ hr {
         font-size: 0.9em;
     }
     .font_style {
-        font-family: "Lato", sans-serif;
+        font-family: 'Lato', sans-serif;
         font-size: 0.8em;
     }
     .container_slider {
         width: 100%;
         position: relative;
-        padding: 1em 0;
+        padding: 3em 0;
         display: block;
     }
     /*---trabajar juntos---*/
@@ -1100,7 +1038,7 @@ hr {
         display: block;
     }
     .container_logos_2 {
-        width: 85%;
+        width: 90%;
         max-width: 1366px;
         margin: 0 auto;
         display: block;
@@ -1114,6 +1052,7 @@ hr {
         flex-direction: column;
         align-items: center;
     }
+
     /*--fin trabajar juntos logos--*/
     .texto_banner_container {
         height: 100%;
@@ -1138,7 +1077,7 @@ hr {
         margin-top: 6%;
     }
     .tittle_p {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.5em;
         font-weight: 700;
         line-height: 20px;
@@ -1165,7 +1104,7 @@ hr {
         width: 95%;
         max-width: 1366px;
         position: relative;
-        margin: 0 auto;
+        margin: 20px auto;
         display: block;
     }
     .swiper-custom {
@@ -1189,16 +1128,71 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
+    .text_blue_5 {
+        font-size: 0.8em;
+        font-family: 'Frank Ruhl Libre';
+        line-height: 34px;
+        letter-spacing: -2px;
+    }
+    .text_blue_3 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .text_blue_2 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
     .text_blue_col_2 {
         width: 100%;
+    }
+    /*-----white-container----*/
+    .white_container {
+        width: 100%;
+        position: relative;
+        padding: 6em 0;
+        display: block;
+    }
+    .white_container_2 {
+        width: 80%;
+        max-width: 1366px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+    }
+    .p_style_40_center {
+        font-size: 2em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: -2px;
+    }
+    .p_style {
+        color: #fff;
+        position: relative;
+        top: 16%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     /*-----seccion1------*/
+    .texto_container {
+        width: 100%;
+        position: relative;
+        padding: 2em 0;
+        display: block;
+        margin-top: 5%;
+    }
     h1,
     .h1 {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.8em;
         font-weight: 700;
         line-height: 30px;
@@ -1213,6 +1207,7 @@ hr {
         width: 42px;
         height: 42px;
     }
+
     .container_icon {
         display: flex;
         align-items: center;
@@ -1229,33 +1224,13 @@ hr {
         text-transform: uppercase;
         letter-spacing: -3px;
     }
-    /*----esta seccion sera para productos ----*/
+    /*------swiper o slider-------*/
     .container_slider {
         width: 100%;
         position: relative;
-        padding: 0em 0;
+        padding: 25px 0 !important;
         display: block;
     }
-    .slider_1 {
-        display: flex;
-        width: 30%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 8px;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .h3_style_products {
-        padding: 0% 0% 5% 0%;
-        text-transform: uppercase;
-        letter-spacing: -1px;
-        font-size: 0.9em;
-    }
-    .font_style_products {
-        font-family: "Lato", sans-serif;
-        font-size: 0.7em;
-    }
-    /*------swiper o slider-------*/
     .section_container {
         width: 100%;
         position: relative;
@@ -1269,7 +1244,7 @@ hr {
         font-size: 0.9em;
     }
     .font_style {
-        font-family: "Lato", sans-serif;
+        font-family: 'Lato', sans-serif;
         font-size: 0.8em;
     }
     .container_swiper_custom {
@@ -1295,7 +1270,7 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
-    /*----grid maluc-------*/
+    /*----grid-------*/
     .section_1 {
         width: 100%;
         position: relative;
@@ -1312,7 +1287,7 @@ hr {
         line-height: 90%;
         color: #ffffff;
         text-transform: uppercase;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         letter-spacing: -3px;
         display: block;
     }
@@ -1322,7 +1297,7 @@ hr {
         line-height: 90%;
         color: #ffffff;
         text-transform: uppercase;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         letter-spacing: -3px;
         display: none;
     }
@@ -1338,8 +1313,15 @@ hr {
         padding: 3em 0;
         display: block;
     }
+    .white_container_2 {
+        width: 85%;
+        max-width: 1366px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+    }
     .tittle_p {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.5em;
         font-weight: 700;
         line-height: 20px;
@@ -1364,7 +1346,7 @@ hr {
     .style_text_content_1 {
         position: absolute;
         bottom: 0%;
-        padding: 15% 5% 30% 5%;
+        padding: 20% 9% 20% 5%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1397,7 +1379,7 @@ hr {
     }
     .p_style_20 {
         font-size: 1.3em;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         text-transform: uppercase;
         font-weight: 700;
         line-height: 22px;
@@ -1405,13 +1387,17 @@ hr {
     }
     .p_style_40_center {
         font-size: 2em;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         text-transform: uppercase;
         color: #fff;
         text-align: center;
         font-weight: 600;
         letter-spacing: -2px;
         padding: 9%;
+    }
+    .p_style {
+        position: relative;
+        top: 15%;
     }
     /*----trabajar-juntos----*/
     .texto_banner_h2 {
@@ -1426,14 +1412,21 @@ hr {
         width: 44px;
         height: 38px;
     }
-    /*----pendiente swiper logos -----*/
+    /*----  -----*/
 }
 
 @media screen and (max-width: 767px) {
     /*-----seccion1------*/
+    .texto_container {
+        width: 100%;
+        position: relative;
+        padding: 2em 0;
+        display: block;
+        margin-top: 5%;
+    }
     h1,
     .h1 {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 2em;
         font-weight: 700;
         line-height: 30px;
@@ -1459,12 +1452,13 @@ hr {
         align-items: center;
         position: relative;
         flex-direction: row-reverse;
-        margin-left: 10px;
+        margin-left: 0px !important;
     }
     .icon_call {
         width: 35px;
         height: 35px;
     }
+
     .container_small_2 {
         display: flex;
         flex-wrap: wrap;
@@ -1488,34 +1482,13 @@ hr {
         padding: 2em 0;
         display: block;
     }
-    /*----esta seccion sera para productos, aun pendiente de revisar----*/
-    .container_slider_1 {
-        width: 100%;
-        max-width: 1366px;
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .container_slider_2 {
+    .container_slider {
         width: 100%;
         position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 30px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        padding: 25px 0;
+        display: block;
     }
-    .slider_1 {
-        display: flex;
-        width: 80%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 5px;
-        align-items: center;
-        justify-content: space-between;
-    }
+
     /*------swiper o slider---no lo he tocado aun, hay que mirar la pagina----*/
     /*-------content_blue---------*/
     .section_1 {
@@ -1561,7 +1534,7 @@ hr {
         line-height: 90%;
         color: #ffffff;
         text-transform: uppercase;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         letter-spacing: -3px;
     }
     .img_camacol {
@@ -1580,8 +1553,11 @@ hr {
         width: 100%;
         height: 260px;
     }
-    /*----grid maluc-------*/
     /*-------white----------*/
+    .p_style {
+        position: relative;
+        top: 30%;
+    }
     /*----trabajar-juntos----*/
     .texto_banner_h2 {
         font-size: 2.1em;
@@ -1596,9 +1572,16 @@ hr {
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
     /*-------------*/
+    .texto_container {
+        width: 100%;
+        position: relative;
+        padding: 2em 0;
+        display: block;
+        margin-top: 5%;
+    }
     h1,
     .h1 {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.5em;
         font-weight: 700;
         line-height: 22px;
@@ -1610,12 +1593,15 @@ hr {
         margin-top: 3%;
         margin-bottom: 3%;
     }
+    .container_icon {
+        margin-left: 0px;
+    }
     .container_icon_2 {
         display: flex;
         align-items: center;
         position: relative;
         flex-direction: row-reverse;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 3%;
     }
     .icon_verde {
@@ -1623,6 +1609,14 @@ hr {
         margin-left: 5px;
         font-size: 0.8em;
         font-weight: 600;
+    }
+    .icon_call {
+        width: 35px;
+        height: 35px;
+    }
+    .section_container_3 {
+        row-gap: 20px;
+        text-align: center;
     }
     /*------productos------*/
     .container_text_products {
@@ -1682,7 +1676,7 @@ hr {
         line-height: 95%;
         color: #ffffff;
         text-transform: uppercase;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         letter-spacing: -2px;
         align-items: center;
         /* display: flex; */
@@ -1702,7 +1696,40 @@ hr {
         position: absolute;
         top: 40%;
     }
-    /*----white-----*/
+    .container_grid_blue {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+    }
+    .text_blue_2 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_3 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_5 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        line-height: 34px;
+        letter-spacing: -2px;
+    }
+    /*-------white----------*/
+    .p_style {
+        position: relative;
+        top: 30%;
+    }
     .white_container {
         width: 100%;
         position: relative;
@@ -1710,7 +1737,7 @@ hr {
         display: block;
     }
     .tittle_p {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.5em;
         font-weight: 700;
         line-height: 20px;
@@ -1732,7 +1759,7 @@ hr {
     }
     .p_style_40_center {
         font-size: 2em;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         text-transform: uppercase;
         color: #fff;
         text-align: center;
@@ -1790,9 +1817,10 @@ hr {
 
 @media screen and (max-width: 425px) {
     /*-------------*/
+
     h1,
     .h1 {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.5em;
         font-weight: 700;
         line-height: 22px;
@@ -1804,12 +1832,15 @@ hr {
         margin-top: 3%;
         margin-bottom: 3%;
     }
+    .container_icon {
+        margin-left: 0px;
+    }
     .container_icon_2 {
         display: flex;
         align-items: center;
         position: relative;
         flex-direction: row-reverse;
-        margin-left: 10px;
+        margin-left: 0px !important;
         margin-top: 3%;
     }
     .icon_verde {
@@ -1817,6 +1848,14 @@ hr {
         margin-left: 5px;
         font-size: 0.8em;
         font-weight: 600;
+    }
+    .icon_call {
+        width: 35px;
+        height: 35px;
+    }
+    .section_container_3 {
+        row-gap: 20px;
+        text-align: center;
     }
     /*------productos------*/
     .container_text_products {
@@ -1876,7 +1915,7 @@ hr {
         line-height: 95%;
         color: #ffffff;
         text-transform: uppercase;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         letter-spacing: -2px;
         align-items: center;
         /* display: flex; */
@@ -1892,7 +1931,53 @@ hr {
         flex-direction: column;
         justify-content: space-between;
     }
+    .container_grid_blue {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+    }
+    .text_blue_2 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_3 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_5 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        line-height: 34px;
+        letter-spacing: -2px;
+    }
     /*----white-----*/
+    .content_row_1 {
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .p_style {
+        position: relative;
+        top: 15%;
+    }
+    .p_style_20 {
+        font-size: 1.2em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 22px;
+        margin-bottom: 5%;
+    }
     .white_container {
         width: 100%;
         position: relative;
@@ -1900,7 +1985,7 @@ hr {
         display: block;
     }
     .tittle_p {
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.5em;
         font-weight: 700;
         line-height: 20px;
@@ -1922,7 +2007,7 @@ hr {
     }
     .p_style_40_center {
         font-size: 2em;
-        font-family: "Frank Ruhl Libre", serif;
+        font-family: 'Frank Ruhl Libre', serif;
         text-transform: uppercase;
         color: #fff;
         text-align: center;
@@ -1953,6 +2038,13 @@ hr {
         width: 100%;
         height: 110%;
     }
+    .white_container_2 {
+        width: 90%;
+        max-width: 1366px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+    }
     /*-----trabajar juntos-------*/
     .container_logos_3 {
         display: flex;
@@ -1970,7 +2062,26 @@ hr {
     .icono_naranja {
         width: 34px;
         height: 28px;
+        margin-bottom: 40%;
     }
+    .texto_banner_container {
+        height: 100%;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .texto_banner_h2 {
+        font-size: 1.8em !important;
+        font-weight: 600;
+        line-height: 91%;
+        color: #363435;
+        margin: 5% 0% 10% 0% !important;
+        letter-spacing: -3px;
+    }
+
     /*--------*/
     .redes_icon_style {
         width: 22px;
@@ -1988,26 +2099,18 @@ hr {
     }
 }
 
-
 /*----nuestros productos-----*/
-
 
 /*----esta seccion sera para productos, aun pendiente de revisar----*/
 
-
 /*------swiper o slider-------*/
-
 
 /*----grid maluc-------*/
 
-
 /*-------white----------*/
-
 
 /*----trabajar-juntos----*/
 
-
 /*----pendiente swiper logos -----*/
-
 
 /*----footer-----*/

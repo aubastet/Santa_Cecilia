@@ -16,7 +16,7 @@
     font-size: 2.8em;
     font-weight: 600;
     line-height: 90%;
-    color: rgb(255, 255, 255);
+    color: #363435;
     text-transform: uppercase;
     font-family: 'Frank Ruhl Libre', serif;
     letter-spacing: -3px;
@@ -60,7 +60,6 @@
     color: #000000;
 }
 
-
 /*--------blue container-------*/
 
 .container_blue_1_proyectos {
@@ -68,7 +67,7 @@
     position: relative;
     padding: 3em 0;
     display: block;
-    background-color: #0D65D9;
+    background-color: #0d65d9;
 }
 
 .container_blue_2_proyectos {
@@ -140,7 +139,6 @@ hr {
     width: 100%;
 }
 
-
 /*--grid-styles-proyectos--*/
 
 .container_grid {
@@ -191,7 +189,6 @@ hr {
     align-items: center;
 }
 
-
 /* .content_row_3 img:nth-child(1) {
     margin-bottom: 1rem;
 }  */
@@ -226,7 +223,6 @@ hr {
     font-size: 40px;
 }
 
-
 /*---white-content------*/
 
 .container_white_1_proyectos {
@@ -253,14 +249,16 @@ hr {
     padding: 1% 22%;
 }
 
-
 /*-----responsive----*/
 
-@media screen and (min-width: 1440px) and (max-width: 1919px) {}
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+}
 
-@media screen and (min-width: 1366px) and (max-width: 1439px) {}
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+}
 
-@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     /*-----container-proyectos-----*/
@@ -297,7 +295,27 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
-    /*------text-white--------*/
+    .text_blue_5 {
+        font-size: 0.8em;
+        font-family: 'Frank Ruhl Libre';
+        line-height: 34px;
+        letter-spacing: -2px;
+    }
+    .text_blue_3 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .text_blue_2 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    /*------white-content--------*/
     .section_1 {
         width: 100%;
         position: relative;
@@ -315,6 +333,33 @@ hr {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     /*-----container-proyectos-----*/
+    .tittle_style_desktop_text {
+        font-size: 2.8em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 2.2em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
+    .container_proyectos_1 {
+        width: 100%;
+        position: relative;
+        padding: 0em 0em 3em 0em;
+        display: block;
+        background-color: #ffffff;
+    }
     .container_proyectos_3 {
         width: 100%;
         position: relative;
@@ -324,6 +369,9 @@ hr {
         flex-direction: column;
         justify-content: space-between;
         color: #000000;
+    }
+    .container_grid {
+        margin-top: 2rem;
     }
     .container_text_3 {
         width: 100%;
@@ -348,7 +396,16 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
-    /*------text-white--------*/
+    .content_row_5_info {
+        position: absolute;
+        top: 40%;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+    }
+    /*------white-content--------*/
     .section_1 {
         width: 100%;
         position: relative;
@@ -366,6 +423,26 @@ hr {
 
 @media screen and (max-width: 767px) {
     /*-----container-proyectos-----*/
+    .tittle_style_desktop_text {
+        font-size: 2.8em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 2.2em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
     .container_proyectos_3 {
         width: 100%;
         position: relative;
@@ -388,6 +465,7 @@ hr {
         color: #363435;
     }
     /*- ---blue container----*/
+
     .container_grid_blue {
         width: 100%;
         position: relative;
@@ -399,7 +477,16 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
-    /*------text-white--------*/
+    .content_row_5_info {
+        position: absolute;
+        top: 45%;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+    }
+    /*------white-content-------*/
     .section_1 {
         width: 100%;
         position: relative;
@@ -417,6 +504,19 @@ hr {
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
     /*-----container-proyectos-----*/
+    .tittle_style_desktop_text {
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 1.7em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
     .container_proyectos_3 {
         width: 100%;
         position: relative;
@@ -450,7 +550,34 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
-    /*------text-white--------*/
+    .content_row_5_info {
+        position: absolute;
+        top: 45%;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+    }
+    .text_blue_2 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_3 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_5 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        line-height: 34px;
+        letter-spacing: -2px;
+    }
+    /*------white-content--------*/
     .section_1 {
         width: 100%;
         position: relative;
@@ -468,6 +595,26 @@ hr {
 
 @media screen and (max-width: 425px) {
     /*-----container-proyectos-----*/
+    .tittle_style_desktop_text {
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 1.7em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
+    .container_proyectos_1 {
+        width: 100%;
+        position: relative;
+        padding: 0em 0em 3em 0em;
+        display: block;
+        background-color: #ffffff;
+    }
     .container_proyectos_3 {
         width: 100%;
         position: relative;
@@ -490,7 +637,7 @@ hr {
         color: #363435;
     }
     .tittle_style_desktop_text {
-        font-size: 2.0em;
+        font-size: 2em;
     }
     /*- ---blue container----*/
     .container_grid_blue {
@@ -504,7 +651,25 @@ hr {
         justify-content: space-between;
         color: #fff;
     }
-    /*------text-text--------*/
+    .text_blue_2 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_3 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        letter-spacing: -2px;
+        line-height: 34px;
+    }
+    .text_blue_5 {
+        font-size: 0.7em;
+        font-family: 'Frank Ruhl Libre';
+        line-height: 34px;
+        letter-spacing: -2px;
+    }
+    /*------white-content--------*/
     .section_1 {
         width: 100%;
         position: relative;
@@ -516,6 +681,10 @@ hr {
         justify-content: space-between;
     }
     .tittle_white {
-        font-size: 2.5em;
+        font-size: 2em;
+        padding: 1% 6%;
+    }
+    .container_grid {
+        margin-top: 2rem;
     }
 }

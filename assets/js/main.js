@@ -161,6 +161,16 @@ $(document).ready(() => {
         $(this).find('.icon_more_container').css('background', 'transparent')
     })
 
+    $('.content_row_home').mouseover(function () {
+        $(this).find('.icon_more_container').css('background', '#ec3237')
+        $(this).find('.icon_more_container').css('border-radius', '50%')
+    })
+
+    $('.content_row_home').mouseout(function () {
+        $(this).find('.icon_more_container').css('background', 'transparent')
+        $(this).find('.icon_more_container').css('border-radius', '50%')
+    })
+
     $('button.menu_button').click(function () {
         $(this).toggleClass('active')
         $('.nav_container_3').slideToggle(400)

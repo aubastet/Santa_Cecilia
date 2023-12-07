@@ -168,98 +168,88 @@
 </div>
 </div>
 <!----blue-container----->
-
-<div class="container_blue_1">
-  <div class="container_blue_2">
-    <div class="container_blue_3">
-
-      <div class="section_1">
-        <p class="tittle_style_desktop">Desarrallomos <br> diferentes proyectos <br>para afrontar los retos <br>del sector</p>
-        <p class="tittle_style_mobile">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
-
-      </div>
-      <div class="text_blue_col_2">
-        <div class="section_2">
-          <p class="">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness.</p> <br>
-
-          <p class="">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure</p>
-        </div>
-        <div class="line_blue">
-          <hr>
-        </div>
-        <div class="section_2">
-          <div>
-            <button class="container_icon_3">
-              <p class="text_style_blue"> AQUÍ PUEDES ENCONTRAR INFORMACIÓN <br>SOBRE TODOS NUESTROS PROYECTOS</p>
-              <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="container_blue_1_proyectos">
+  <div class="container_blue_2_proyectos">
     <div class="container_grid">
       <div>
         <div class="content_row content_row_1" id="content_row_1">
-          <div class="icon_more_container" id="icon_more_container">
-            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-          </div>
-          <img class="img_whaka_1" id="img_whaka_1" src="./assets/img/blue_1.png" alt="">
-          <div class="content_row_1_info">
-            <div>
-              <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
-              <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
+          <a href="/Webcreativa_Santa_Cecilia_v3/proyectos_ampliacion.php">
+            <div class="icon_more_container" id="icon_more_container">
+              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
             </div>
-          </div>
+            <img class="img_whaka_1" id="img_whaka_1" src="./assets/img/blue_1.png" alt="">
+            <div class="content_row_1_info">
+              <div>
+                <p class="text_blue_1_small">WHAKAKAINGA <br> AURECON</p>
+                <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="content_row content_row_2">
-          <div class="icon_more_container">
-            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-          </div>
-          <img src="./assets/img/blue_2.png" alt="">
-          <div class="content_row_2_info">
-            <p class="text_blue_2">ORMISTON RETAIL<br> CENTRE</p>
-          </div>
+        <div>
+          <a href="/Webcreativa_Santa_Cecilia_v3/proyectos_ampliacion.php">
+            <div class="content_row content_row_2">
+              <div class="icon_more_container">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              </div>
+              <img src="./assets/img/blue_2.png" alt="">
+              <div class="content_row_2_info">
+                <p class="text_blue_2">ORMISTON RETAIL<br> CENTRE</p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
 
       <div>
-        <div class="content_row content_row_3">
-          <div class="icon_more_container">
-            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-          </div>
-          <img src="./assets/img/blue_4.png" alt="">
-          <div class="content_row_3_info">
-            <p class="text_blue_3">futurium <br> NORTH SHORE</p>
-          </div>
-        </div>
-        <div class="content_row content_row_4">
-          <div class="icon_more_container">
-            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-          </div>
-          <img class="img_whaka_2" src="./assets/img/blue_3.png" alt="">
-          <div class="content_row_4_info">
-            <div>
-              <p class="text_blue_4_small">WHAKAKAINGA <br> AURECON</p>
-              <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
+        <div>
+          <a href="/Webcreativa_Santa_Cecilia_v3/proyectos_ampliacion.php">
+            <div class="content_row content_row_3">
+              <div class="icon_more_container">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              </div>
+              <img src="./assets/img/blue_4.png" alt="">
+              <div class="content_row_3_info">
+                <p class="text_blue_3">futurium <br> NORTH SHORE</p>
+              </div>
             </div>
-          </div>
+          </a>
+        </div>
+        <div>
+          <a href="/Webcreativa_Santa_Cecilia_v3/proyectos_ampliacion.php">
+            <div class="content_row content_row_4">
+              <div class="icon_more_container">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              </div>
+              <img class="img_whaka_2" src="./assets/img/blue_3.png" alt="">
+              <div class="content_row_4_info">
+                <div>
+                  <p class="text_blue_4_small">WHAKAKAINGA <br> AURECON</p>
+                  <p>This project represents a remarkable collaboration between WAM, Aurecon and TSA. Together,</p>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
 
-      <div class="content_row content_row_5">
-        <div class="icon_more_container">
-          <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-        </div>
-        <img class="img_futurium" src="./assets/img/blue_05.png" alt="">
-        <div class="content_row_5_info">
-          <p class="text_blue_5">futurium <br> NORTH SHORE</p>
-        </div>
+      <div>
+        <a href="/Webcreativa_Santa_Cecilia_v3/proyectos_ampliacion.php">
+          <div class="content_row content_row_5">
+            <div class="icon_more_container">
+              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+            </div>
+            <img class="img_futurium" src="./assets/img/blue_05.png" alt="">
+            <div class="content_row_5_info">
+              <p class="text_blue_5">futurium <br> NORTH SHORE</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
-
 </div>
-<!----blue-container----->
+<!--fin--blue-container----->
 <!-----white-container----->
 <div>
   <div class="white_container">
@@ -267,7 +257,7 @@
       <div class="white_container_3">
         <div class="white_grid">
           <div class="white_grid_col_1">
-            <div class="white_content">
+            <div class="white_content content_row_1 content_row_home">
               <div class="white_content_flex">
                 <div class="white_contetn_flex_col_1">
                   <p class="p_white_">nuestros / blogs</p>
@@ -275,10 +265,12 @@
                   <p class="p_white_">share</p>
                   <img class="icon_share" src="./assets/img/icon_share.png" alt="">
                 </div>
-                <div class="white_contetn_flex_col_2">
-                  <p></p>
-                  <img class="icon_more" src="./assets/img/icon_more.png" alt="">
+                <div class="white_contetn_flex_col_2 icon_more_container">
+
+                  <img class="icon_more_home" src="./assets/img/icon_more.png" alt="">
+
                 </div>
+
               </div>
               <div class="style_text_1 ">
                 <p class="tittle_p">El consorcio CyS logró<br> el visto bueno de EPM<br>para Hidroituango.</p>
@@ -289,11 +281,13 @@
           <div class="white_grid_col_2">
             <img src="./assets/img/white_1.jpg" alt="">
           </div>
-          <div class="white_grid_col_3">
-            <img class="img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="white_grid_col_3 content_row content_row_1" id="content_row_1">
+            <img class="img_camacol" id="img_whaka_1" src="./assets/img/white_2.png" alt="">
 
             <div class="style_text_content_1">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              <div class="icon_more_container">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              </div>
               <div class="p_style">
                 <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
                 <p>Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
