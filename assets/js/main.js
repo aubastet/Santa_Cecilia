@@ -1,8 +1,8 @@
 //*-----slider-productos-----**/
-const swiper = new Swiper(".swiper-custom", {
+const swiper = new Swiper('.swiper-custom', {
     // Optional parameters
     spaceBetween: 15,
-    direction: "horizontal",
+    direction: 'horizontal',
     loop: true,
     //autoplay: {
     //   delay: 100000,
@@ -10,7 +10,7 @@ const swiper = new Swiper(".swiper-custom", {
 
     // If we need pagination
     pagination: {
-        el: ".swiper-pagination",
+        el: '.swiper-pagination',
         clickable: true,
         dynamicBullets: true,
     },
@@ -25,14 +25,14 @@ const swiper = new Swiper(".swiper-custom", {
             slidesPerView: 3,
         },
     },
-});
+})
 
 //*-----slider-logos-----**/
-const swiper2 = new Swiper(".swiper_logos", {
+const swiper2 = new Swiper('.swiper_logos', {
     // Optional parameters
 
     spaceBetween: 1,
-    direction: "horizontal",
+    direction: 'horizontal',
     loop: true,
     // autopla: {
     // delay: 100000,
@@ -40,7 +40,7 @@ const swiper2 = new Swiper(".swiper_logos", {
 
     // If we need pagination
     pagination: {
-        el: ".logos_pagination",
+        el: '.logos_pagination',
         clickable: true,
         dynamicBullets: true,
     },
@@ -55,10 +55,10 @@ const swiper2 = new Swiper(".swiper_logos", {
             slidesPerView: 6,
         },
     },
-});
+})
 
 //*-----slider-catalogo-----**/
-const swiper3 = new Swiper(".swiper-catalogo", {
+const swiper3 = new Swiper('.swiper-catalogo', {
     // Optional parameters
     spaceBetween: 1,
     loop: true,
@@ -68,13 +68,13 @@ const swiper3 = new Swiper(".swiper-catalogo", {
 
     // If we need pagination
     pagination: {
-        el: ".catalogo-pagination",
+        el: '.catalogo-pagination',
         clickable: true,
     },
-});
+})
 
 //*-----slider-catalogo-ampliacion----**/
-const swiper4 = new Swiper(".swiper-imagenes", {
+const swiper4 = new Swiper('.swiper-imagenes', {
     spaceBetween: 1,
     loop: true,
     // autopla: {
@@ -83,81 +83,86 @@ const swiper4 = new Swiper(".swiper-imagenes", {
 
     // If we need pagination
     pagination: {
-        el: ".imagenes-pagination",
+        el: '.imagenes-pagination',
         clickable: true,
     },
-});
+})
 
 /*formulario contenido*/
-const containertForm = document.querySelector("#container_form");
-const innerContainer = document.querySelector("#inner_container");
-const iconoOrange = document.querySelector(".icono_naranja");
+const containertForm = document.querySelector('#container_form')
+const innerContainer = document.querySelector('#inner_container')
+const iconoOrange = document.querySelector('.icono_naranja')
 
 //event Listenner
-iconoOrange.addEventListener("click", () => {
-    if (innerContainer.classList.contains("container_isopen")) {
-        innerContainer.classList.remove("container_isopen");
+iconoOrange.addEventListener('click', () => {
+    if (innerContainer.classList.contains('container_isopen')) {
+        innerContainer.classList.remove('container_isopen')
     } else {
-        innerContainer.classList.add("container_isopen");
+        innerContainer.classList.add('container_isopen')
     }
-});
+})
 
-let hover = document.querySelector(".hover_img");
+let hover = document.querySelector('.hover_img')
 /*  hover.mouseover(() => {
           $("#hover").attr("src", "assets/img/Rectangle_hover.png");
           $("#hover").css("transition", "all 5.s ease-in-out");
       }); */
 
-$("#img1").mouseover(() => {
-    $("#img1").attr("src", "assets/img/Rectangle_hover.png");
-});
-$("#img1").mouseout(() => {
-    $("#img1").attr("src", "assets/img/slider_img.png");
-});
+$('#img1').mouseover(() => {
+    $('#img1').attr('src', 'assets/img/Rectangle_hover.png')
+})
+$('#img1').mouseout(() => {
+    $('#img1').attr('src', 'assets/img/slider_img.png')
+})
 
-$("#img2").mouseover(() => {
-    $("#img2").attr("src", "assets/img/Rectangle_hover.png");
-});
-$("#img2").mouseout(() => {
-    $("#img2").attr("src", "assets/img/slider_img.png");
-});
-$("#img3").mouseover(() => {
-    $("#img3").attr("src", "assets/img/Rectangle_hover.png");
-});
-$("#img3").mouseout(() => {
-    $("#img3").attr("src", "assets/img/slider_img.png");
-});
+$('#img2').mouseover(() => {
+    $('#img2').attr('src', 'assets/img/Rectangle_hover.png')
+})
+$('#img2').mouseout(() => {
+    $('#img2').attr('src', 'assets/img/slider_img.png')
+})
+$('#img3').mouseover(() => {
+    $('#img3').attr('src', 'assets/img/Rectangle_hover.png')
+})
+$('#img3').mouseout(() => {
+    $('#img3').attr('src', 'assets/img/slider_img.png')
+})
 
-$("#img4").mouseover(() => {
-    $("#img4").attr("src", "assets/img/Rectangle_hover.png");
-});
-$("#img4").mouseout(() => {
-    $("#img4").attr("src", "assets/img/slider_img.png");
-});
+$('#img4').mouseover(() => {
+    $('#img4').attr('src', 'assets/img/Rectangle_hover.png')
+})
+$('#img4').mouseout(() => {
+    $('#img4').attr('src', 'assets/img/slider_img.png')
+})
 
-$("#img5").mouseover(() => {
-    $("#img5").attr("src", "assets/img/Rectangle_hover.png");
-});
-$("#img5").mouseout(() => {
-    $("#img5").attr("src", "assets/img/slider_img.png");
-});
-$("#img6").mouseover(() => {
-    $("#img6").attr("src", "assets/img/Rectangle_hover.png");
-});
-$("#img6").mouseout(() => {
-    $("#img6").attr("src", "assets/img/slider_img.png");
-});
+$('#img5').mouseover(() => {
+    $('#img5').attr('src', 'assets/img/Rectangle_hover.png')
+})
+$('#img5').mouseout(() => {
+    $('#img5').attr('src', 'assets/img/slider_img.png')
+})
+$('#img6').mouseover(() => {
+    $('#img6').attr('src', 'assets/img/Rectangle_hover.png')
+})
+$('#img6').mouseout(() => {
+    $('#img6').attr('src', 'assets/img/slider_img.png')
+})
 
 /**-----hover--gray filter---button orange----**/
 $(document).ready(() => {
-    $('.content_row').mouseover(function() {
-        $(this).find('img').css('filter', 'grayscale(100%)');
-        $(this).find('.icon_more_container').css('background', '#ec3237');
-        $(this).find('.icon_more_container').css('border-radius', '50%');
-    });
+    $('.content_row').mouseover(function () {
+        $(this).find('img').css('filter', 'grayscale(100%)')
+        $(this).find('.icon_more_container').css('background', '#ec3237')
+        $(this).find('.icon_more_container').css('border-radius', '50%')
+    })
 
-    $('.content_row').mouseout(function() {
-        $(this).find('img').css('filter', 'grayscale(0%)');
-        $(this).find('.icon_more_container').css('background', 'transparent');
-    });
-});
+    $('.content_row').mouseout(function () {
+        $(this).find('img').css('filter', 'grayscale(0%)')
+        $(this).find('.icon_more_container').css('background', 'transparent')
+    })
+
+    $('button.menu_button').click(function () {
+        $(this).toggleClass('active')
+        $('.nav_container_3').slideToggle(400)
+    })
+})
