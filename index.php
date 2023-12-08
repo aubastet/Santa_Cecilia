@@ -188,7 +188,7 @@
         </div>
         <div>
           <a href="/Webcreativa_Santa_Cecilia_v3/proyectos_ampliacion.php">
-            <div class="content_row content_row_2">
+            <div class="content_row content_row_2  margen-top">
               <div class="icon_more_container">
                 <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
               </div>

@@ -16,17 +16,16 @@
 </head>
 <link rel="stylesheet" href="./assets/css/layouts.min.css?v=1.0">
 <!-- Home's stylesheet -->
-<!-- <link rel="stylesheet" href="./assets/css/home.min.css?v=1.0"> -->
+<link rel="stylesheet" href="./assets/css/home.min.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/global.min.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/nosotros.min.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/catalogo_1.css?v=1.0">
-<link rel="stylesheet" href="./assets/css/catalogo_2.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/catalogo_ampliacion.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/proyectos_1.css?v=1.0">
-<link rel="stylesheet" href="./assets/css/proyectos_2.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/clientes.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/blogs_1.css?v=1.0">
 <link rel="stylesheet" href="./assets/css/blogs_ampliacion.css?v=1.0">
+<link rel="stylesheet" href="./assets/css/contacto.css?v=1.0">
 <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 <title>Santa Cecilia |</title>
 </head>

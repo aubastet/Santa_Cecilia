@@ -32,12 +32,12 @@
     <div class="container_cards_03">
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_1.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -46,12 +46,12 @@
       </div>
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_2.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -60,12 +60,12 @@
       </div>
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_3.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -81,12 +81,12 @@
     <div class="container_cards_03">
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_4.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -95,12 +95,12 @@
       </div>
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_5.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -109,12 +109,12 @@
       </div>
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_6.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -132,12 +132,12 @@
 
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_7.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -146,12 +146,12 @@
       </div>
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_8.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>
@@ -160,12 +160,12 @@
       </div>
       <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
         <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
-          <img class=" img_camacol" src="./assets/img/white_2.png" alt="">
+          <div class="icon_more_container">
+            <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+          </div>
+          <img class=" img_camacol" src="./assets/img/card_9.png" alt="">
           <div class="text_card_blogs">
-            <div class="icon_more_container">
-              <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
-            </div>
-            <div class="p_style">
+            <div class="p_style_blog">
               <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
               <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
             </div>

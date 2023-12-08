@@ -125,6 +125,16 @@ span.text_button_home {
     background-size: cover;
 }
 
+.tittle_style_desktop {
+    font-size: 4.2em;
+    font-weight: 600;
+    line-height: 90%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Frank Ruhl Libre', serif;
+    letter-spacing: -3px;
+}
+
 .container_col_02 {
     width: 100%;
     display: flex;
@@ -648,7 +658,7 @@ span.text_button_home {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     /*-------container con 2 col--------*/
     .container_col_section_ {
         display: flex;
@@ -657,13 +667,9 @@ span.text_button_home {
         justify-content: space-between;
         flex-direction: column;
     }
-    .container_col_01 {
-        width: 100%;
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .container_col_03,
+    .container_col_text_2 {
+        display: none !important;
     }
     .container_col_text_1 {
         width: 100%;
@@ -692,9 +698,6 @@ span.text_button_home {
         padding: 3% 0% 2% 0%;
         text-align: left;
     }
-    .container_col_03 {
-        display: none;
-    }
     .tittle_col_3 {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 2em;
@@ -712,6 +715,26 @@ span.text_button_home {
         display: block;
     }
     /*---container_blue_team---*/
+    .tittle_style_desktop_text {
+        font-size: 2.8em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 2.2em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
     .container_blue_team {
         width: 100%;
         position: relative;
@@ -782,7 +805,7 @@ span.text_button_home {
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /*-------container con 2 col--------*/
     .container_col_01 {
         width: 100%;
@@ -859,6 +882,26 @@ span.text_button_home {
         flex-direction: column;
     }
     /*---container_blue_team---*/
+    .tittle_style_desktop_text {
+        font-size: 2.8em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 2.2em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
     .name_person {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 1.7em;
@@ -893,7 +936,7 @@ span.text_button_home {
         justify-content: space-between;
     }
     .tittle_style_desktop {
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 600;
         line-height: 95%;
         color: #ffffff;
@@ -902,13 +945,14 @@ span.text_button_home {
         letter-spacing: -2px;
         align-items: center;
         text-align: left;
+        display: block;
     }
     .text_blue_col_2 {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
     /*-------container con 2 col--------*/
     .container_col_01 {
         width: 100%;
@@ -987,6 +1031,26 @@ span.text_button_home {
         margin-bottom: 5%;
     }
     /*---container_blue_team---*/
+    .tittle_style_desktop_text {
+        font-size: 2.8em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: none;
+    }
+    .tittle_style_mobile {
+        font-size: 2.2em;
+        font-weight: 600;
+        line-height: 90%;
+        color: #363435;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: -3px;
+        display: flex;
+    }
     .container_blue_team_03 {
         width: 100%;
         position: relative;

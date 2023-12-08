@@ -76,9 +76,7 @@
     <div class="container_blue_team_03">
 
       <div class="section_1">
-        <p class="tittle_style_desktop">We care <br> passionately<br> about our team</p>
-        <p class="tittle_style_mobile">Desarrallomos diferentes proyectos para afrontar los retos del sector</p>
-
+        <p class="tittle_style_desktop">We care passionately about our team</p>
       </div>
       <div class="text_blue_col_2">
         <div class="section_2">
@@ -89,118 +87,118 @@
         <div class="line_blue">
           <hr>
         </div>
-        <div class="section_2">
-          <div>
-            <button class="container_icon_3">
-              <p class="text_style_blue"> AQUÍ PUEDES ENCONTRAR INFORMACIÓN <br>SOBRE TODOS NUESTROS PROYECTOS</p>
-              <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
-            </button>
-          </div>
+        <div class="section_2"></div>
+        <div>
+          <button class="container_icon_3">
+            <p class="text_style_blue"> AQUÍ PUEDES ENCONTRAR INFORMACIÓN <br>SOBRE TODOS NUESTROS PROYECTOS</p>
+            <img class="icon_mas" src="./assets/img/icon_.png" alt="telefono icono verde" />
+          </button>
         </div>
       </div>
     </div>
-    <!--------------slider------------------>
-    <div class="team_blue">
-      <div>
-        <div class="container_swiper_custom_blue container_swiper_custom ">
-          <!-- Slider main container -->
-          <div>
-            <div class="slider_blue container_slider swiper swiper-custom">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <!--1-->
-                <div class="swiper-slide">
-                  <div class="swiper_slider_1">
-                    <div class="">
-                      <div class="content_1">
-                      </div>
-                    </div>
-                    <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
-                    <div class="text_person ">
-                      <p class="name_person">agustin tonnelier</p>
+  </div>
+  <!--------------slider------------------>
+  <div class="team_blue">
+    <div>
+      <div class="container_swiper_custom_blue container_swiper_custom ">
+        <!-- Slider main container -->
+        <div>
+          <div class="slider_blue container_slider swiper swiper-custom">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <!--1-->
+              <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1">
                     </div>
                   </div>
-                </div>
-                <!--2-->
-                <div class="swiper-slide">
-
-                  <div class="swiper_slider_1">
-                    <div class="">
-                      <div class="content_1">
-                      </div>
-                    </div>
-                    <img class="none" src="./assets/img/nosotros/foto_2.png" alt="foto">
-                    <div class="text_person ">
-                      <p class="name_person">Víctor Hugo Cabrera</p>
-                    </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p class="name_person">agustin tonnelier</p>
                   </div>
                 </div>
-                <!--3-->
-                <div class="swiper-slide">
-                  <div class="swiper_slider_1">
-                    <div class="">
-                      <div class="content_1">
-                      </div>
-                    </div>
-                    <img class="none" src="./assets/img/nosotros/foto_3.png" alt="foto">
-                    <div class="text_person ">
-                      <p class="name_person">agustin tonnelier</p>
-                    </div>
-                  </div>
-                </div>
-                <!--4-->
-                <div class="swiper-slide">
-                  <div class="swiper_slider_1">
-                    <div class="">
-                      <div class="content_1">
-                      </div>
-                    </div>
-                    <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
-                    <div class="text_person ">
-                      <p class="name_person">agustin tonnelier</p>
-                    </div>
-                  </div>
-                </div>
-                <!--5-->
-                <div class="swiper-slide">
-                  <div class="swiper_slider_1">
-                    <div class="">
-                      <div class="content_1">
-                      </div>
-                    </div>
-                    <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
-                    <div class="text_person ">
-                      <p class="name_person">agustin tonnelier</p>
-                    </div>
-                  </div>
-                </div>
-                <!--6-->
-                <div class="swiper-slide">
-                  <div class="swiper_slider_1">
-                    <div class="">
-                      <div class="content_1">
-                      </div>
-                    </div>
-                    <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
-                    <div class="text_person ">
-                      <p class="name_person">agustin tonnelier</p>
-                    </div>
-                  </div>
-                </div>
-                <!--fin-->
               </div>
-              <!-- If we need pagination -->
-              <div>
-                <div class="swiper-pagination team_nosotros"></div>
-              </div>
+              <!--2-->
+              <div class="swiper-slide">
 
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1">
+                    </div>
+                  </div>
+                  <img class="none" src="./assets/img/nosotros/foto_2.png" alt="foto">
+                  <div class="text_person ">
+                    <p class="name_person">Víctor Hugo Cabrera</p>
+                  </div>
+                </div>
+              </div>
+              <!--3-->
+              <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1">
+                    </div>
+                  </div>
+                  <img class="none" src="./assets/img/nosotros/foto_3.png" alt="foto">
+                  <div class="text_person ">
+                    <p class="name_person">agustin tonnelier</p>
+                  </div>
+                </div>
+              </div>
+              <!--4-->
+              <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1">
+                    </div>
+                  </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p class="name_person">agustin tonnelier</p>
+                  </div>
+                </div>
+              </div>
+              <!--5-->
+              <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1">
+                    </div>
+                  </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p class="name_person">agustin tonnelier</p>
+                  </div>
+                </div>
+              </div>
+              <!--6-->
+              <div class="swiper-slide">
+                <div class="swiper_slider_1">
+                  <div class="">
+                    <div class="content_1">
+                    </div>
+                  </div>
+                  <img class="none" src="./assets/img/nosotros/foto_1.png" alt="foto">
+                  <div class="text_person ">
+                    <p class="name_person">agustin tonnelier</p>
+                  </div>
+                </div>
+              </div>
+              <!--fin-->
             </div>
+            <!-- If we need pagination -->
+            <div>
+              <div class="swiper-pagination team_nosotros"></div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 <?php require '_partials/vamos_a_trabajar.php' ?>

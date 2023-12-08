@@ -7,6 +7,12 @@
     display: block;
     background-color: #ffffff;
 }
+.white_contetn_flex_col_1 {
+    display: flex;
+    gap: 10px;
+    top: -25px;
+    position: relative;
+}
 
 .slider_gray_02 {
     width: 75%;
@@ -79,6 +85,36 @@
 }
 
 /*------card-aside-------*/
+.p_style_20 {
+    font-size: 1.5em;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22px;
+    margin-top: 5%;
+    color: #fff;
+}
+.p_style_blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.p_style_2 {
+    color: #fff;
+}
+.text_card_blogs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 3rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .background_0.content_02 {
     background: transparent;
 }
@@ -102,7 +138,7 @@
 .background_0.content_02 {
     background: transparent;
 }
-
+/*------slider-imagenes-------*/
 .imagenes-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
@@ -145,7 +181,61 @@
 @media screen and (min-width: 1280px) and (max-width: 1365px) {
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
+    .text_card_blogs {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 4rem;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .content_text_aside {
+        width: 90%;
+        position: absolute;
+        bottom: 13px;
+        color: #fff;
+        padding: 5px;
+    }
+    .slider_gray_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: unset;
+        color: #000000;
+        gap: 5%;
+        align-items: flex-start;
+    }
+    .slider_gray_03 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: unset;
+        color: #000000;
+        gap: 50px;
+        align-items: center;
+    }
+    .content_01 {
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 0%;
+    }
+    .imagenes-pagination {
+        transform: unset !important;
+        left: -5% !important;
+        bottom: 63% !important;
+        top: unset !important;
+        z-index: 5;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -158,4 +248,19 @@
 }
 
 @media screen and (max-width: 425px) {
+    .slider_gray_02 {
+        width: 90%;
+    }
+    .h2_01 {
+        font-size: 1.5em;
+    }
+    .imagenes-pagination {
+        display: none;
+    }
+    .content_02 {
+        width: 100%;
+    }
+    .text_card_blogs {
+        padding: 2rem;
+    }
 }

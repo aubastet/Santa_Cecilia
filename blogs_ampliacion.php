@@ -98,18 +98,36 @@
       <!---aside-right--->
       <div class="background_0 content_02">
         <div class="aside_card">
-          <img src="./assets/img/aside_01.png" alt="">
-          <div class="content_text_aside">
-            <p class="text_card">Camacol buscará compradores en EE.UU. para proyectos en Colombia<br></p>
-            <p class="text_card_small">El pasado 13 de julio EPM recibió tres propuestas para la construcción de obras civiles de las unidades cinco...</p>
+          <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
+            <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
+              <div class="icon_more_container">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              </div>
+              <img class=" img_camacol" src="./assets/img/card_2.png" alt="">
+              <div class="text_card_blogs">
+                <div class="p_style_blog">
+                  <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
+                  <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="aside_card margin_card">
-          <img src="./assets/img/aside_02.png" alt="">
-          <div class="content_text_aside">
-            <p class="text_card">On the other hand, we denounce with magna business beguiled and demoralized<br></p>
-            <p class="text_card_small">Simple and easy to distinguish. In a free hour, when our power of choice is more magna...</p>
+          <div class="blog_card_content  content_row_home content_row_1" id="content_row_1">
+            <a href="/Webcreativa_Santa_Cecilia_v3/blogs_ampliacion.php">
+              <div class="icon_more_container">
+                <img class="icon_more_right" src="./assets/img/icon_more_white.png" alt="">
+              </div>
+              <img class=" img_camacol" src="./assets/img/card_2.png" alt="">
+              <div class="text_card_blogs">
+                <div class="p_style_blog">
+                  <p class="p_style_20">Camacol buscará<br>compradores en EE.UU.<br>para proyectos en<br>Colombia</p>
+                  <p class="p_style_2">Uno los factores que hace que Colombia sea un lugar rentable para las inversiones en bienes raíces...</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
